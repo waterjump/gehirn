@@ -18,6 +18,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'rubocop', '~> 0.40.0', require: false
 gem 'bundler'
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'mediawiki_api'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

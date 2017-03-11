@@ -2,6 +2,6 @@
   .form-group
     = select_tag(:language, options_for_select(['Deutsch']), class: 'form-control col-lg-1 input-lg')
     = text_field_tag(:q, nil, class: 'form-control input-lg col-lg-3')
-.google.col-lg-4
-.wiktionary.col-lg-4
-.forvo.col-lg-4
+%iframe.google.col-lg-4{ height: '600' }
+%iframe.wiktionary.col-lg-4{ height: '600' }
+%iframe.forvo.col-lg-4{ height: '600' }
