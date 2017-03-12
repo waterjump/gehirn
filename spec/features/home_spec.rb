@@ -35,6 +35,12 @@ feature 'the home page', type: :feature, js: true do
     expect(page).to have_content('No audio found.')
   end
 
+  scenario 'fallback on forvo if wiktionary doesn\'t have sound' do
+    fill_in 'q', with: 'nehme'
+    expect(page).to have_content('/ˈneːmə/')
+    expect(page).to have_link('nehme')
+  end
+
   scenario 'no result for query' do
     fill_in 'q', with: 'Myfakeword'
     expect(page).to have_content('No results.')

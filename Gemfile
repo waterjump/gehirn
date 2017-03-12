@@ -19,6 +19,7 @@ gem 'rubocop', '~> 0.40.0', require: false
 gem 'bundler'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'mediawiki_api'
+gem 'forvo_api_client', git: 'https://github.com/FoboCasteR/forvo-api-client.git'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

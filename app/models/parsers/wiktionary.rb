@@ -32,7 +32,7 @@ module Parsers
         end['href']
     rescue => e
       Rails.logger.info "No sound found for #{@q}: #{e.inspect}"
-      ''
+      Forvo.new(@q).sound
     end
 
     def fetch_response
