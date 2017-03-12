@@ -1,7 +1,7 @@
 module Parsers
   class Wiktionary
     def self.client
-      MediawikiApi::Client.new("https://de.wiktionary.org/w/api.php")
+      MediawikiApi::Client.new('https://de.wiktionary.org/w/api.php')
     end
 
     def initialize(q)
@@ -18,7 +18,7 @@ module Parsers
     def ipa
       "/#{nokogiri.css('span.ipa').first.children.first.text}/"
     rescue => e
-      Rails.logger.info "No ipa found for #{q}: #{e.inspect}"
+      Rails.logger.info "No ipa found for #{@q}: #{e.inspect}"
       ''
     end
 
@@ -28,8 +28,8 @@ module Parsers
         .detect do |a|
           a.attributes['href'].value =~ /upload.*ogg/
         end['href']
-    rescue
-      Rails.logger.info "No sound found for #{q}: #{e.inspect}"
+    rescue => e
+      Rails.logger.info "No sound found for #{@q}: #{e.inspect}"
       ''
     end
 

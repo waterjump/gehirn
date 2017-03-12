@@ -726,4 +726,124 @@ http_interactions:
         for notice of API deprecations and breaking changes."},"servedby":"mw1196"}'
     http_version: 
   recorded_at: Sun, 12 Mar 2017 18:33:57 GMT
+- request:
+    method: post
+    uri: https://de.wiktionary.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=parse&format=json&page=Nichtraucherinnen&token=%2B%5C
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Cookie:
+      - GeoIP=US:PA:Philadelphia:39.94:-75.15:v4; WMF-Last-Access=12-Mar-2017; WMF-Last-Access-Global=12-Mar-2017
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 12 Mar 2017 19:16:44 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2074'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1289.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://de.wiktionary.org/wiki/Spezial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=40346 t=1489346204080420
+      X-Varnish:
+      - 645002442, 941276074
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1068 pass, cp1052 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Analytics:
+      - ns=-1;special=Badtitle;WMF-Last-Access=12-Mar-2017;WMF-Last-Access-Global=12-Mar-2017;https=1
+      X-Client-Ip:
+      - 2601:42:901:1f70:48c8:5adf:e79e:81f4
+    body:
+      encoding: ASCII-8BIT
+      string: '{"warnings":{"main":{"*":"Unrecognized parameter: token."}},"parse":{"title":"Nichtraucherinnen","pageid":212270,"revid":4333917,"text":{"*":"<h2><span
+        class=\"mw-headline\" id=\"Nichtraucherinnen_.28Deutsch.29\">Nichtraucherinnen
+        (<a href=\"/wiki/Wiktionary:Deutsch\" title=\"Wiktionary:Deutsch\">Deutsch</a><span
+        style=\"visibility:hidden\" id=\"Nichtraucherinnen_.28Deutsch.29\"><span id=\"Anker:Nichtraucherinnen_.28Deutsch.29\"></span></span><span
+        style=\"visibility:hidden\" id=\"Deutsch\"><span id=\"Anker:Deutsch\"></span></span><span
+        style=\"visibility:hidden\" id=\"Deutsch\"><span id=\"Anker:Deutsch\"></span></span>)</span><span
+        class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=Nichtraucherinnen&amp;action=edit&amp;section=1\"
+        title=\"Abschnitt bearbeiten: Nichtraucherinnen (Deutsch)\">Bearbeiten</a><span
+        class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span class=\"mw-headline\"
+        id=\"Deklinierte_Form\"><a href=\"/wiki/Hilfe:Wortart\" title=\"Hilfe:Wortart\">Deklinierte
+        Form</a></span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=Nichtraucherinnen&amp;action=edit&amp;section=2\"
+        title=\"Abschnitt bearbeiten: Deklinierte Form\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Trennungsm\u00f6glichkeiten
+        am Zeilenumbruch\">Worttrennung:</p>\n<dl>\n<dd>Nicht\u00b7rau\u00b7che\u00b7rin\u00b7nen</dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Phonetik\">Aussprache:</p>\n<dl>\n<dd><a
+        href=\"/wiki/Hilfe:IPA\" title=\"Hilfe:IPA\">IPA</a>: [<span class=\"ipa\"
+        style=\"padding: 0 1px; text-decoration: none;\">\u02c8n\u026a\u00e7t\u02cc\u0280a\u028a\u032f\u03c7\u0259\u0280\u026an\u0259n</span>]</dd>\n<dd><a
+        href=\"/wiki/Hilfe:H%C3%B6rbeispiele\" title=\"Hilfe:H\u00f6rbeispiele\">H\u00f6rbeispiele</a>:
+        \u2014</dd>\n</dl>\n<p style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Grammatische
+        Merkmale\">Grammatische Merkmale:</p>\n<ul>\n<li>Nominativ Plural des Substantivs
+        <b><a href=\"/wiki/Nichtraucherin\" title=\"Nichtraucherin\">Nichtraucherin</a></b></li>\n<li>Genitiv
+        Plural des Substantivs <b><a href=\"/wiki/Nichtraucherin\" title=\"Nichtraucherin\">Nichtraucherin</a></b></li>\n<li>Dativ
+        Plural des Substantivs <b><a href=\"/wiki/Nichtraucherin\" title=\"Nichtraucherin\">Nichtraucherin</a></b></li>\n<li>Akkusativ
+        Plural des Substantivs <b><a href=\"/wiki/Nichtraucherin\" title=\"Nichtraucherin\">Nichtraucherin</a></b></li>\n</ul>\n<div
+        style=\"clear:both;margin: 1em 0em 1em\">\n<table align=\"center\" width=\"100%\"
+        style=\"border:1px solid #aaaaaa;background-color:#F5FFFA;padding:5px;font-size:
+        95%;\">\n<tr align=\"center\">\n<td width=\"100%\"><b>Nichtraucherinnen</b>
+        ist eine flektierte Form von <b><a href=\"/wiki/Nichtraucherin\" title=\"Nichtraucherin\">Nichtraucherin</a>.</b><br
+        />\nAlle weiteren Informationen zu diesem Wort findest du im Eintrag <b><a
+        href=\"/wiki/Nichtraucherin\" title=\"Nichtraucherin\">Nichtraucherin</a>.</b><br
+        />\nBitte nimm Erg\u00e4nzungen deshalb auch nur dort vor.</td>\n</tr>\n</table>\n</div>\n\n\n<!--
+        \nNewPP limit report\nParsed by mw1161\nCached time: 20170219221941\nCache
+        expiry: 2592000\nDynamic content: false\nCPU time usage: 0.136 seconds\nReal
+        time usage: 0.154 seconds\nPreprocessor visited node count: 264/1000000\nPreprocessor
+        generated node count: 0/1500000\nPost\u2010expand include size: 4588/2097152
+        bytes\nTemplate argument size: 758/2097152 bytes\nHighest expansion depth:
+        9/40\nExpensive parser function count: 2/500\nLua time usage: 0.105/10.000
+        seconds\nLua memory usage: 743 KB/50 MB\n-->\n<!--\nTransclusion expansion
+        time report (%,ms,calls,template)\n100.00%  146.607      1 -total\n 78.24%  114.701      1
+        Vorlage:Sprache\n  5.99%    8.787      1 Vorlage:Lautschrift\n  5.54%    8.127      1
+        Vorlage:Wortart\n  3.56%    5.213      3 Vorlage:Str_match\n  3.07%    4.499      1
+        Vorlage:Anker\n  2.43%    3.556      1 Vorlage:Grundformverweis\n  1.77%    2.602      1
+        Vorlage:Worttrennung\n  1.60%    2.341      1 Vorlage:Audio\n  1.39%    2.036      3
+        Vorlage:Anker/code\n-->\n\n<!-- Saved in parser cache with key dewiktionary:pcache:idhash:212270-0!*!*!!*!*!*
+        and timestamp 20170219221941 and revision id 4333917\n -->\n"},"langlinks":[{"lang":"sv","url":"https://sv.wiktionary.org/wiki/Nichtraucherinnen","langname":"Schwedisch","autonym":"svenska","*":"Nichtraucherinnen"}],"categories":[{"sortkey":"","*":"Deutsch"},{"sortkey":"nichtraucherinnen","hidden":"","*":"siehe_auch"},{"sortkey":"","*":"Deklinierte_Form_(Deutsch)"},{"sortkey":"nennirehcuarthciN","hidden":"","*":"R\u00fcckl\u00e4ufige_W\u00f6rterliste_(Deutsch)"},{"sortkey":"","*":"Deklinierte_Form"}],"links":[{"ns":108,"*":"Flexion:Nichtraucherin"},{"ns":0,"exists":"","*":"Nichtraucherin"},{"ns":4,"exists":"","*":"Wiktionary:Deutsch"},{"ns":12,"exists":"","*":"Hilfe:H\u00f6rbeispiele"},{"ns":12,"exists":"","*":"Hilfe:IPA"},{"ns":12,"exists":"","*":"Hilfe:Wortart"}],"templates":[{"ns":10,"exists":"","*":"Vorlage:Sprache"},{"ns":10,"exists":"","*":"Vorlage:Anker"},{"ns":10,"exists":"","*":"Vorlage:Anker/code"},{"ns":10,"exists":"","*":"Vorlage:Wortart"},{"ns":10,"exists":"","*":"Vorlage:Worttrennung"},{"ns":10,"exists":"","*":"Vorlage:Textbaustein"},{"ns":10,"exists":"","*":"Vorlage:Aussprache"},{"ns":10,"exists":"","*":"Vorlage:IPA"},{"ns":10,"exists":"","*":"Vorlage:Lautschrift"},{"ns":10,"exists":"","*":"Vorlage:IPA-Text"},{"ns":10,"exists":"","*":"Vorlage:Str
+        match"},{"ns":10,"exists":"","*":"Vorlage:H\u00f6rbeispiele"},{"ns":10,"exists":"","*":"Vorlage:Audio"},{"ns":10,"exists":"","*":"Vorlage:Grammatische
+        Merkmale"},{"ns":10,"exists":"","*":"Vorlage:Grundformverweis"},{"ns":828,"exists":"","*":"Modul:sieheAuch"},{"ns":828,"exists":"","*":"Modul:Str"},{"ns":828,"exists":"","*":"Modul:Convert-CH"}],"images":[],"externallinks":[],"sections":[{"toclevel":1,"level":"2","line":"Nichtraucherinnen
+        (Deutsch<span></span><span></span><span></span>)","number":"1","index":"1","fromtitle":"Nichtraucherinnen","byteoffset":0,"anchor":"Nichtraucherinnen_.28Deutsch.29"},{"toclevel":2,"level":"3","line":"Deklinierte
+        Form","number":"1.1","index":"2","fromtitle":"Nichtraucherinnen","byteoffset":46,"anchor":"Deklinierte_Form"}],"displaytitle":"Nichtraucherinnen","iwlinks":[],"properties":[]}}'
+    http_version: 
+  recorded_at: Sun, 12 Mar 2017 19:16:44 GMT
 recorded_with: VCR 2.9.3

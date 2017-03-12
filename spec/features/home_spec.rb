@@ -27,4 +27,12 @@ feature 'the home page', type: :feature, js: true do
       expect(page).to have_link('Gehirn')
     end
   end
+
+  scenario 'no sound for query' do
+    VCR.use_cassette('home') do
+      fill_in 'q', with: 'Nichtraucherinnen'
+      expect(page).to have_content('/ˈnɪçtˌʀaʊ̯χəʀɪnən/')
+      expect(page).to have_content('No audio found.')
+    end
+  end
 end

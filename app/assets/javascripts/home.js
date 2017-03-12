@@ -6,6 +6,18 @@ $(function() {
     language = $('#language').val();
   };
 
+  var fillAudio = function(json) {
+    if (json.sound.length > 0) {
+      $('#sound').html(
+        '<a href="' + json.sound + '">' + json.q + '</a>'
+      );
+    } else {
+      $('#sound').html('<p>No audio found.</p>');
+    }
+  };
+
+  $('#q').focus();
+
   $('#language').on('change', function(){
     setLanguage();
   });
@@ -18,7 +30,7 @@ $(function() {
           url: "/query?q=" + q,
       }).done(function(json) {
         $('#ipa').html(json.ipa);
-        $('#sound').html('<a href="' + json.sound + '">' + json.q + '</a>');
+        fillAudio(json);
       })
     }, 1000);
   });
