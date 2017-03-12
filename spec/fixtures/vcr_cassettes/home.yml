@@ -921,4 +921,1323 @@ http_interactions:
         for notice of API deprecations and breaking changes."},"servedby":"mw1191"}'
     http_version: 
   recorded_at: Sun, 12 Mar 2017 19:27:44 GMT
+- request:
+    method: post
+    uri: https://de.wiktionary.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=parse&format=json&page=gift&token=%2B%5C
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Cookie:
+      - GeoIP=US:PA:Philadelphia:39.94:-75.15:v4; WMF-Last-Access=12-Mar-2017; WMF-Last-Access-Global=12-Mar-2017
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 12 Mar 2017 20:32:08 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - mw1203.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://de.wiktionary.org/wiki/Spezial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=135571 t=1489350728313343
+      X-Varnish:
+      - 738027014, 985981590
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1053 pass, cp1052 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Analytics:
+      - ns=-1;special=Badtitle;WMF-Last-Access=12-Mar-2017;WMF-Last-Access-Global=12-Mar-2017;https=1
+      X-Client-Ip:
+      - 2601:42:901:1f70:48c8:5adf:e79e:81f4
+    body:
+      encoding: ASCII-8BIT
+      string: '{"warnings":{"main":{"*":"Unrecognized parameter: token."}},"parse":{"title":"gift","pageid":47326,"revid":5334016,"text":{"*":"<div
+        id=\"Vorlage_Siehe_auch\" style=\"display:none;\">\n<table cellspacing=\"8\"
+        cellpadding=\"0\" style=\"background-color: #FCFCFC; border: #E9E9E9; width:
+        100%; font-size: 12px; border-bottom-style: solid; margin-bottom: 1em;\">\n<tr>\n<td
+        style=\"width: 25px; vertical-align: middle;\"><a href=\"/wiki/Datei:Disambig.svg\"
+        class=\"image\"><img alt=\"Disambig.svg\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Disambig.svg/25px-Disambig.svg.png\"
+        width=\"25\" height=\"20\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Disambig.svg/38px-Disambig.svg.png
+        1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/72/Disambig.svg/50px-Disambig.svg.png
+        2x\" data-file-width=\"230\" data-file-height=\"183\" /></a></td>\n<td>Siehe
+        auch: <a href=\"/wiki/Gift\" title=\"Gift\">Gift</a></td>\n</tr>\n</table>\n</div>\n<p></p>\n<div
+        id=\"toc\" class=\"toc\">\n<div id=\"toctitle\">\n<h2>Inhaltsverzeichnis</h2>\n</div>\n<ul>\n<li
+        class=\"toclevel-1 tocsection-1\"><a href=\"#gift_.28Deutsch.29\"><span class=\"tocnumber\">1</span>
+        <span class=\"toctext\">gift (Deutsch)</span></a>\n<ul>\n<li class=\"toclevel-2
+        tocsection-2\"><a href=\"#Konjugierte_Form\"><span class=\"tocnumber\">1.1</span>
+        <span class=\"toctext\">Konjugierte Form</span></a></li>\n</ul>\n</li>\n<li
+        class=\"toclevel-1 tocsection-3\"><a href=\"#gift_.28D.C3.A4nisch.29\"><span
+        class=\"tocnumber\">2</span> <span class=\"toctext\">gift (D\u00e4nisch)</span></a>\n<ul>\n<li
+        class=\"toclevel-2 tocsection-4\"><a href=\"#Substantiv.2C_u\"><span class=\"tocnumber\">2.1</span>
+        <span class=\"toctext\">Substantiv, u</span></a>\n<ul>\n<li class=\"toclevel-3
+        tocsection-5\"><a href=\"#.C3.9Cbersetzungen\"><span class=\"tocnumber\">2.1.1</span>
+        <span class=\"toctext\">\u00dcbersetzungen</span></a></li>\n</ul>\n</li>\n<li
+        class=\"toclevel-2 tocsection-6\"><a href=\"#Adjektiv\"><span class=\"tocnumber\">2.2</span>
+        <span class=\"toctext\">Adjektiv</span></a>\n<ul>\n<li class=\"toclevel-3
+        tocsection-7\"><a href=\"#.C3.9Cbersetzungen_2\"><span class=\"tocnumber\">2.2.1</span>
+        <span class=\"toctext\">\u00dcbersetzungen</span></a></li>\n</ul>\n</li>\n</ul>\n</li>\n<li
+        class=\"toclevel-1 tocsection-8\"><a href=\"#gift_.28Englisch.29\"><span class=\"tocnumber\">3</span>
+        <span class=\"toctext\">gift (Englisch)</span></a>\n<ul>\n<li class=\"toclevel-2
+        tocsection-9\"><a href=\"#Substantiv\"><span class=\"tocnumber\">3.1</span>
+        <span class=\"toctext\">Substantiv</span></a>\n<ul>\n<li class=\"toclevel-3
+        tocsection-10\"><a href=\"#.C3.9Cbersetzungen_3\"><span class=\"tocnumber\">3.1.1</span>
+        <span class=\"toctext\">\u00dcbersetzungen</span></a></li>\n</ul>\n</li>\n</ul>\n</li>\n<li
+        class=\"toclevel-1 tocsection-11\"><a href=\"#gift_.28Schwedisch.29\"><span
+        class=\"tocnumber\">4</span> <span class=\"toctext\">gift (Schwedisch)</span></a>\n<ul>\n<li
+        class=\"toclevel-2 tocsection-12\"><a href=\"#Substantiv.2C_n\"><span class=\"tocnumber\">4.1</span>
+        <span class=\"toctext\">Substantiv, n</span></a>\n<ul>\n<li class=\"toclevel-3
+        tocsection-13\"><a href=\"#.C3.9Cbersetzungen_4\"><span class=\"tocnumber\">4.1.1</span>
+        <span class=\"toctext\">\u00dcbersetzungen</span></a></li>\n</ul>\n</li>\n<li
+        class=\"toclevel-2 tocsection-14\"><a href=\"#Adjektiv_2\"><span class=\"tocnumber\">4.2</span>
+        <span class=\"toctext\">Adjektiv</span></a>\n<ul>\n<li class=\"toclevel-3
+        tocsection-15\"><a href=\"#.C3.9Cbersetzungen_5\"><span class=\"tocnumber\">4.2.1</span>
+        <span class=\"toctext\">\u00dcbersetzungen</span></a></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</div>\n<p></p>\n<h2><span
+        class=\"mw-headline\" id=\"gift_.28Deutsch.29\">gift (<a href=\"/wiki/Wiktionary:Deutsch\"
+        title=\"Wiktionary:Deutsch\">Deutsch</a><span style=\"visibility:hidden\"
+        id=\"gift_.28Deutsch.29\"><span id=\"Anker:gift_.28Deutsch.29\"></span></span><span
+        style=\"visibility:hidden\" id=\"Deutsch\"><span id=\"Anker:Deutsch\"></span></span><span
+        style=\"visibility:hidden\" id=\"Deutsch\"><span id=\"Anker:Deutsch\"></span></span>)</span><span
+        class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=gift&amp;action=edit&amp;section=1\" title=\"Abschnitt
+        bearbeiten: gift (Deutsch)\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span
+        class=\"mw-headline\" id=\"Konjugierte_Form\"><a href=\"/wiki/Hilfe:Wortart\"
+        title=\"Hilfe:Wortart\">Konjugierte Form</a></span><span class=\"mw-editsection\"><span
+        class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=gift&amp;action=edit&amp;section=2\"
+        title=\"Abschnitt bearbeiten: Konjugierte Form\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Varianten\">Nebenformen:</p>\n<dl>\n<dd><a
+        href=\"/wiki/gifte\" title=\"gifte\">gifte</a></dd>\n</dl>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Trennungsm\u00f6glichkeiten am Zeilenumbruch\">Worttrennung:</p>\n<dl>\n<dd>gift</dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Phonetik\">Aussprache:</p>\n<dl>\n<dd><a
+        href=\"/wiki/Hilfe:IPA\" title=\"Hilfe:IPA\">IPA</a>: [<span class=\"ipa\"
+        style=\"padding: 0 1px; text-decoration: none;\">\u0261\u026aft</span>]</dd>\n<dd><a
+        href=\"/wiki/Hilfe:H%C3%B6rbeispiele\" title=\"Hilfe:H\u00f6rbeispiele\">H\u00f6rbeispiele</a>:
+        \u2014</dd>\n<dd><a href=\"/wiki/Hilfe:Reime\" title=\"Hilfe:Reime\">Reime</a>:
+        <span class=\"ipa\" style=\"padding: 0 1px; text-decoration: none;\"><a href=\"/wiki/Reim:Deutsch:-%C9%AAft\"
+        title=\"Reim:Deutsch:-\u026aft\">-\u026aft</a></span></dd>\n</dl>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Grammatische Merkmale\">Grammatische Merkmale:</p>\n<ul>\n<li>2.
+        Person Singular Imperativ Pr\u00e4sens Aktiv des Verbs <b><a href=\"/wiki/giften\"
+        title=\"giften\">giften</a></b></li>\n</ul>\n<div style=\"clear:both;margin:
+        1em 0em 1em\">\n<table align=\"center\" width=\"100%\" style=\"border:1px
+        solid #aaaaaa;background-color:#F5FFFA;padding:5px;font-size: 95%;\">\n<tr
+        align=\"center\">\n<td width=\"100%\"><b>gift</b> ist eine flektierte Form
+        von <b><a href=\"/wiki/giften\" title=\"giften\">giften</a>.</b><br />\nDie
+        gesamte Flexion findest du auf der Seite <b><a href=\"/wiki/Flexion:giften\"
+        title=\"Flexion:giften\">Flexion:giften</a>.</b><br />\nAlle weiteren Informationen
+        findest du im Haupteintrag <b><a href=\"/wiki/giften\" title=\"giften\">giften</a>.</b></td>\n</tr>\n</table>\n</div>\n<h2><span
+        class=\"mw-headline\" id=\"gift_.28D.C3.A4nisch.29\">gift (<a href=\"/wiki/Wiktionary:D%C3%A4nisch\"
+        title=\"Wiktionary:D\u00e4nisch\">D\u00e4nisch</a><span style=\"visibility:hidden\"
+        id=\"gift_.28D.C3.A4nisch.29\"><span id=\"Anker:gift_.28D.C3.A4nisch.29\"></span></span><span
+        style=\"visibility:hidden\" id=\"D.C3.A4nisch\"><span id=\"Anker:D.C3.A4nisch\"></span></span><span
+        style=\"visibility:hidden\" id=\"D.C3.A4nisch\"><span id=\"Anker:D.C3.A4nisch\"></span></span>)</span><span
+        class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=gift&amp;action=edit&amp;section=3\" title=\"Abschnitt
+        bearbeiten: gift (D\u00e4nisch)\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span
+        class=\"mw-headline\" id=\"Substantiv.2C_u\"><a href=\"/wiki/Hilfe:Wortart\"
+        title=\"Hilfe:Wortart\">Substantiv</a>, <em title=\"Genus: Utrum (grammatikal.
+        Geschlecht: m\u00e4nnlich oder weiblich)\"><a href=\"/wiki/Utrum\" title=\"Utrum\">u</a></em></span><span
+        class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=gift&amp;action=edit&amp;section=4\" title=\"Abschnitt
+        bearbeiten: Substantiv, u\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table
+        class=\"wikitable float-right hintergrundfarbe2\" style=\"margin:0 0 .5em
+        .4em;\">\n<tr>\n<th width=\"65\">&#160;</th>\n<th><a href=\"/wiki/Hilfe:Singular\"
+        title=\"Hilfe:Singular\">Singular</a></th>\n<th><a href=\"/wiki/Hilfe:Plural\"
+        title=\"Hilfe:Plural\">Plural</a></th>\n</tr>\n<tr>\n<td style=\"background-color:#f4f4f4;
+        font-weight:bold;\"><a href=\"/wiki/Hilfe:Unbestimmt\" title=\"Hilfe:Unbestimmt\">Unbestimmt</a></td>\n<td>et
+        gift</td>\n<td>gifte</td>\n</tr>\n<tr>\n<td style=\"background:#f4f4f4; font-weight:bold;\"><a
+        href=\"/wiki/Hilfe:Bestimmt\" title=\"Hilfe:Bestimmt\">Bestimmt</a></td>\n<td>giften</td>\n<td>giftene</td>\n</tr>\n</table>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Trennungsm\u00f6glichkeiten
+        am Zeilenumbruch\">Worttrennung:</p>\n<dl>\n<dd>gift, <span style=\"font-size:95%;\">Plural:</span>
+        gif\u00b7te</dd>\n</dl>\n<p style=\"margin-bottom:-0.5em; font-weight:bold;\"
+        title=\"Phonetik\">Aussprache:</p>\n<dl>\n<dd><a href=\"/wiki/Hilfe:IPA\"
+        title=\"Hilfe:IPA\">IPA</a>: [<span class=\"ipa\" style=\"padding: 0 1px;
+        text-decoration: none;\">\u2026</span>]</dd>\n<dd><a href=\"/wiki/Hilfe:H%C3%B6rbeispiele\"
+        title=\"Hilfe:H\u00f6rbeispiele\">H\u00f6rbeispiele</a>: \u2014</dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Sinn und Bezeichnetes
+        (Semantik)\">Bedeutungen:</p>\n<dl>\n<dd>[1] <a href=\"/wiki/Gift\" title=\"Gift\">Gift</a></dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Verwendungsbeispiels\u00e4tze\">Beispiele:</p>\n<dl>\n<dd>[1]</dd>\n</dl>\n<h4><span
+        class=\"mw-headline\" id=\".C3.9Cbersetzungen\">\u00dcbersetzungen</span><span
+        class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=gift&amp;action=edit&amp;section=5\" title=\"Abschnitt
+        bearbeiten: \u00dcbersetzungen\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h4>\n<div
+        class=\"mw-collapsible NavFrame\" style=\"margin-bottom:1em; margin-left:0;
+        clear:both; text-align:left;\">\n<div style=\"border-top: dotted 1px #aaaaaa;
+        border-bottom: dotted 1px #aaaaaa; padding-left:5px; padding-top:1px; padding-bottom:1px;
+        height: 1.6em; font-size:100%; background-color: #EFF5FB; font-weight: bold;\">&#160;</div>\n<div
+        class=\"mw-collapsible-content NavContent\" style=\"background-color:#F5FAFE;\">\n<table
+        border=\"0\" style=\"width:100%; background-color:#F5FAFE;\" title=\"\u00dcbersetzungen
+        in andere Sprachen\">\n<tr>\n<td style=\"border-bottom: dotted 1px #aaaaaa;\"
+        bgcolor=\"#F7F7F9\" valign=\"top\" width=\"50%\">\n<ul>\n<li><b><a href=\"/wiki/Deutsch\"
+        title=\"Deutsch\">Deutsch</a></b>: [1] <span lang=\"de\" xml:lang=\"de\"><a
+        href=\"/wiki/Gift#Gift_.28Deutsch.29\" title=\"Gift\">Gift</a></span> <em
+        title=\"Genus: Neutrum (grammatikal. Geschlecht: s\u00e4chlich)\">n</em></li>\n</ul>\n</td>\n<td
+        bgcolor=\"#F7F7F9\" style=\"border-bottom: dotted 1px #aaaaaa;\"></td>\n<td
+        style=\"border-bottom: dotted 1px #aaaaaa;\" bgcolor=\"#F7F7F9\" valign=\"top\"
+        width=\"50%\">\n<ul>\n<li><a href=\"/wiki/Franz%C3%B6sisch\" title=\"Franz\u00f6sisch\">Franz\u00f6sisch</a>:
+        [1]</li>\n</ul>\n</td>\n</tr>\n</table>\n</div>\n</div>\n<p style=\"margin-bottom:
+        -0.5em;\" title=\"Referenzen und weiterf\u00fchrende Informationen\"><b><a
+        href=\"/wiki/Wiktionary:Referenzen\" title=\"Wiktionary:Referenzen\">Referenzen
+        und weiterf\u00fchrende Informationen</a>:</b></p>\n<dl>\n<dd>[1] D\u00e4nischer&#160;Wikipedia-Artikel
+        \u201e<a href=\"https://de.wikipedia.org/wiki/da:Special:Search/gift\" class=\"extiw\"
+        title=\"w:da:Special:Search/gift\">gift</a>\u201c</dd>\n<dd>[1] Den Danske
+        Ordbog: \u201e<a rel=\"nofollow\" class=\"external text\" href=\"http://ordnet.dk/ddo/ordbog?query=gift\">gift</a>\u201c</dd>\n<dd>[1]
+        Ordbog over det danske Sprog: \u201e<a rel=\"nofollow\" class=\"external text\"
+        href=\"http://ordnet.dk/ods/opslag?opslag=gift&amp;submit=S%F8g\">gift</a>\u201d</dd>\n<dd>[1]
+        PONS D\u00e4nisch-Deutsch, Stichwort: \u201e<a rel=\"nofollow\" class=\"external
+        text\" href=\"http://de.pons.com/\u00fcbersetzung?l=dade&amp;q=gift\">gift</a>\u201c</dd>\n<dd>[1]
+        dict.cc D\u00e4nisch-Deutsch, Stichwort: \u201e<a rel=\"nofollow\" class=\"external
+        text\" href=\"http://deda.dict.cc/?s=gift\">gift</a>\u201c</dd>\n</dl>\n<h3><span
+        class=\"mw-headline\" id=\"Adjektiv\"><a href=\"/wiki/Hilfe:Wortart\" title=\"Hilfe:Wortart\">Adjektiv</a></span><span
+        class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=gift&amp;action=edit&amp;section=6\" title=\"Abschnitt
+        bearbeiten: Adjektiv\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table
+        class=\"wikitable float-right hintergrundfarbe2\" style=\"margin-top: 0;\">\n<tr>\n<th
+        rowspan=\"3\"><a href=\"/wiki/Hilfe:Genus\" title=\"Hilfe:Genus\">Genus</a></th>\n<th
+        colspan=\"4\"><a href=\"/wiki/Hilfe:Positiv\" title=\"Hilfe:Positiv\">Positiv</a></th>\n</tr>\n<tr>\n<th
+        colspan=\"2\"><a href=\"/wiki/Hilfe:Singular\" title=\"Hilfe:Singular\">Singular</a></th>\n<th
+        colspan=\"2\"><a href=\"/wiki/Hilfe:Plural\" title=\"Hilfe:Plural\">Plural</a></th>\n</tr>\n<tr>\n<th>unbestimmt</th>\n<th>bestimmt</th>\n<th>unbestimmt</th>\n<th>bestimmt</th>\n</tr>\n<tr>\n<th><a
+        href=\"/wiki/Hilfe:Utrum\" title=\"Hilfe:Utrum\">Utrum</a></th>\n<td>gift</td>\n<td>gifte</td>\n<td>gifte</td>\n<td>gifte</td>\n</tr>\n<tr>\n<th><a
+        href=\"/wiki/Hilfe:Neutrum\" title=\"Hilfe:Neutrum\">Neutrum</a></th>\n<td>gift</td>\n<td>gifte</td>\n<td>gifte</td>\n<td>gifte</td>\n</tr>\n<tr>\n<td
+        colspan=\"5\" bgcolor=\"#F4F4F4\"><i>Alle weiteren Formen:</i> <a href=\"/w/index.php?title=Flexion:gift&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Flexion:gift (Seite nicht vorhanden)\">Flexion:gift</a></td>\n</tr>\n</table>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Trennungsm\u00f6glichkeiten
+        am Zeilenumbruch\">Worttrennung:</p>\n<dl>\n<dd>gift</dd>\n</dl>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Phonetik\">Aussprache:</p>\n<dl>\n<dd><a href=\"/wiki/Hilfe:IPA\"
+        title=\"Hilfe:IPA\">IPA</a>: [<span class=\"ipa\" style=\"padding: 0 1px;
+        text-decoration: none;\">\u2026</span>]</dd>\n<dd><a href=\"/wiki/Hilfe:H%C3%B6rbeispiele\"
+        title=\"Hilfe:H\u00f6rbeispiele\">H\u00f6rbeispiele</a>: \u2014</dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Sinn und Bezeichnetes
+        (Semantik)\">Bedeutungen:</p>\n<dl>\n<dd>[1] <a href=\"/wiki/verheiratet\"
+        title=\"verheiratet\">verheiratet</a></dd>\n</dl>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Verwendungsbeispiels\u00e4tze\">Beispiele:</p>\n<dl>\n<dd>[1]</dd>\n</dl>\n<h4><span
+        class=\"mw-headline\" id=\".C3.9Cbersetzungen_2\">\u00dcbersetzungen</span><span
+        class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=gift&amp;action=edit&amp;section=7\" title=\"Abschnitt
+        bearbeiten: \u00dcbersetzungen\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h4>\n<div
+        class=\"mw-collapsible NavFrame\" style=\"margin-bottom:1em; margin-left:0;
+        clear:both; text-align:left;\">\n<div style=\"border-top: dotted 1px #aaaaaa;
+        border-bottom: dotted 1px #aaaaaa; padding-left:5px; padding-top:1px; padding-bottom:1px;
+        height: 1.6em; font-size:100%; background-color: #EFF5FB; font-weight: bold;\">&#160;</div>\n<div
+        class=\"mw-collapsible-content NavContent\" style=\"background-color:#F5FAFE;\">\n<table
+        border=\"0\" style=\"width:100%; background-color:#F5FAFE;\" title=\"\u00dcbersetzungen
+        in andere Sprachen\">\n<tr>\n<td style=\"border-bottom: dotted 1px #aaaaaa;\"
+        bgcolor=\"#F7F7F9\" valign=\"top\" width=\"50%\">\n<ul>\n<li><b><a href=\"/wiki/Deutsch\"
+        title=\"Deutsch\">Deutsch</a></b>: [1] <span lang=\"de\" xml:lang=\"de\"><a
+        href=\"/wiki/verheiratet#verheiratet_.28Deutsch.29\" title=\"verheiratet\">verheiratet</a></span></li>\n</ul>\n</td>\n<td
+        bgcolor=\"#F7F7F9\" style=\"border-bottom: dotted 1px #aaaaaa;\"></td>\n<td
+        style=\"border-bottom: dotted 1px #aaaaaa;\" bgcolor=\"#F7F7F9\" valign=\"top\"
+        width=\"50%\">\n<ul>\n<li><a href=\"/wiki/Franz%C3%B6sisch\" title=\"Franz\u00f6sisch\">Franz\u00f6sisch</a>:
+        [1]</li>\n</ul>\n</td>\n</tr>\n</table>\n</div>\n</div>\n<p style=\"margin-bottom:
+        -0.5em;\" title=\"Referenzen und weiterf\u00fchrende Informationen\"><b><a
+        href=\"/wiki/Wiktionary:Referenzen\" title=\"Wiktionary:Referenzen\">Referenzen
+        und weiterf\u00fchrende Informationen</a>:</b></p>\n<dl>\n<dd>[1] PONS D\u00e4nisch-Deutsch,
+        Stichwort: \u201e<a rel=\"nofollow\" class=\"external text\" href=\"http://de.pons.com/\u00fcbersetzung?l=dade&amp;q=gift\">gift</a>\u201c</dd>\n<dd>[1]
+        dict.cc D\u00e4nisch-Deutsch, Stichwort: \u201e<a rel=\"nofollow\" class=\"external
+        text\" href=\"http://deda.dict.cc/?s=gift\">gift</a>\u201c</dd>\n</dl>\n<h2><span
+        class=\"mw-headline\" id=\"gift_.28Englisch.29\">gift (<a href=\"/wiki/Wiktionary:Englisch\"
+        title=\"Wiktionary:Englisch\">Englisch</a><span style=\"visibility:hidden\"
+        id=\"gift_.28Englisch.29\"><span id=\"Anker:gift_.28Englisch.29\"></span></span><span
+        style=\"visibility:hidden\" id=\"Englisch\"><span id=\"Anker:Englisch\"></span></span><span
+        style=\"visibility:hidden\" id=\"Englisch\"><span id=\"Anker:Englisch\"></span></span>)</span><span
+        class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=gift&amp;action=edit&amp;section=8\" title=\"Abschnitt
+        bearbeiten: gift (Englisch)\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span
+        class=\"mw-headline\" id=\"Substantiv\"><a href=\"/wiki/Hilfe:Wortart\" title=\"Hilfe:Wortart\">Substantiv</a></span><span
+        class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=gift&amp;action=edit&amp;section=9\" title=\"Abschnitt
+        bearbeiten: Substantiv\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table
+        class=\"wikitable float-right inflection-table hintergrundfarbe2\" style=\"margin:0
+        0 .5em .4em;\">\n<tr>\n<th><a href=\"/wiki/Hilfe:Singular\" title=\"Hilfe:Singular\">Singular</a></th>\n<th><a
+        href=\"/wiki/Hilfe:Plural\" title=\"Hilfe:Plural\">Plural</a></th>\n</tr>\n<tr
+        align=\"center\">\n<td>the gift</td>\n<td>the <a href=\"/wiki/gifts#gifts_.28Englisch.29\"
+        title=\"gifts\">gifts</a></td>\n</tr>\n</table>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Trennungsm\u00f6glichkeiten am Zeilenumbruch\">Worttrennung:</p>\n<dl>\n<dd>gift,
+        <span style=\"font-size:95%;\">Plural:</span> gifts</dd>\n</dl>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Phonetik\">Aussprache:</p>\n<dl>\n<dd><a href=\"/wiki/Hilfe:IPA\"
+        title=\"Hilfe:IPA\">IPA</a>: [<span class=\"ipa\" style=\"padding: 0 1px;
+        text-decoration: none;\">\u0261\u026aft</span>], <span style=\"font-size:95%;\">Plural:</span>
+        [<span class=\"ipa\" style=\"padding: 0 1px; text-decoration: none;\">\u0261\u026afts</span>]</dd>\n<dd><a
+        href=\"/wiki/Hilfe:H%C3%B6rbeispiele\" title=\"Hilfe:H\u00f6rbeispiele\">H\u00f6rbeispiele</a>:
+        <img alt=\"Lautsprecherbild\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/15px-Loudspeaker.svg.png\"
+        title=\"Lautsprecherbild\" width=\"15\" height=\"15\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/23px-Loudspeaker.svg.png
+        1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/30px-Loudspeaker.svg.png
+        2x\" data-file-width=\"20\" data-file-height=\"20\" />&#160;<a href=\"//upload.wikimedia.org/wikipedia/commons/5/57/En-us-gift.ogg\"
+        class=\"internal\" title=\"En-us-gift.ogg\">gift&#160;(US-amerikanisch)</a><sup>&#160;(<a
+        href=\"/wiki/Datei:En-us-gift.ogg\" title=\"Datei:En-us-gift.ogg\">Info</a>)</sup>,
+        <span style=\"font-size:95%;\">Plural:</span> <img alt=\"Lautsprecherbild\"
+        src=\"//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/15px-Loudspeaker.svg.png\"
+        title=\"Lautsprecherbild\" width=\"15\" height=\"15\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/23px-Loudspeaker.svg.png
+        1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/30px-Loudspeaker.svg.png
+        2x\" data-file-width=\"20\" data-file-height=\"20\" />&#160;<a href=\"//upload.wikimedia.org/wikipedia/commons/a/a9/En-us-gifts.ogg\"
+        class=\"internal\" title=\"En-us-gifts.ogg\">gifts&#160;(US-amerikanisch)</a><sup>&#160;(<a
+        href=\"/wiki/Datei:En-us-gifts.ogg\" title=\"Datei:En-us-gifts.ogg\">Info</a>)</sup></dd>\n<dd><a
+        href=\"/wiki/Hilfe:Reime\" title=\"Hilfe:Reime\">Reime</a>: <span class=\"ipa\"
+        style=\"padding: 0 1px; text-decoration: none;\"><a href=\"/wiki/Reim:Englisch:-%C9%AAft\"
+        title=\"Reim:Englisch:-\u026aft\">-\u026aft</a></span></dd>\n</dl>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Sinn und Bezeichnetes (Semantik)\">Bedeutungen:</p>\n<dl>\n<dd>[1]
+        etwas das ohne Gegenleistung freiwillig gegeben wird</dd>\n<dd>[2] eine angeborene
+        F\u00e4higkeit einer Person</dd>\n</dl>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Etymologie und Morphologie\">Herkunft:</p>\n<dl>\n<dd>von
+        <a href=\"/wiki/altnordisch\" title=\"altnordisch\">altnordisch</a> <i>gipt</i>
+        ins <a href=\"/wiki/Mittelenglisch\" title=\"Mittelenglisch\">Mittelenglisch</a>,
+        verwandt mit englisch <i><span lang=\"en\" xml:lang=\"en\"><a href=\"/wiki/give#give_.28Englisch.29\"
+        title=\"give\">give</a></span>&#160;<a href=\"https://en.wiktionary.org/wiki/Special:Search/give\"
+        class=\"extiw\" title=\"en:Special:Search/give\"><sup>\u2192&#160;en</sup></a></i><sup
+        id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\">[1]</a></sup></dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"bedeutungsgleich
+        gebrauchte W\u00f6rter\">Synonyme:</p>\n<dl>\n<dd>[?] <a href=\"/wiki/allowance\"
+        title=\"allowance\">allowance</a>, <a href=\"/wiki/bonus\" title=\"bonus\">bonus</a>,
+        <a href=\"/w/index.php?title=contribution&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"contribution (Seite nicht vorhanden)\">contribution</a>,
+        <a href=\"/wiki/donation\" title=\"donation\">donation</a>, <a href=\"/w/index.php?title=favour&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"favour (Seite nicht vorhanden)\">favour</a>, <a href=\"/wiki/present\"
+        title=\"present\">present</a></dd>\n</dl>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Verwendungsbeispiels\u00e4tze\">Beispiele:</p>\n<dl>\n<dd>[1]
+        I buy a birthday <i>gift</i> for my friend.\n<dl>\n<dd>Ich kaufe f\u00fcr
+        meinen Freund ein Geburtstags<i>geschenk.</i></dd>\n</dl>\n</dd>\n<dd>[2]
+        My son has a <i>gift</i> for music.\n<dl>\n<dd>Mein Sohn hat eine <i>Gabe</i>
+        f\u00fcr Musik.</dd>\n</dl>\n</dd>\n</dl>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Derivate, Komposita und Konversionen\">Wortbildungen:</p>\n<dl>\n<dd><a
+        href=\"/wiki/gifted\" title=\"gifted\">gifted</a></dd>\n</dl>\n<h4><span class=\"mw-headline\"
+        id=\".C3.9Cbersetzungen_3\">\u00dcbersetzungen</span><span class=\"mw-editsection\"><span
+        class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=gift&amp;action=edit&amp;section=10\"
+        title=\"Abschnitt bearbeiten: \u00dcbersetzungen\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h4>\n<div
+        class=\"mw-collapsible NavFrame\" style=\"margin-bottom:1em; margin-left:0;
+        clear:both; text-align:left;\">\n<div style=\"border-top: dotted 1px #aaaaaa;
+        border-bottom: dotted 1px #aaaaaa; padding-left:5px; padding-top:1px; padding-bottom:1px;
+        height: 1.6em; font-size:100%; background-color: #EFF5FB; font-weight: bold;\">&#160;</div>\n<div
+        class=\"mw-collapsible-content NavContent\" style=\"background-color:#F5FAFE;\">\n<table
+        border=\"0\" style=\"width:100%; background-color:#F5FAFE;\" title=\"\u00dcbersetzungen
+        in andere Sprachen\">\n<tr>\n<td style=\"border-bottom: dotted 1px #aaaaaa;\"
+        bgcolor=\"#F7F7F9\" valign=\"top\" width=\"50%\">\n<ul>\n<li><b><a href=\"/wiki/Deutsch\"
+        title=\"Deutsch\">Deutsch</a></b>: [1] <a href=\"/wiki/Geschenk\" title=\"Geschenk\">Geschenk</a>,
+        [1, 2] <a href=\"/wiki/Gabe\" title=\"Gabe\">Gabe</a>, [2] <a href=\"/wiki/Begabung\"
+        title=\"Begabung\">Begabung</a>, <a href=\"/wiki/Talent\" title=\"Talent\">Talent</a></li>\n<li><a
+        href=\"/wiki/Franz%C3%B6sisch\" title=\"Franz\u00f6sisch\">Franz\u00f6sisch</a>:
+        [1] <span lang=\"fr\" xml:lang=\"fr\"><a href=\"/wiki/cadeau#cadeau_.28Franz.C3.B6sisch.29\"
+        title=\"cadeau\">cadeau</a></span>&#160;<a href=\"https://fr.wiktionary.org/wiki/Special:Search/cadeau\"
+        class=\"extiw\" title=\"fr:Special:Search/cadeau\"><sup>\u2192&#160;fr</sup></a>
+        <em title=\"Genus: Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em></li>\n</ul>\n</td>\n<td
+        bgcolor=\"#F7F7F9\" style=\"border-bottom: dotted 1px #aaaaaa;\"></td>\n<td
+        style=\"border-bottom: dotted 1px #aaaaaa;\" bgcolor=\"#F7F7F9\" valign=\"top\"
+        width=\"50%\">\n<ul>\n<li><a href=\"/wiki/Italienisch\" title=\"Italienisch\">Italienisch</a>:
+        [1] <span lang=\"it\" xml:lang=\"it\"><a href=\"/wiki/regalo#regalo_.28Italienisch.29\"
+        title=\"regalo\">regalo</a></span>&#160;<a href=\"https://it.wiktionary.org/wiki/Special:Search/regalo\"
+        class=\"extiw\" title=\"it:Special:Search/regalo\"><sup>\u2192&#160;it</sup></a>
+        <em title=\"Genus: Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em>&#160;;
+        [1, 2] <span lang=\"it\" xml:lang=\"it\"><a href=\"/wiki/dono#dono_.28Italienisch.29\"
+        title=\"dono\">dono</a></span>&#160;<a href=\"https://it.wiktionary.org/wiki/Special:Search/dono\"
+        class=\"extiw\" title=\"it:Special:Search/dono\"><sup>\u2192&#160;it</sup></a>
+        <em title=\"Genus: Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em>;
+        [2] <span lang=\"it\" xml:lang=\"it\"><a href=\"/w/index.php?title=talento&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"talento (Seite nicht vorhanden)\">talento</a></span>&#160;<a
+        href=\"https://it.wiktionary.org/wiki/Special:Search/talento\" class=\"extiw\"
+        title=\"it:Special:Search/talento\"><sup>\u2192&#160;it</sup></a> <em title=\"Genus:
+        Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em></li>\n<li><a
+        href=\"/wiki/Russisch\" title=\"Russisch\">Russisch</a>: [1] <span lang=\"ru\"
+        xml:lang=\"ru\"><a href=\"/w/index.php?title=%D0%BFo%D0%B4a%D1%80o%D0%BA&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"\u043fo\u0434a\u0440o\u043a (Seite nicht vorhanden)\">\u043fo\u0434a\u0440o\u043a</a></span>&#160;(podarok)&#160;<a
+        href=\"https://ru.wiktionary.org/wiki/Special:Search/%D0%BFo%D0%B4a%D1%80o%D0%BA\"
+        class=\"extiw\" title=\"ru:Special:Search/\u043fo\u0434a\u0440o\u043a\"><sup>\u2192&#160;ru</sup></a>
+        <em title=\"Genus: Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em></li>\n</ul>\n</td>\n</tr>\n</table>\n</div>\n</div>\n<p
+        style=\"margin-bottom: -0.5em;\" title=\"Referenzen und weiterf\u00fchrende
+        Informationen\"><b><a href=\"/wiki/Wiktionary:Referenzen\" title=\"Wiktionary:Referenzen\">Referenzen
+        und weiterf\u00fchrende Informationen</a>:</b></p>\n<dl>\n<dd>[1, 2] Englischer&#160;Wikipedia-Artikel
+        \u201e<a href=\"https://de.wikipedia.org/wiki/en:Special:Search/gift\" class=\"extiw\"
+        title=\"w:en:Special:Search/gift\">gift</a>\u201c</dd>\n<dd>[1, 2] Merriam-Webster
+        Online Dictionary \u201e<a rel=\"nofollow\" class=\"external text\" href=\"http://www.m-w.com/dictionary/gift\">gift</a>\u201c</dd>\n<dd>[1,
+        2] dict.cc Englisch-Deutsch, Stichwort: \u201e<a rel=\"nofollow\" class=\"external
+        text\" href=\"http://deen.dict.cc/?s=gift\">gift</a>\u201c</dd>\n</dl>\n<p><i>Quellen:</i><br
+        /></p>\n<ol class=\"references\">\n<li id=\"cite_note-1\"><b><a href=\"#cite_ref-1\">\u2191</a></b>
+        <span class=\"reference-text\">Oxford English Dictionary \u201e<a rel=\"nofollow\"
+        class=\"external text\" href=\"http://en.oxforddictionaries.com/definition/gift\">gift</a>\u201c</span></li>\n</ol>\n<h2><span
+        class=\"mw-headline\" id=\"gift_.28Schwedisch.29\">gift (<a href=\"/wiki/Wiktionary:Schwedisch\"
+        title=\"Wiktionary:Schwedisch\">Schwedisch</a><span style=\"visibility:hidden\"
+        id=\"gift_.28Schwedisch.29\"><span id=\"Anker:gift_.28Schwedisch.29\"></span></span><span
+        style=\"visibility:hidden\" id=\"Schwedisch\"><span id=\"Anker:Schwedisch\"></span></span><span
+        style=\"visibility:hidden\" id=\"Schwedisch\"><span id=\"Anker:Schwedisch\"></span></span>)</span><span
+        class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=gift&amp;action=edit&amp;section=11\" title=\"Abschnitt
+        bearbeiten: gift (Schwedisch)\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span
+        class=\"mw-headline\" id=\"Substantiv.2C_n\"><a href=\"/wiki/Hilfe:Wortart\"
+        title=\"Hilfe:Wortart\">Substantiv</a>, <em title=\"Genus: Neutrum (grammatikal.
+        Geschlecht: s\u00e4chlich)\">n</em></span><span class=\"mw-editsection\"><span
+        class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=gift&amp;action=edit&amp;section=12\"
+        title=\"Abschnitt bearbeiten: Substantiv, n\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table
+        class=\"wikitable inflection-table float-right hintergrundfarbe2\">\n<tr>\n<th
+        width=\"65\" rowspan=\"2\">Neutrum</th>\n<th colspan=\"2\"><a href=\"/wiki/Hilfe:Singular\"
+        title=\"Hilfe:Singular\">Singular</a></th>\n<th colspan=\"2\"><a href=\"/wiki/Hilfe:Plural\"
+        title=\"Hilfe:Plural\">Plural</a></th>\n</tr>\n<tr>\n<th>unbestimmt</th>\n<th>bestimmt</th>\n<th>unbestimmt</th>\n<th>bestimmt</th>\n</tr>\n<tr>\n<th><a
+        href=\"/wiki/Hilfe:Nominativ\" title=\"Hilfe:Nominativ\">Nominativ</a></th>\n<td>(ett)&#160;gift</td>\n<td><a
+        href=\"/wiki/giftet\" title=\"giftet\">giftet</a></td>\n<td><a href=\"/w/index.php?title=gifter&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"gifter (Seite nicht vorhanden)\">gifter</a></td>\n<td><a
+        href=\"/w/index.php?title=gifterna&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"gifterna (Seite nicht vorhanden)\">gifterna</a></td>\n</tr>\n<tr>\n<th><a
+        href=\"/wiki/Hilfe:Genitiv\" title=\"Hilfe:Genitiv\">Genitiv</a></th>\n<td><a
+        href=\"/wiki/gifts#gifts_.28Schwedisch.29\" title=\"gifts\">gifts</a></td>\n<td><a
+        href=\"/w/index.php?title=giftets&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"giftets (Seite nicht vorhanden)\">giftets</a></td>\n<td><a href=\"/w/index.php?title=gifters&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"gifters (Seite nicht vorhanden)\">gifters</a></td>\n<td><a
+        href=\"/w/index.php?title=gifternas&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"gifternas (Seite nicht vorhanden)\">gifternas</a></td>\n</tr>\n</table>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Trennungsm\u00f6glichkeiten
+        am Zeilenumbruch\">Worttrennung:</p>\n<dl>\n<dd>gift, <span style=\"font-size:95%;\">Plural:</span>
+        gif\u00b7ter</dd>\n</dl>\n<p style=\"margin-bottom:-0.5em; font-weight:bold;\"
+        title=\"Phonetik\">Aussprache:</p>\n<dl>\n<dd><a href=\"/wiki/Hilfe:IPA\"
+        title=\"Hilfe:IPA\">IPA</a>: [<span class=\"ipa\" style=\"padding: 0 1px;
+        text-decoration: none;\">\u2026</span>]</dd>\n<dd><a href=\"/wiki/Hilfe:H%C3%B6rbeispiele\"
+        title=\"Hilfe:H\u00f6rbeispiele\">H\u00f6rbeispiele</a>: <img alt=\"Lautsprecherbild\"
+        src=\"//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/15px-Loudspeaker.svg.png\"
+        title=\"Lautsprecherbild\" width=\"15\" height=\"15\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/23px-Loudspeaker.svg.png
+        1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/30px-Loudspeaker.svg.png
+        2x\" data-file-width=\"20\" data-file-height=\"20\" />&#160;<a href=\"//upload.wikimedia.org/wikipedia/commons/1/1d/Sv-gift.ogg\"
+        class=\"internal\" title=\"Sv-gift.ogg\">gift</a><sup>&#160;(<a href=\"/wiki/Datei:Sv-gift.ogg\"
+        title=\"Datei:Sv-gift.ogg\">Info</a>)</sup></dd>\n</dl>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Sinn und Bezeichnetes (Semantik)\">Bedeutungen:</p>\n<dl>\n<dd>[1]
+        gesundheitssch\u00e4dliche oder potentiell t\u00f6dliche Substanz; <a href=\"/wiki/Gift\"
+        title=\"Gift\">Gift</a></dd>\n</dl>\n<p style=\"margin-bottom:-0.5em; font-weight:bold;\"
+        title=\"Hyponyme\">Unterbegriffe:</p>\n<dl>\n<dd>[1] <a href=\"/w/index.php?title=ormgift&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"ormgift (Seite nicht vorhanden)\">ormgift</a>, <a href=\"/w/index.php?title=r%C3%A5ttgift&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"r\u00e5ttgift (Seite nicht vorhanden)\">r\u00e5ttgift</a></dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Verwendungsbeispiels\u00e4tze\">Beispiele:</p>\n<dl>\n<dd>[1]
+        De r\u00f6da b\u00e4r inneh\u00e5ller <i>gift.</i>\n<dl>\n<dd>Die roten Beeren
+        enthalten <i>Gift.</i></dd>\n</dl>\n</dd>\n</dl>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Derivate, Komposita und Konversionen\">Wortbildungen:</p>\n<dl>\n<dd><a
+        href=\"/wiki/giftig#giftig_.28Schwedisch\" title=\"giftig\">giftig</a>, <a
+        href=\"/w/index.php?title=giftsk%C3%A5p&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"giftsk\u00e5p (Seite nicht vorhanden)\">giftsk\u00e5p</a></dd>\n</dl>\n<h4><span
+        class=\"mw-headline\" id=\".C3.9Cbersetzungen_4\">\u00dcbersetzungen</span><span
+        class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=gift&amp;action=edit&amp;section=13\" title=\"Abschnitt
+        bearbeiten: \u00dcbersetzungen\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h4>\n<div
+        class=\"mw-collapsible NavFrame\" style=\"margin-bottom:1em; margin-left:0;
+        clear:both; text-align:left;\">\n<div style=\"border-top: dotted 1px #aaaaaa;
+        border-bottom: dotted 1px #aaaaaa; padding-left:5px; padding-top:1px; padding-bottom:1px;
+        height: 1.6em; font-size:100%; background-color: #EFF5FB; font-weight: bold;\">&#160;</div>\n<div
+        class=\"mw-collapsible-content NavContent\" style=\"background-color:#F5FAFE;\">\n<table
+        border=\"0\" style=\"width:100%; background-color:#F5FAFE;\" title=\"\u00dcbersetzungen
+        in andere Sprachen\">\n<tr>\n<td style=\"border-bottom: dotted 1px #aaaaaa;\"
+        bgcolor=\"#F7F7F9\" valign=\"top\" width=\"50%\">\n<ul>\n<li><b><a href=\"/wiki/Deutsch\"
+        title=\"Deutsch\">Deutsch</a></b>: [1] <a href=\"/wiki/Gift\" title=\"Gift\">Gift</a></li>\n</ul>\n</td>\n<td
+        bgcolor=\"#F7F7F9\" style=\"border-bottom: dotted 1px #aaaaaa;\"></td>\n<td
+        style=\"border-bottom: dotted 1px #aaaaaa;\" bgcolor=\"#F7F7F9\" valign=\"top\"
+        width=\"50%\"></td>\n</tr>\n</table>\n</div>\n</div>\n<p style=\"margin-bottom:
+        -0.5em;\" title=\"Referenzen und weiterf\u00fchrende Informationen\"><b><a
+        href=\"/wiki/Wiktionary:Referenzen\" title=\"Wiktionary:Referenzen\">Referenzen
+        und weiterf\u00fchrende Informationen</a>:</b></p>\n<dl>\n<dd>[1] Schwedischer&#160;Wikipedia-Artikel
+        \u201e<a href=\"https://de.wikipedia.org/wiki/sv:Special:Search/gift\" class=\"extiw\"
+        title=\"w:sv:Special:Search/gift\">gift</a>\u201c</dd>\n<dd>[1] Svenska Akademiens
+        Ordbok \u201e<a rel=\"nofollow\" class=\"external text\" href=\"http://g3.spraakdata.gu.se/cgi-bin/osa/indexsok.cgi?formtype=enkel&amp;string=gift\">gift</a>\u201c</dd>\n<dd>[1]
+        <span class=\"cite\">Svenska Akademien (Herausgeber): <i>Svenska Akademiens
+        ordlista \u00f6ver svenska spr\u00e5ket.</i> (SAOL). 13.&#160;Auflage. Norstedts
+        Akademiska F\u00f6rlag, Stockholm <span style=\"white-space:nowrap;\">2006</span>,
+        <a href=\"/wiki/Spezial:ISBN-Suche/9172274190\" class=\"internal mw-magiclink-isbn\">ISBN
+        91-7227-419-0</a> (<a rel=\"nofollow\" class=\"external text\" href=\"http://spraakdata.gu.se/saolhist/start.phtml?lemma=v%E5rb%25&amp;mode=SAOLprod&amp;med%5B%5D=SAOL13\">Netzausgabe</a>)</span><span
+        style=\"display: none;\" class=\"Z3988\" title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rfr_id=info%3Asid%2Fde.wikipedia.org%3Agift&amp;rft.btitle=Svenska+Akademiens+ordlista+%C3%B6ver+svenska+spr%C3%A5ket&amp;rft.au=Svenska+Akademien+%28Herausgeber%29&amp;rft.date=2006&amp;rft.edition=13.&amp;rft.pub=Norstedts+Akademiska+F%C3%B6rlag&amp;rft.place=Stockholm&amp;rft.isbn=91-7227-419-0&amp;rft_id=%5Bhttp%3A%2F%2Fspraakdata.gu.se%2Fsaolhist%2Fstart.phtml%3Flemma%3Dv%25E5rb%2525%26mode%3DSAOLprod%26med%255B%255D%3DSAOL13+Netzausgabe%5D\">&#160;</span>,
+        Seite 287</dd>\n</dl>\n<h3><span class=\"mw-headline\" id=\"Adjektiv_2\"><a
+        href=\"/wiki/Hilfe:Wortart\" title=\"Hilfe:Wortart\">Adjektiv</a></span><span
+        class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=gift&amp;action=edit&amp;section=14\" title=\"Abschnitt
+        bearbeiten: Adjektiv\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table
+        class=\"wikitable inflection-table float-right hintergrundfarbe2\" style=\"margin:0
+        0 .5em .4em; font-size:100%; line-height:16px;\">\n<tr>\n<th colspan=\"2\"
+        rowspan=\"2\" style=\"background-color:#e2ffff;\">Adjektivdeklination</th>\n<th
+        style=\"background-color:#e2ffff;\"><a href=\"/wiki/Hilfe:Positiv\" title=\"Hilfe:Positiv\">Positiv</a></th>\n<th
+        style=\"background-color:#e2ffff;\"><a href=\"/wiki/Hilfe:Komparativ\" title=\"Hilfe:Komparativ\">Komparativ</a></th>\n<th
+        style=\"background-color:#e2ffff;\"><a href=\"/wiki/Hilfe:Superlativ\" title=\"Hilfe:Superlativ\">Superlativ</a></th>\n</tr>\n<tr>\n<th
+        colspan=\"3\" style=\"background-color:#e2ffff;\"><a href=\"/wiki/attributiv\"
+        title=\"attributiv\">attributiv</a></th>\n</tr>\n<tr>\n<th rowspan=\"2\" style=\"background-color:#ffffe2;\">unbestimmt<br
+        />\n<a href=\"/wiki/Hilfe:Singular\" title=\"Hilfe:Singular\">Singular</a></th>\n<th
+        style=\"background-color:#ffffe2;\"><a href=\"/wiki/Hilfe:Utrum\" title=\"Hilfe:Utrum\">Utrum</a></th>\n<td>gift</td>\n<th
+        rowspan=\"5\" style=\"background-color:#ffffff; font-weight:normal\">\u2014</th>\n<td
+        rowspan=\"2\"></td>\n</tr>\n<tr>\n<th style=\"background-color:#ffffe2;\"><a
+        href=\"/wiki/Hilfe:Neutrum\" title=\"Hilfe:Neutrum\">Neutrum</a></th>\n<td>gift</td>\n</tr>\n<tr>\n<th
+        rowspan=\"2\" style=\"background-color:#ffffe2;\">bestimmt<br />\n<a href=\"/wiki/Hilfe:Singular\"
+        title=\"Hilfe:Singular\">Singular</a></th>\n<th style=\"background-color:#ffffe2;\"><a
+        href=\"/wiki/maskulinum\" title=\"maskulinum\">Maskulinum</a></th>\n<td><a
+        href=\"/wiki/gifte#gifte_.28Schwedisch.29\" title=\"gifte\">gifte</a></td>\n<td>\u2014</td>\n</tr>\n<tr>\n<th
+        style=\"background-color:#ffffe2;\">alle Formen</th>\n<td><a href=\"/w/index.php?title=gifta&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"gifta (Seite nicht vorhanden)\">gifta</a></td>\n<td>\u2014</td>\n</tr>\n<tr>\n<th
+        colspan=\"2\" style=\"background-color:#ffffe2;\"><a href=\"/wiki/Hilfe:Plural\"
+        title=\"Hilfe:Plural\">Plural</a></th>\n<td><a href=\"/w/index.php?title=gifta&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"gifta (Seite nicht vorhanden)\">gifta</a></td>\n<td>\u2014</td>\n</tr>\n<tr>\n<th
+        colspan=\"2\" style=\"background-color:#e2ffff;\"></th>\n<th colspan=\"3\"
+        style=\"background-color:#e2ffff;\"><a href=\"/wiki/pr%C3%A4dikativ\" title=\"pr\u00e4dikativ\">pr\u00e4dikativ</a></th>\n</tr>\n<tr>\n<th
+        rowspan=\"2\" style=\"background-color:#ffffe2;\"><a href=\"/wiki/Hilfe:Singular\"
+        title=\"Hilfe:Singular\">Singular</a></th>\n<th style=\"background-color:#ffffe2;\"><a
+        href=\"/wiki/Hilfe:Utrum\" title=\"Hilfe:Utrum\">Utrum</a></th>\n<td>gift</td>\n<th
+        rowspan=\"3\" style=\"background-color:#ffffff; font-weight:normal\">\u2014</th>\n<th
+        rowspan=\"3\" style=\"background-color:#ffffff; font-weight:normal\">\u2014</th>\n</tr>\n<tr>\n<th
+        style=\"background-color:#ffffe2;\"><a href=\"/wiki/Hilfe:Neutrum\" title=\"Hilfe:Neutrum\">Neutrum</a></th>\n<td>gift</td>\n</tr>\n<tr>\n<th
+        colspan=\"2\" style=\"background-color:#ffffe2;\"><a href=\"/wiki/Hilfe:Plural\"
+        title=\"Hilfe:Plural\">Plural</a></th>\n<td><a href=\"/w/index.php?title=gifta&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"gifta (Seite nicht vorhanden)\">gifta</a></td>\n</tr>\n<tr>\n<th
+        colspan=\"5\" style=\"background-color:#e2ffff;\">&#160;</th>\n</tr>\n<tr>\n<th
+        colspan=\"2\" style=\"background-color:#e2ffff;\"><a href=\"/wiki/Hilfe:Adverb\"
+        title=\"Hilfe:Adverb\">adverbialer Gebrauch</a></th>\n<td colspan=\"3\" align=\"center\">\u2014</td>\n</tr>\n</table>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Trennungsm\u00f6glichkeiten
+        am Zeilenumbruch\">Worttrennung:</p>\n<dl>\n<dd>gift, <i>keine Steigerung</i></dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Phonetik\">Aussprache:</p>\n<dl>\n<dd><a
+        href=\"/wiki/Hilfe:IPA\" title=\"Hilfe:IPA\">IPA</a>: [<span class=\"ipa\"
+        style=\"padding: 0 1px; text-decoration: none;\">\u2026</span>]</dd>\n<dd><a
+        href=\"/wiki/Hilfe:H%C3%B6rbeispiele\" title=\"Hilfe:H\u00f6rbeispiele\">H\u00f6rbeispiele</a>:
+        \u2014</dd>\n</dl>\n<p style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Sinn
+        und Bezeichnetes (Semantik)\">Bedeutungen:</p>\n<dl>\n<dd>[1] <a href=\"/wiki/verheiratet\"
+        title=\"verheiratet\">verheiratet</a></dd>\n</dl>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Etymologie und Morphologie\">Herkunft:</p>\n<dl>\n<dd>vom
+        Verb <i><span lang=\"sv\" xml:lang=\"sv\"><a href=\"/w/index.php?title=gifta_sig&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"gifta sig (Seite nicht vorhanden)\">gifta sig</a></span>&#160;<a
+        href=\"https://sv.wiktionary.org/wiki/Special:Search/gifta_sig\" class=\"extiw\"
+        title=\"sv:Special:Search/gifta sig\"><sup>\u2192&#160;sv</sup></a></i><sup
+        id=\"cite_ref-2\" class=\"reference\"><a href=\"#cite_note-2\">[1]</a></sup></dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Antonyme\">Gegenw\u00f6rter:</p>\n<dl>\n<dd>[1]
+        <a href=\"/wiki/ogift\" title=\"ogift\">ogift</a></dd>\n</dl>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Verwendungsbeispiels\u00e4tze\">Beispiele:</p>\n<dl>\n<dd>[1]
+        Hon har varit <i>gift</i> f\u00f6rut.\n<dl>\n<dd>Sie war schon einmal <i>verheiratet.</i></dd>\n</dl>\n</dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Signifikante Kollokationen\">Charakteristische
+        Wortkombinationen:</p>\n<dl>\n<dd>[1] <a href=\"/w/index.php?title=civilst%C3%A5nd&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"civilst\u00e5nd (Seite nicht vorhanden)\">civilst\u00e5nd</a>
+        <i>gift</i></dd>\n</dl>\n<p style=\"margin-bottom:-0.5em; font-weight:bold;\"
+        title=\"Derivate, Komposita und Konversionen\">Wortbildungen:</p>\n<dl>\n<dd><a
+        href=\"/w/index.php?title=engifte&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"engifte (Seite nicht vorhanden)\">engifte</a>, <a href=\"/wiki/gifterm%C3%A5l\"
+        title=\"gifterm\u00e5l\">gifterm\u00e5l</a>, <a href=\"/wiki/m%C3%A5nggifte\"
+        title=\"m\u00e5nggifte\">m\u00e5nggifte</a></dd>\n</dl>\n<h4><span class=\"mw-headline\"
+        id=\".C3.9Cbersetzungen_5\">\u00dcbersetzungen</span><span class=\"mw-editsection\"><span
+        class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=gift&amp;action=edit&amp;section=15\"
+        title=\"Abschnitt bearbeiten: \u00dcbersetzungen\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h4>\n<div
+        class=\"mw-collapsible NavFrame\" style=\"margin-bottom:1em; margin-left:0;
+        clear:both; text-align:left;\">\n<div style=\"border-top: dotted 1px #aaaaaa;
+        border-bottom: dotted 1px #aaaaaa; padding-left:5px; padding-top:1px; padding-bottom:1px;
+        height: 1.6em; font-size:100%; background-color: #EFF5FB; font-weight: bold;\">&#160;</div>\n<div
+        class=\"mw-collapsible-content NavContent\" style=\"background-color:#F5FAFE;\">\n<table
+        border=\"0\" style=\"width:100%; background-color:#F5FAFE;\" title=\"\u00dcbersetzungen
+        in andere Sprachen\">\n<tr>\n<td style=\"border-bottom: dotted 1px #aaaaaa;\"
+        bgcolor=\"#F7F7F9\" valign=\"top\" width=\"50%\">\n<ul>\n<li><b><a href=\"/wiki/Deutsch\"
+        title=\"Deutsch\">Deutsch</a></b>: [1] <a href=\"/wiki/verheiratet\" title=\"verheiratet\">verheiratet</a></li>\n</ul>\n</td>\n<td
+        bgcolor=\"#F7F7F9\" style=\"border-bottom: dotted 1px #aaaaaa;\"></td>\n<td
+        style=\"border-bottom: dotted 1px #aaaaaa;\" bgcolor=\"#F7F7F9\" valign=\"top\"
+        width=\"50%\"></td>\n</tr>\n</table>\n</div>\n</div>\n<p style=\"margin-bottom:
+        -0.5em;\" title=\"Referenzen und weiterf\u00fchrende Informationen\"><b><a
+        href=\"/wiki/Wiktionary:Referenzen\" title=\"Wiktionary:Referenzen\">Referenzen
+        und weiterf\u00fchrende Informationen</a>:</b></p>\n<dl>\n<dd>[1] <span class=\"cite\">Svenska
+        Akademien (Herausgeber): <i>Svenska Akademiens ordlista \u00f6ver svenska
+        spr\u00e5ket.</i> (SAOL). 13.&#160;Auflage. Norstedts Akademiska F\u00f6rlag,
+        Stockholm <span style=\"white-space:nowrap;\">2006</span>, <a href=\"/wiki/Spezial:ISBN-Suche/9172274190\"
+        class=\"internal mw-magiclink-isbn\">ISBN 91-7227-419-0</a> (<a rel=\"nofollow\"
+        class=\"external text\" href=\"http://spraakdata.gu.se/saolhist/start.phtml?lemma=v%E5rb%25&amp;mode=SAOLprod&amp;med%5B%5D=SAOL13\">Netzausgabe</a>)</span><span
+        style=\"display: none;\" class=\"Z3988\" title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rfr_id=info%3Asid%2Fde.wikipedia.org%3Agift&amp;rft.btitle=Svenska+Akademiens+ordlista+%C3%B6ver+svenska+spr%C3%A5ket&amp;rft.au=Svenska+Akademien+%28Herausgeber%29&amp;rft.date=2006&amp;rft.edition=13.&amp;rft.pub=Norstedts+Akademiska+F%C3%B6rlag&amp;rft.place=Stockholm&amp;rft.isbn=91-7227-419-0&amp;rft_id=%5Bhttp%3A%2F%2Fspraakdata.gu.se%2Fsaolhist%2Fstart.phtml%3Flemma%3Dv%25E5rb%2525%26mode%3DSAOLprod%26med%255B%255D%3DSAOL13+Netzausgabe%5D\">&#160;</span>,
+        Seite 287</dd>\n</dl>\n<p><i>Quellen:</i><br /></p>\n<ol class=\"references\">\n<li
+        id=\"cite_note-2\"><b><a href=\"#cite_ref-2\">\u2191</a></b> <span class=\"reference-text\">Svenska
+        Akademiens Ordbok \u201e<a rel=\"nofollow\" class=\"external text\" href=\"http://g3.spraakdata.gu.se/cgi-bin/osa/indexsok.cgi?formtype=enkel&amp;string=gifta\">gifta</a>\u201c</span></li>\n</ol>\n\n\n<!--
+        \nNewPP limit report\nParsed by mw1244\nCached time: 20170224060826\nCache
+        expiry: 2592000\nDynamic content: false\nCPU time usage: 0.304 seconds\nReal
+        time usage: 0.377 seconds\nPreprocessor visited node count: 7278/1000000\nPreprocessor
+        generated node count: 0/1500000\nPost\u2010expand include size: 55811/2097152
+        bytes\nTemplate argument size: 9337/2097152 bytes\nHighest expansion depth:
+        16/40\nExpensive parser function count: 7/500\nLua time usage: 0.103/10.000
+        seconds\nLua memory usage: 1.93 MB/50 MB\n-->\n<!--\nTransclusion expansion
+        time report (%,ms,calls,template)\n100.00%  319.229      1 -total\n 24.73%   78.956      4
+        Vorlage:Sprache\n 11.38%   36.332     19 Vorlage:Flexlink\n 10.20%   32.552      1
+        Vorlage:Schwedisch_Substantiv_\u00dcbersicht\n  9.28%   29.628      5 Vorlage:\u00dc-Tabelle\n  7.23%   23.088      1
+        Vorlage:Schwedisch_Adjektiv_\u00dcbersicht\n  6.25%   19.963     10 Vorlage:\u00dc\n  6.22%   19.866      7
+        Vorlage:Lautschrift\n  5.14%   16.409      2 Vorlage:Lit-SA:_Svenska_Akademiens_ordlista\n  4.82%   15.395      2
+        Vorlage:Literatur\n-->\n\n<!-- Saved in parser cache with key dewiktionary:pcache:idhash:47326-0!*!0!!de!4!*
+        and timestamp 20170224060825 and revision id 5334016\n -->\n"},"langlinks":[{"lang":"ang","url":"https://ang.wiktionary.org/wiki/gift","langname":"Altenglisch","autonym":"\u00c6nglisc","*":"gift"},{"lang":"ar","url":"https://ar.wiktionary.org/wiki/gift","langname":"Arabisch","autonym":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629","*":"gift"},{"lang":"az","url":"https://az.wiktionary.org/wiki/gift","langname":"Aserbaidschanisch","autonym":"az\u0259rbaycanca","*":"gift"},{"lang":"chr","url":"https://chr.wiktionary.org/wiki/gift","langname":"Cherokee","autonym":"\u13e3\u13b3\u13a9","*":"gift"},{"lang":"cs","url":"https://cs.wiktionary.org/wiki/gift","langname":"Tschechisch","autonym":"\u010de\u0161tina","*":"gift"},{"lang":"cy","url":"https://cy.wiktionary.org/wiki/gift","langname":"Walisisch","autonym":"Cymraeg","*":"gift"},{"lang":"da","url":"https://da.wiktionary.org/wiki/gift","langname":"D\u00e4nisch","autonym":"dansk","*":"gift"},{"lang":"el","url":"https://el.wiktionary.org/wiki/gift","langname":"Griechisch","autonym":"\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac","*":"gift"},{"lang":"en","url":"https://en.wiktionary.org/wiki/gift","langname":"Englisch","autonym":"English","*":"gift"},{"lang":"eo","url":"https://eo.wiktionary.org/wiki/gift","langname":"Esperanto","autonym":"Esperanto","*":"gift"},{"lang":"es","url":"https://es.wiktionary.org/wiki/gift","langname":"Spanisch","autonym":"espa\u00f1ol","*":"gift"},{"lang":"et","url":"https://et.wiktionary.org/wiki/gift","langname":"Estnisch","autonym":"eesti","*":"gift"},{"lang":"eu","url":"https://eu.wiktionary.org/wiki/gift","langname":"Baskisch","autonym":"euskara","*":"gift"},{"lang":"fa","url":"https://fa.wiktionary.org/wiki/gift","langname":"Persisch","autonym":"\u0641\u0627\u0631\u0633\u06cc","*":"gift"},{"lang":"fi","url":"https://fi.wiktionary.org/wiki/gift","langname":"Finnisch","autonym":"suomi","*":"gift"},{"lang":"fr","url":"https://fr.wiktionary.org/wiki/gift","langname":"Franz\u00f6sisch","autonym":"fran\u00e7ais","*":"gift"},{"lang":"gl","url":"https://gl.wiktionary.org/wiki/gift","langname":"Galicisch","autonym":"galego","*":"gift"},{"lang":"hi","url":"https://hi.wiktionary.org/wiki/gift","langname":"Hindi","autonym":"\u0939\u093f\u0928\u094d\u0926\u0940","*":"gift"},{"lang":"hu","url":"https://hu.wiktionary.org/wiki/gift","langname":"Ungarisch","autonym":"magyar","*":"gift"},{"lang":"hy","url":"https://hy.wiktionary.org/wiki/gift","langname":"Armenisch","autonym":"\u0540\u0561\u0575\u0565\u0580\u0565\u0576","*":"gift"},{"lang":"id","url":"https://id.wiktionary.org/wiki/gift","langname":"Indonesisch","autonym":"Bahasa
+        Indonesia","*":"gift"},{"lang":"io","url":"https://io.wiktionary.org/wiki/gift","langname":"Ido","autonym":"Ido","*":"gift"},{"lang":"is","url":"https://is.wiktionary.org/wiki/gift","langname":"Isl\u00e4ndisch","autonym":"\u00edslenska","*":"gift"},{"lang":"it","url":"https://it.wiktionary.org/wiki/gift","langname":"Italienisch","autonym":"italiano","*":"gift"},{"lang":"ja","url":"https://ja.wiktionary.org/wiki/gift","langname":"Japanisch","autonym":"\u65e5\u672c\u8a9e","*":"gift"},{"lang":"ka","url":"https://ka.wiktionary.org/wiki/gift","langname":"Georgisch","autonym":"\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8","*":"gift"},{"lang":"kk","url":"https://kk.wiktionary.org/wiki/gift","langname":"Kasachisch","autonym":"\u049b\u0430\u0437\u0430\u049b\u0448\u0430","*":"gift"},{"lang":"kn","url":"https://kn.wiktionary.org/wiki/gift","langname":"Kannada","autonym":"\u0c95\u0ca8\u0ccd\u0ca8\u0ca1","*":"gift"},{"lang":"ko","url":"https://ko.wiktionary.org/wiki/gift","langname":"Koreanisch","autonym":"\ud55c\uad6d\uc5b4","*":"gift"},{"lang":"ku","url":"https://ku.wiktionary.org/wiki/gift","langname":"Kurdisch","autonym":"Kurd\u00ee","*":"gift"},{"lang":"ky","url":"https://ky.wiktionary.org/wiki/gift","langname":"Kirgisisch","autonym":"\u041a\u044b\u0440\u0433\u044b\u0437\u0447\u0430","*":"gift"},{"lang":"li","url":"https://li.wiktionary.org/wiki/gift","langname":"Limburgisch","autonym":"Limburgs","*":"gift"},{"lang":"lo","url":"https://lo.wiktionary.org/wiki/gift","langname":"Laotisch","autonym":"\u0ea5\u0eb2\u0ea7","*":"gift"},{"lang":"lt","url":"https://lt.wiktionary.org/wiki/gift","langname":"Litauisch","autonym":"lietuvi\u0173","*":"gift"},{"lang":"lv","url":"https://lv.wiktionary.org/wiki/gift","langname":"Lettisch","autonym":"latvie\u0161u","*":"gift"},{"lang":"mg","url":"https://mg.wiktionary.org/wiki/gift","langname":"Madagassisch","autonym":"Malagasy","*":"gift"},{"lang":"ml","url":"https://ml.wiktionary.org/wiki/gift","langname":"Malayalam","autonym":"\u0d2e\u0d32\u0d2f\u0d3e\u0d33\u0d02","*":"gift"},{"lang":"my","url":"https://my.wiktionary.org/wiki/gift","langname":"Birmanisch","autonym":"\u1019\u103c\u1014\u103a\u1019\u102c\u1018\u102c\u101e\u102c","*":"gift"},{"lang":"nl","url":"https://nl.wiktionary.org/wiki/gift","langname":"Niederl\u00e4ndisch","autonym":"Nederlands","*":"gift"},{"lang":"no","url":"https://no.wiktionary.org/wiki/gift","langname":"Norwegisch","autonym":"norsk
+        bokm\u00e5l","*":"gift"},{"lang":"oc","url":"https://oc.wiktionary.org/wiki/gift","langname":"Okzitanisch","autonym":"occitan","*":"gift"},{"lang":"pa","url":"https://pa.wiktionary.org/wiki/gift","langname":"Punjabi","autonym":"\u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40","*":"gift"},{"lang":"pl","url":"https://pl.wiktionary.org/wiki/gift","langname":"Polnisch","autonym":"polski","*":"gift"},{"lang":"pt","url":"https://pt.wiktionary.org/wiki/gift","langname":"Portugiesisch","autonym":"portugu\u00eas","*":"gift"},{"lang":"ru","url":"https://ru.wiktionary.org/wiki/gift","langname":"Russisch","autonym":"\u0440\u0443\u0441\u0441\u043a\u0438\u0439","*":"gift"},{"lang":"simple","url":"https://simple.wiktionary.org/wiki/gift","langname":"Simple
+        English","autonym":"Simple English","*":"gift"},{"lang":"sv","url":"https://sv.wiktionary.org/wiki/gift","langname":"Schwedisch","autonym":"svenska","*":"gift"},{"lang":"sw","url":"https://sw.wiktionary.org/wiki/gift","langname":"Suaheli","autonym":"Kiswahili","*":"gift"},{"lang":"ta","url":"https://ta.wiktionary.org/wiki/gift","langname":"Tamil","autonym":"\u0ba4\u0bae\u0bbf\u0bb4\u0bcd","*":"gift"},{"lang":"te","url":"https://te.wiktionary.org/wiki/gift","langname":"Telugu","autonym":"\u0c24\u0c46\u0c32\u0c41\u0c17\u0c41","*":"gift"},{"lang":"th","url":"https://th.wiktionary.org/wiki/gift","langname":"Thail\u00e4ndisch","autonym":"\u0e44\u0e17\u0e22","*":"gift"},{"lang":"tr","url":"https://tr.wiktionary.org/wiki/gift","langname":"T\u00fcrkisch","autonym":"T\u00fcrk\u00e7e","*":"gift"},{"lang":"uz","url":"https://uz.wiktionary.org/wiki/gift","langname":"Usbekisch","autonym":"o\u02bbzbekcha/\u045e\u0437\u0431\u0435\u043a\u0447\u0430","*":"gift"},{"lang":"vi","url":"https://vi.wiktionary.org/wiki/gift","langname":"Vietnamesisch","autonym":"Ti\u1ebfng
+        Vi\u1ec7t","*":"gift"},{"lang":"wa","url":"https://wa.wiktionary.org/wiki/gift","langname":"Wallonisch","autonym":"walon","*":"gift"},{"lang":"zh","url":"https://zh.wiktionary.org/wiki/gift","langname":"Chinesisch","autonym":"\u4e2d\u6587","*":"gift"},{"lang":"zh-min-nan","url":"https://zh-min-nan.wiktionary.org/wiki/gift","langname":"Chinesisch
+        (Min Nan)","autonym":"B\u00e2n-l\u00e2m-g\u00fa","*":"gift"}],"categories":[{"sortkey":"","*":"Deutsch"},{"sortkey":"gift","hidden":"","*":"siehe_auch"},{"sortkey":"","*":"Konjugierte_Form_(Deutsch)"},{"sortkey":"tfig","hidden":"","*":"R\u00fcckl\u00e4ufige_W\u00f6rterliste_(Deutsch)"},{"sortkey":"","*":"Konjugierte_Form"},{"sortkey":"","*":"D\u00e4nisch"},{"sortkey":"","*":"Substantiv_(D\u00e4nisch)"},{"sortkey":"tfig","hidden":"","*":"R\u00fcckl\u00e4ufige_W\u00f6rterliste_(D\u00e4nisch)"},{"sortkey":"","*":"Substantiv"},{"sortkey":"","hidden":"","*":"Wartung_fehlende_Lautschrift"},{"sortkey":"","hidden":"","*":"Wiktionary:Beispiele_fehlen_(D\u00e4nisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Deutsch)"},{"sortkey":"","hidden":"","*":"Link_zur_Wikipedia"},{"sortkey":"","*":"Adjektiv_(D\u00e4nisch)"},{"sortkey":"","*":"Adjektiv"},{"sortkey":"","*":"Englisch"},{"sortkey":"","*":"Substantiv_(Englisch)"},{"sortkey":"tfig","hidden":"","*":"R\u00fcckl\u00e4ufige_W\u00f6rterliste_(Englisch)"},{"sortkey":"","hidden":"","*":"Wiktionary:Audio-Datei"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Englisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Franz\u00f6sisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Italienisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Russisch)"},{"sortkey":"","hidden":"","*":"Wiktionary:Abschnitte_fehlen_(F\u00e4r\u00f6isch)"},{"sortkey":"","hidden":"","*":"Wiktionary:Abschnitte_fehlen_(Niederl\u00e4ndisch)"},{"sortkey":"","hidden":"","*":"Wiktionary:Abschnitte_fehlen_(Norwegisch)"},{"sortkey":"","*":"Schwedisch"},{"sortkey":"","*":"Substantiv_(Schwedisch)"},{"sortkey":"tfig","hidden":"","*":"R\u00fcckl\u00e4ufige_W\u00f6rterliste_(Schwedisch)"},{"sortkey":"","*":"Substantiv_n_(Schwedisch)"},{"sortkey":"","*":"Adjektiv_(Schwedisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Schwedisch)"},{"sortkey":"","hidden":"","*":"Seiten,_die_magische_ISBN-Links_verwenden"}],"links":[{"ns":106,"exists":"","*":"Reim:Deutsch:-\u026aft"},{"ns":106,"exists":"","*":"Reim:Englisch:-\u026aft"},{"ns":108,"exists":"","*":"Flexion:giften"},{"ns":108,"*":"Flexion:gift"},{"ns":0,"exists":"","*":"giften"},{"ns":0,"exists":"","*":"Begabung"},{"ns":0,"exists":"","*":"Deutsch"},{"ns":0,"exists":"","*":"Franz\u00f6sisch"},{"ns":0,"exists":"","*":"Gabe"},{"ns":0,"exists":"","*":"Geschenk"},{"ns":0,"exists":"","*":"Gift"},{"ns":0,"exists":"","*":"Italienisch"},{"ns":0,"exists":"","*":"Mittelenglisch"},{"ns":0,"exists":"","*":"Russisch"},{"ns":0,"exists":"","*":"Talent"},{"ns":0,"exists":"","*":"Utrum"},{"ns":0,"exists":"","*":"allowance"},{"ns":0,"exists":"","*":"altnordisch"},{"ns":0,"exists":"","*":"attributiv"},{"ns":0,"exists":"","*":"bonus"},{"ns":0,"exists":"","*":"cadeau"},{"ns":0,"exists":"","*":"donation"},{"ns":0,"exists":"","*":"dono"},{"ns":0,"exists":"","*":"gifte"},{"ns":0,"exists":"","*":"gifted"},{"ns":0,"exists":"","*":"gifterm\u00e5l"},{"ns":0,"exists":"","*":"giftet"},{"ns":0,"exists":"","*":"giftig"},{"ns":0,"exists":"","*":"gifts"},{"ns":0,"exists":"","*":"give"},{"ns":0,"exists":"","*":"maskulinum"},{"ns":0,"exists":"","*":"m\u00e5nggifte"},{"ns":0,"exists":"","*":"ogift"},{"ns":0,"exists":"","*":"present"},{"ns":0,"exists":"","*":"pr\u00e4dikativ"},{"ns":0,"exists":"","*":"regalo"},{"ns":0,"exists":"","*":"verheiratet"},{"ns":0,"*":"contribution"},{"ns":0,"*":"favour"},{"ns":0,"*":"talento"},{"ns":0,"*":"\u043fo\u0434a\u0440o\u043a"},{"ns":0,"*":"gifter"},{"ns":0,"*":"gifterna"},{"ns":0,"*":"giftets"},{"ns":0,"*":"gifters"},{"ns":0,"*":"gifternas"},{"ns":0,"*":"ormgift"},{"ns":0,"*":"r\u00e5ttgift"},{"ns":0,"*":"giftsk\u00e5p"},{"ns":0,"*":"gifta"},{"ns":0,"*":"gifta
+        sig"},{"ns":0,"*":"civilst\u00e5nd"},{"ns":0,"*":"engifte"},{"ns":6,"*":"Datei:En-us-gift.ogg"},{"ns":6,"*":"Datei:En-us-gifts.ogg"},{"ns":6,"*":"Datei:Sv-gift.ogg"},{"ns":4,"exists":"","*":"Wiktionary:Deutsch"},{"ns":4,"exists":"","*":"Wiktionary:D\u00e4nisch"},{"ns":4,"exists":"","*":"Wiktionary:Englisch"},{"ns":4,"exists":"","*":"Wiktionary:Referenzen"},{"ns":4,"exists":"","*":"Wiktionary:Schwedisch"},{"ns":12,"exists":"","*":"Hilfe:Adverb"},{"ns":12,"exists":"","*":"Hilfe:Bestimmt"},{"ns":12,"exists":"","*":"Hilfe:Genitiv"},{"ns":12,"exists":"","*":"Hilfe:Genus"},{"ns":12,"exists":"","*":"Hilfe:H\u00f6rbeispiele"},{"ns":12,"exists":"","*":"Hilfe:IPA"},{"ns":12,"exists":"","*":"Hilfe:Komparativ"},{"ns":12,"exists":"","*":"Hilfe:Neutrum"},{"ns":12,"exists":"","*":"Hilfe:Nominativ"},{"ns":12,"exists":"","*":"Hilfe:Plural"},{"ns":12,"exists":"","*":"Hilfe:Positiv"},{"ns":12,"exists":"","*":"Hilfe:Reime"},{"ns":12,"exists":"","*":"Hilfe:Singular"},{"ns":12,"exists":"","*":"Hilfe:Superlativ"},{"ns":12,"exists":"","*":"Hilfe:Unbestimmt"},{"ns":12,"exists":"","*":"Hilfe:Utrum"},{"ns":12,"exists":"","*":"Hilfe:Wortart"}],"templates":[{"ns":10,"exists":"","*":"Vorlage:Siehe
+        auch"},{"ns":10,"exists":"","*":"Vorlage:Sprache"},{"ns":10,"exists":"","*":"Vorlage:Anker"},{"ns":10,"exists":"","*":"Vorlage:Anker/code"},{"ns":10,"exists":"","*":"Vorlage:Wortart"},{"ns":10,"exists":"","*":"Vorlage:Nebenformen"},{"ns":10,"exists":"","*":"Vorlage:Textbaustein"},{"ns":10,"exists":"","*":"Vorlage:Worttrennung"},{"ns":10,"exists":"","*":"Vorlage:Aussprache"},{"ns":10,"exists":"","*":"Vorlage:IPA"},{"ns":10,"exists":"","*":"Vorlage:Lautschrift"},{"ns":10,"exists":"","*":"Vorlage:IPA-Text"},{"ns":10,"exists":"","*":"Vorlage:Str
+        match"},{"ns":10,"exists":"","*":"Vorlage:H\u00f6rbeispiele"},{"ns":10,"exists":"","*":"Vorlage:Audio"},{"ns":10,"exists":"","*":"Vorlage:Reime"},{"ns":10,"exists":"","*":"Vorlage:Reim"},{"ns":10,"exists":"","*":"Vorlage:Grammatische
+        Merkmale"},{"ns":10,"exists":"","*":"Vorlage:Grundformverweis"},{"ns":10,"exists":"","*":"Vorlage:u"},{"ns":10,"exists":"","*":"Vorlage:D\u00e4nisch
+        Substantiv \u00dcbersicht"},{"ns":10,"exists":"","*":"Vorlage:Pl."},{"ns":10,"exists":"","*":"Vorlage:Bedeutungen"},{"ns":10,"exists":"","*":"Vorlage:Beispiele"},{"ns":10,"exists":"","*":"Vorlage:Beispiele
+        fehlen"},{"ns":10,"exists":"","*":"Vorlage:Str left"},{"ns":10,"exists":"","*":"Vorlage:da"},{"ns":10,"exists":"","*":"Vorlage:\u00dc-Tabelle"},{"ns":10,"exists":"","*":"Vorlage:de"},{"ns":10,"exists":"","*":"Vorlage:\u00dc"},{"ns":10,"exists":"","*":"Vorlage:n"},{"ns":10,"exists":"","*":"Vorlage:fr"},{"ns":10,"exists":"","*":"Vorlage:Referenzen"},{"ns":10,"exists":"","*":"Vorlage:Wikipedia"},{"ns":10,"exists":"","*":"Vorlage:Ref-DenDanskeOrdbog"},{"ns":10,"exists":"","*":"Vorlage:Ref-ODS"},{"ns":10,"exists":"","*":"Vorlage:Ref-Pons"},{"ns":10,"exists":"","*":"Vorlage:ConvertLgCode"},{"ns":10,"exists":"","*":"Vorlage:Ref-dictcc"},{"ns":10,"exists":"","*":"Vorlage:D\u00e4nisch
+        Adjektiv \u00dcbersicht"},{"ns":10,"exists":"","*":"Vorlage:Englisch Substantiv
+        \u00dcbersicht"},{"ns":10,"exists":"","*":"Vorlage:Flexbox Substantiv"},{"ns":10,"exists":"","*":"Vorlage:Flexlink"},{"ns":10,"exists":"","*":"Vorlage:en"},{"ns":10,"exists":"","*":"Vorlage:Flexbox
+        Bilder"},{"ns":10,"exists":"","*":"Vorlage:Herkunft"},{"ns":10,"exists":"","*":"Vorlage:Synonyme"},{"ns":10,"exists":"","*":"Vorlage:Wortbildungen"},{"ns":10,"exists":"","*":"Vorlage:m"},{"ns":10,"exists":"","*":"Vorlage:it"},{"ns":10,"exists":"","*":"Vorlage:ru"},{"ns":10,"exists":"","*":"Vorlage:\u00dct"},{"ns":10,"exists":"","*":"Vorlage:Ref-MWD"},{"ns":10,"exists":"","*":"Vorlage:Quellen"},{"ns":10,"exists":"","*":"Vorlage:Ref-Oxford"},{"ns":10,"exists":"","*":"Vorlage:Abschnitte
+        fehlen"},{"ns":10,"exists":"","*":"Vorlage:fo"},{"ns":10,"exists":"","*":"Vorlage:nl"},{"ns":10,"exists":"","*":"Vorlage:no"},{"ns":10,"exists":"","*":"Vorlage:Schwedisch
+        Substantiv \u00dcbersicht"},{"ns":10,"exists":"","*":"Vorlage:Flexstern"},{"ns":10,"exists":"","*":"Vorlage:Str
+        rightc"},{"ns":10,"exists":"","*":"Vorlage:sv"},{"ns":10,"exists":"","*":"Vorlage:Unterbegriffe"},{"ns":10,"exists":"","*":"Vorlage:Ref-SAO"},{"ns":10,"exists":"","*":"Vorlage:Lit-SA:
+        Svenska Akademiens ordlista"},{"ns":10,"exists":"","*":"Vorlage:Literatur"},{"ns":10,"exists":"","*":"Vorlage:Datum"},{"ns":10,"exists":"","*":"Vorlage:Schwedisch
+        Adjektiv \u00dcbersicht"},{"ns":10,"exists":"","*":"Vorlage:Flexlink.sv"},{"ns":10,"exists":"","*":"Vorlage:kSt."},{"ns":10,"exists":"","*":"Vorlage:Gegenw\u00f6rter"},{"ns":10,"exists":"","*":"Vorlage:Charakteristische
+        Wortkombinationen"},{"ns":828,"exists":"","*":"Modul:sieheAuch"},{"ns":828,"exists":"","*":"Modul:Str"},{"ns":828,"exists":"","*":"Modul:Convert-CH"},{"ns":828,"exists":"","*":"Modul:String"},{"ns":828,"exists":"","*":"Modul:flexlink"},{"ns":828,"exists":"","*":"Modul:ErsetzeZeichen"}],"images":["En-us-gift.ogg","En-us-gifts.ogg","Sv-gift.ogg","Disambig.svg","Loudspeaker.svg"],"externallinks":["http://en.oxforddictionaries.com/definition/gift","http://g3.spraakdata.gu.se/cgi-bin/osa/indexsok.cgi?formtype=enkel&string=gifta","http://ordnet.dk/ddo/ordbog?query=gift","http://ordnet.dk/ods/opslag?opslag=gift&submit=S%F8g","http://de.pons.com/%C3%BCbersetzung?l=dade&q=gift","http://deda.dict.cc/?s=gift","http://www.m-w.com/dictionary/gift","http://deen.dict.cc/?s=gift","http://g3.spraakdata.gu.se/cgi-bin/osa/indexsok.cgi?formtype=enkel&string=gift","http://spraakdata.gu.se/saolhist/start.phtml?lemma=v%E5rb%25&mode=SAOLprod&med%5B%5D=SAOL13"],"sections":[{"toclevel":1,"level":"2","line":"gift
+        (Deutsch<span></span><span></span><span></span>)","number":"1","index":"1","fromtitle":"gift","byteoffset":24,"anchor":"gift_.28Deutsch.29"},{"toclevel":2,"level":"3","line":"Konjugierte
+        Form","number":"1.1","index":"2","fromtitle":"gift","byteoffset":57,"anchor":"Konjugierte_Form"},{"toclevel":1,"level":"2","line":"gift
+        (D\u00e4nisch<span></span><span></span><span></span>)","number":"2","index":"3","fromtitle":"gift","byteoffset":390,"anchor":"gift_.28D.C3.A4nisch.29"},{"toclevel":2,"level":"3","line":"Substantiv,
+        u","number":"2.1","index":"4","fromtitle":"gift","byteoffset":423,"anchor":"Substantiv.2C_u"},{"toclevel":3,"level":"4","line":"\u00dcbersetzungen","number":"2.1.1","index":"5","fromtitle":"gift","byteoffset":801,"anchor":".C3.9Cbersetzungen"},{"toclevel":2,"level":"3","line":"Adjektiv","number":"2.2","index":"6","fromtitle":"gift","byteoffset":1074,"anchor":"Adjektiv"},{"toclevel":3,"level":"4","line":"\u00dcbersetzungen","number":"2.2.1","index":"7","fromtitle":"gift","byteoffset":1367,"anchor":".C3.9Cbersetzungen_2"},{"toclevel":1,"level":"2","line":"gift
+        (Englisch<span></span><span></span><span></span>)","number":"3","index":"8","fromtitle":"gift","byteoffset":1554,"anchor":"gift_.28Englisch.29"},{"toclevel":2,"level":"3","line":"Substantiv","number":"3.1","index":"9","fromtitle":"gift","byteoffset":1588,"anchor":"Substantiv"},{"toclevel":3,"level":"4","line":"\u00dcbersetzungen","number":"3.1.1","index":"10","fromtitle":"gift","byteoffset":2529,"anchor":".C3.9Cbersetzungen_3"},{"toclevel":1,"level":"2","line":"gift
+        (Schwedisch<span></span><span></span><span></span>)","number":"4","index":"11","fromtitle":"gift","byteoffset":3040,"anchor":"gift_.28Schwedisch.29"},{"toclevel":2,"level":"3","line":"Substantiv,
+        n","number":"4.1","index":"12","fromtitle":"gift","byteoffset":3076,"anchor":"Substantiv.2C_n"},{"toclevel":3,"level":"4","line":"\u00dcbersetzungen","number":"4.1.1","index":"13","fromtitle":"gift","byteoffset":3670,"anchor":".C3.9Cbersetzungen_4"},{"toclevel":2,"level":"3","line":"Adjektiv","number":"4.2","index":"14","fromtitle":"gift","byteoffset":3882,"anchor":"Adjektiv_2"},{"toclevel":3,"level":"4","line":"\u00dcbersetzungen","number":"4.2.1","index":"15","fromtitle":"gift","byteoffset":4573,"anchor":".C3.9Cbersetzungen_5"}],"displaytitle":"gift","iwlinks":[{"prefix":"w","url":"https://de.wikipedia.org/wiki/da:Special:Search/gift","*":"w:da:Special:Search/gift"},{"prefix":"w","url":"https://de.wikipedia.org/wiki/en:Special:Search/gift","*":"w:en:Special:Search/gift"},{"prefix":"w","url":"https://de.wikipedia.org/wiki/sv:Special:Search/gift","*":"w:sv:Special:Search/gift"},{"prefix":"en","url":"https://en.wiktionary.org/wiki/Special:Search/give","*":"en:Special:Search/give"},{"prefix":"fr","url":"https://fr.wiktionary.org/wiki/Special:Search/cadeau","*":"fr:Special:Search/cadeau"},{"prefix":"it","url":"https://it.wiktionary.org/wiki/Special:Search/regalo","*":"it:Special:Search/regalo"},{"prefix":"it","url":"https://it.wiktionary.org/wiki/Special:Search/dono","*":"it:Special:Search/dono"},{"prefix":"it","url":"https://it.wiktionary.org/wiki/Special:Search/talento","*":"it:Special:Search/talento"},{"prefix":"ru","url":"https://ru.wiktionary.org/wiki/Special:Search/%D0%BFo%D0%B4a%D1%80o%D0%BA","*":"ru:Special:Search/\u043fo\u0434a\u0440o\u043a"},{"prefix":"sv","url":"https://sv.wiktionary.org/wiki/Special:Search/gifta_sig","*":"sv:Special:Search/gifta
+        sig"}],"properties":[]}}'
+    http_version: 
+  recorded_at: Sun, 12 Mar 2017 20:32:08 GMT
+- request:
+    method: post
+    uri: https://de.wiktionary.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=parse&format=json&page=Gift&token=%2B%5C
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Cookie:
+      - GeoIP=US:PA:Philadelphia:39.94:-75.15:v4; WMF-Last-Access=12-Mar-2017; WMF-Last-Access-Global=12-Mar-2017
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 12 Mar 2017 20:33:18 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - mw1207.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://de.wiktionary.org/wiki/Spezial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=62579 t=1489350797964557
+      X-Varnish:
+      - 394238878, 989573670
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1055 pass, cp1052 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Analytics:
+      - ns=-1;special=Badtitle;WMF-Last-Access=12-Mar-2017;WMF-Last-Access-Global=12-Mar-2017;https=1
+      X-Client-Ip:
+      - 2601:42:901:1f70:48c8:5adf:e79e:81f4
+    body:
+      encoding: ASCII-8BIT
+      string: '{"warnings":{"main":{"*":"Unrecognized parameter: token."}},"parse":{"title":"Gift","pageid":33380,"revid":5309337,"text":{"*":"<div
+        id=\"Vorlage_Siehe_auch\" style=\"display:none;\">\n<table cellspacing=\"8\"
+        cellpadding=\"0\" style=\"background-color: #FCFCFC; border: #E9E9E9; width:
+        100%; font-size: 12px; border-bottom-style: solid; margin-bottom: 1em;\">\n<tr>\n<td
+        style=\"width: 25px; vertical-align: middle;\"><a href=\"/wiki/Datei:Disambig.svg\"
+        class=\"image\"><img alt=\"Disambig.svg\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Disambig.svg/25px-Disambig.svg.png\"
+        width=\"25\" height=\"20\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Disambig.svg/38px-Disambig.svg.png
+        1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/72/Disambig.svg/50px-Disambig.svg.png
+        2x\" data-file-width=\"230\" data-file-height=\"183\" /></a></td>\n<td>Siehe
+        auch: <a href=\"/wiki/gift\" title=\"gift\">gift</a></td>\n</tr>\n</table>\n</div>\n<p></p>\n<div
+        id=\"toc\" class=\"toc\">\n<div id=\"toctitle\">\n<h2>Inhaltsverzeichnis</h2>\n</div>\n<ul>\n<li
+        class=\"toclevel-1 tocsection-1\"><a href=\"#Gift_.28Deutsch.29\"><span class=\"tocnumber\">1</span>
+        <span class=\"toctext\">Gift (Deutsch)</span></a>\n<ul>\n<li class=\"toclevel-2
+        tocsection-2\"><a href=\"#Substantiv.2C_n\"><span class=\"tocnumber\">1.1</span>
+        <span class=\"toctext\">Substantiv, n</span></a>\n<ul>\n<li class=\"toclevel-3
+        tocsection-3\"><a href=\"#.C3.9Cbersetzungen\"><span class=\"tocnumber\">1.1.1</span>
+        <span class=\"toctext\">\u00dcbersetzungen</span></a></li>\n</ul>\n</li>\n<li
+        class=\"toclevel-2 tocsection-4\"><a href=\"#Substantiv.2C_f\"><span class=\"tocnumber\">1.2</span>
+        <span class=\"toctext\">Substantiv, f</span></a>\n<ul>\n<li class=\"toclevel-3
+        tocsection-5\"><a href=\"#.C3.9Cbersetzungen_2\"><span class=\"tocnumber\">1.2.1</span>
+        <span class=\"toctext\">\u00dcbersetzungen</span></a></li>\n</ul>\n</li>\n<li
+        class=\"toclevel-2 tocsection-6\"><a href=\"#Substantiv.2C_m\"><span class=\"tocnumber\">1.3</span>
+        <span class=\"toctext\">Substantiv, m</span></a>\n<ul>\n<li class=\"toclevel-3
+        tocsection-7\"><a href=\"#.C3.9Cbersetzungen_3\"><span class=\"tocnumber\">1.3.1</span>
+        <span class=\"toctext\">\u00dcbersetzungen</span></a></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</div>\n<p></p>\n<h2><span
+        class=\"mw-headline\" id=\"Gift_.28Deutsch.29\">Gift (<a href=\"/wiki/Wiktionary:Deutsch\"
+        title=\"Wiktionary:Deutsch\">Deutsch</a><span style=\"visibility:hidden\"
+        id=\"Gift_.28Deutsch.29\"><span id=\"Anker:Gift_.28Deutsch.29\"></span></span><span
+        style=\"visibility:hidden\" id=\"Deutsch\"><span id=\"Anker:Deutsch\"></span></span><span
+        style=\"visibility:hidden\" id=\"Deutsch\"><span id=\"Anker:Deutsch\"></span></span>)</span><span
+        class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=Gift&amp;action=edit&amp;section=1\" title=\"Abschnitt
+        bearbeiten: Gift (Deutsch)\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span
+        class=\"mw-headline\" id=\"Substantiv.2C_n\"><a href=\"/wiki/Hilfe:Wortart\"
+        title=\"Hilfe:Wortart\">Substantiv</a>, <em title=\"Genus: Neutrum (grammatikal.
+        Geschlecht: s\u00e4chlich)\">n</em></span><span class=\"mw-editsection\"><span
+        class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Gift&amp;action=edit&amp;section=2\"
+        title=\"Abschnitt bearbeiten: Substantiv, n\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table
+        class=\"wikitable float-right inflection-table flexbox hintergrundfarbe2\"
+        style=\"margin:0 0 .5em .4em;\">\n<tr>\n<th width=\"65\"></th>\n<th><a href=\"/wiki/Hilfe:Singular\"
+        title=\"Hilfe:Singular\">Singular</a></th>\n<th><a href=\"/wiki/Hilfe:Plural\"
+        title=\"Hilfe:Plural\">Plural</a></th>\n</tr>\n<tr>\n<th style=\"text-align:left;\"><a
+        href=\"/wiki/Hilfe:Nominativ\" title=\"Hilfe:Nominativ\">Nominativ</a></th>\n<td>das
+        Gift</td>\n<td>die <a href=\"/wiki/Gifte\" title=\"Gifte\">Gifte</a></td>\n</tr>\n<tr>\n<th
+        style=\"text-align:left;\"><a href=\"/wiki/Hilfe:Genitiv\" title=\"Hilfe:Genitiv\">Genitiv</a></th>\n<td>des
+        <a href=\"/wiki/Gifts\" title=\"Gifts\">Gifts</a><br />\ndes <a href=\"/wiki/Giftes\"
+        title=\"Giftes\">Giftes</a></td>\n<td>der <a href=\"/wiki/Gifte\" title=\"Gifte\">Gifte</a></td>\n</tr>\n<tr>\n<th
+        style=\"text-align:left;\"><a href=\"/wiki/Hilfe:Dativ\" title=\"Hilfe:Dativ\">Dativ</a></th>\n<td>dem
+        Gift<br />\ndem <a href=\"/wiki/Gifte\" title=\"Gifte\">Gifte</a></td>\n<td>den
+        <a href=\"/wiki/Giften\" title=\"Giften\">Giften</a></td>\n</tr>\n<tr>\n<th
+        style=\"text-align:left;\"><a href=\"/wiki/Hilfe:Akkusativ\" title=\"Hilfe:Akkusativ\">Akkusativ</a></th>\n<td>das
+        Gift</td>\n<td>die <a href=\"/wiki/Gifte\" title=\"Gifte\">Gifte</a></td>\n</tr>\n</table>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Trennungsm\u00f6glichkeiten
+        am Zeilenumbruch\">Worttrennung:</p>\n<dl>\n<dd>Gift, <span style=\"font-size:95%;\">Plural:</span>
+        Gif\u00b7te</dd>\n</dl>\n<p style=\"margin-bottom:-0.5em; font-weight:bold;\"
+        title=\"Phonetik\">Aussprache:</p>\n<dl>\n<dd><a href=\"/wiki/Hilfe:IPA\"
+        title=\"Hilfe:IPA\">IPA</a>: [<span class=\"ipa\" style=\"padding: 0 1px;
+        text-decoration: none;\">\u0261\u026aft</span>]</dd>\n<dd><a href=\"/wiki/Hilfe:H%C3%B6rbeispiele\"
+        title=\"Hilfe:H\u00f6rbeispiele\">H\u00f6rbeispiele</a>: <img alt=\"Lautsprecherbild\"
+        src=\"//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/15px-Loudspeaker.svg.png\"
+        title=\"Lautsprecherbild\" width=\"15\" height=\"15\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/23px-Loudspeaker.svg.png
+        1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/30px-Loudspeaker.svg.png
+        2x\" data-file-width=\"20\" data-file-height=\"20\" />&#160;<a href=\"//upload.wikimedia.org/wikipedia/commons/0/01/De-Gift.ogg\"
+        class=\"internal\" title=\"De-Gift.ogg\">Gift</a><sup>&#160;(<a href=\"/wiki/Datei:De-Gift.ogg\"
+        title=\"Datei:De-Gift.ogg\">Info</a>)</sup></dd>\n<dd><a href=\"/wiki/Hilfe:Reime\"
+        title=\"Hilfe:Reime\">Reime</a>: <span class=\"ipa\" style=\"padding: 0 1px;
+        text-decoration: none;\"><a href=\"/wiki/Reim:Deutsch:-%C9%AAft\" title=\"Reim:Deutsch:-\u026aft\">-\u026aft</a></span></dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Sinn und Bezeichnetes
+        (Semantik)\">Bedeutungen:</p>\n<dl>\n<dd>[1] gesundheitssch\u00e4dliche oder
+        potenziell t\u00f6dliche Substanz\n<dl>\n<dd>[a] <i><a href=\"/wiki/Biologie\"
+        title=\"Biologie\">Biologie</a>:</i> durch Biss oder Stich in den K\u00f6rper
+        eingespritzte gesundheitssch\u00e4dliche oder potentiell t\u00f6dliche Substanz</dd>\n</dl>\n</dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Etymologie und Morphologie\">Herkunft:</p>\n<dl>\n<dd><a
+        href=\"/wiki/mittelhochdeutsch\" title=\"mittelhochdeutsch\">mittelhochdeutsch</a>
+        <i>gift</i>, althochdeutsch <i>gift</i>, germanisch *<i>gefti-</i> \u201eGabe\u201c,
+        belegt seit dem 9. Jahrhundert, in heutiger Bedeutung seit dem 11. Jahrhundert<sup
+        id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\">[1]</a></sup></dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"bedeutungsgleich
+        gebrauchte W\u00f6rter\">Synonyme:</p>\n<dl>\n<dd>[1] <a href=\"/w/index.php?title=Toxin&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Toxin (Seite nicht vorhanden)\">Toxin</a>, <a href=\"/w/index.php?title=Noxe&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Noxe (Seite nicht vorhanden)\">Noxe</a></dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Antonyme\">Gegenw\u00f6rter:</p>\n<dl>\n<dd>[1]
+        <a href=\"/wiki/Antidot\" title=\"Antidot\">Antidot</a>, <a href=\"/wiki/Gegengift\"
+        title=\"Gegengift\">Gegengift</a></dd>\n<dd>[1] <a href=\"/wiki/Heilmittel\"
+        title=\"Heilmittel\">Heilmittel</a></dd>\n</dl>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Hyperonyme\">Oberbegriffe:</p>\n<dl>\n<dd>[1]
+        <a href=\"/wiki/Schadstoff\" title=\"Schadstoff\">Schadstoff</a></dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Hyponyme\">Unterbegriffe:</p>\n<dl>\n<dd>[1]
+        <a href=\"/w/index.php?title=Ameisengift&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"Ameisengift (Seite nicht vorhanden)\">Ameisengift</a>, <a href=\"/w/index.php?title=Atemgift&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Atemgift (Seite nicht vorhanden)\">Atemgift</a>, <a
+        href=\"/wiki/Kontaktgift\" title=\"Kontaktgift\">Kontaktgift</a>, <a href=\"/w/index.php?title=Nahrungsmittelgift&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Nahrungsmittelgift (Seite nicht vorhanden)\">Nahrungsmittelgift</a>,
+        <a href=\"/w/index.php?title=Nervengift&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"Nervengift (Seite nicht vorhanden)\">Nervengift</a>, <a href=\"/wiki/Pfeilgift\"
+        title=\"Pfeilgift\">Pfeilgift</a>, <a href=\"/wiki/Rattengift\" title=\"Rattengift\">Rattengift</a>,
+        <a href=\"/wiki/Rauschgift\" title=\"Rauschgift\">Rauschgift</a>, <a href=\"/wiki/Schlangengift\"
+        title=\"Schlangengift\">Schlangengift</a>, <a href=\"/wiki/Suchtgift\" title=\"Suchtgift\">Suchtgift</a>,
+        <a href=\"/wiki/Umweltgift\" title=\"Umweltgift\">Umweltgift</a>, <a href=\"/w/index.php?title=Zellgift&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Zellgift (Seite nicht vorhanden)\">Zellgift</a></dd>\n<dd>[1a]
+        <a href=\"/wiki/Bienengift\" title=\"Bienengift\">Bienengift</a>, <a href=\"/wiki/Schlangengift\"
+        title=\"Schlangengift\">Schlangengift</a></dd>\n</dl>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Verwendungsbeispiels\u00e4tze\">Beispiele:</p>\n<dl>\n<dd>[1]
+        Hamlets Vater wurde vom eigenen Bruder mit <i>Gift</i> ermordet.</dd>\n<dd>[1]
+        \u201eJedes Ding ist <i>Gift</i> und kein Ding ist ohne <i>Gift,</i> allein
+        die Dosis macht, dass ein Ding kein <i>Gift</i> ist.\u201c \u2013 (Paracelsus)</dd>\n<dd>[1]
+        \u201eZudem muss Basileios seinen H\u00f6flingen misstrauen - etliche seiner
+        Vorg\u00e4nger sind durch <i>Gift</i> gestorben oder von Verschw\u00f6rern
+        gest\u00fcrzt worden.\u201c<sup id=\"cite_ref-2\" class=\"reference\"><a href=\"#cite_note-2\">[2]</a></sup></dd>\n<dd>[1a]
+        Das <i>Gift</i> des Inlandtaipans ist das st\u00e4rkste bekannte Schlangengift.</dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Phraseologismen\">Redewendungen:</p>\n<dl>\n<dd>[1]
+        Darauf kannst du Gift nehmen!</dd>\n<dd>[1] <a href=\"/wiki/Gift_und_Galle_speien\"
+        title=\"Gift und Galle speien\">Gift und Galle speien</a>, <a href=\"/wiki/Gift_und_Galle_spucken\"
+        title=\"Gift und Galle spucken\">Gift und Galle spucken</a> \u2013</dd>\n<dd>[1]
+        <a href=\"/w/index.php?title=sein_Gift_verspr%C3%BChen&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"sein Gift verspr\u00fchen (Seite nicht vorhanden)\">sein
+        Gift verspr\u00fchen</a> \u2013 <a href=\"/wiki/b%C3%B6sartig\" title=\"b\u00f6sartig\">b\u00f6sartige</a>
+        Bemerkungen machen</dd>\n<dd>[1] blondes Gift - (<i>\u00fcbertragen</i>) eine
+        gef\u00e4hrlich sch\u00f6ne blonde Verf\u00fchrerin</dd>\n</dl>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Signifikante Kollokationen\">Charakteristische
+        Wortkombinationen:</p>\n<dl>\n<dd>[1] <i>Gift</i> ausscheiden, nehmen, verabreichen</dd>\n<dd>[1,1a]
+        <i>Gift</i> spritzen</dd>\n</dl>\n<p style=\"margin-bottom:-0.5em; font-weight:bold;\"
+        title=\"Derivate, Komposita und Konversionen\">Wortbildungen:</p>\n<dl>\n<dd><i><a
+        href=\"/wiki/Adjektiv\" title=\"Adjektiv\">Adjektive</a>:</i> <a href=\"/w/index.php?title=giftfest&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"giftfest (Seite nicht vorhanden)\">giftfest</a>, <a
+        href=\"/wiki/giftfrei\" title=\"giftfrei\">giftfrei</a>, <a href=\"/wiki/gifthaltig\"
+        title=\"gifthaltig\">gifthaltig</a>/<a href=\"/wiki/gifth%C3%A4ltig\" title=\"gifth\u00e4ltig\">gifth\u00e4ltig</a>,
+        <a href=\"/wiki/giftig\" title=\"giftig\">giftig</a></dd>\n<dd><i><a href=\"/wiki/Substantiv\"
+        title=\"Substantiv\">Substantive</a>:</i> <a href=\"/wiki/Gegengift\" title=\"Gegengift\">Gegengift</a>,
+        <a href=\"/wiki/Giftampulle\" title=\"Giftampulle\">Giftampulle</a>, <a href=\"/w/index.php?title=Giftattentat&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Giftattentat (Seite nicht vorhanden)\">Giftattentat</a>,
+        <a href=\"/w/index.php?title=Giftbecher&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"Giftbecher (Seite nicht vorhanden)\">Giftbecher</a>, <a href=\"/w/index.php?title=Giftblase&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Giftblase (Seite nicht vorhanden)\">Giftblase</a>, <a
+        href=\"/wiki/Giftdr%C3%BCse\" title=\"Giftdr\u00fcse\">Giftdr\u00fcse</a>,
+        <a href=\"/w/index.php?title=Giftei&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"Giftei (Seite nicht vorhanden)\">Giftei</a>, <a href=\"/wiki/Gifteinsatz\"
+        title=\"Gifteinsatz\">Gifteinsatz</a>, <a href=\"/w/index.php?title=Giftempfindlichkeit&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Giftempfindlichkeit (Seite nicht vorhanden)\">Giftempfindlichkeit</a>,
+        <a href=\"/w/index.php?title=Giftfracht&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"Giftfracht (Seite nicht vorhanden)\">Giftfracht</a>, <a href=\"/wiki/Giftgas\"
+        title=\"Giftgas\">Giftgas</a>, <a href=\"/w/index.php?title=Giftgetreide&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Giftgetreide (Seite nicht vorhanden)\">Giftgetreide</a>,
+        <a href=\"/w/index.php?title=Giftinformationsstelle&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Giftinformationsstelle (Seite nicht vorhanden)\">Giftinformationsstelle</a>,
+        <a href=\"/w/index.php?title=Giftkr%C3%B6te&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Giftkr\u00f6te (Seite nicht vorhanden)\">Giftkr\u00f6te</a>,
+        <a href=\"/w/index.php?title=Giftk%C3%BCche&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Giftk\u00fcche (Seite nicht vorhanden)\">Giftk\u00fcche</a>,
+        <a href=\"/wiki/Giftler\" title=\"Giftler\">Giftler</a>, <a href=\"/w/index.php?title=Giftmischer&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Giftmischer (Seite nicht vorhanden)\">Giftmischer</a>,
+        <a href=\"/w/index.php?title=Giftmord&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"Giftmord (Seite nicht vorhanden)\">Giftmord</a>, <a href=\"/wiki/Giftm%C3%BCll\"
+        title=\"Giftm\u00fcll\">Giftm\u00fcll</a>, <a href=\"/w/index.php?title=Giftnatter&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Giftnatter (Seite nicht vorhanden)\">Giftnatter</a>,
+        <a href=\"/w/index.php?title=Giftnotruf&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"Giftnotruf (Seite nicht vorhanden)\">Giftnotruf</a>, <a href=\"/wiki/Giftpfeil\"
+        title=\"Giftpfeil\">Giftpfeil</a>, <a href=\"/wiki/Giftpflanze\" title=\"Giftpflanze\">Giftpflanze</a>,
+        <a href=\"/w/index.php?title=Giftpilz&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"Giftpilz (Seite nicht vorhanden)\">Giftpilz</a>, <a href=\"/wiki/Giftschlange\"
+        title=\"Giftschlange\">Giftschlange</a>, <a href=\"/w/index.php?title=Giftschrank&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Giftschrank (Seite nicht vorhanden)\">Giftschrank</a>,
+        <a href=\"/w/index.php?title=Giftspinne&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"Giftspinne (Seite nicht vorhanden)\">Giftspinne</a>, <a href=\"/wiki/Giftspritze\"
+        title=\"Giftspritze\">Giftspritze</a>, <a href=\"/w/index.php?title=Giftst%C3%A4bchen&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Giftst\u00e4bchen (Seite nicht vorhanden)\">Giftst\u00e4bchen</a>,
+        <a href=\"/w/index.php?title=Giftstachel&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"Giftstachel (Seite nicht vorhanden)\">Giftstachel</a>, <a href=\"/wiki/Giftstoff\"
+        title=\"Giftstoff\">Giftstoff</a>, <a href=\"/wiki/Gifttier\" title=\"Gifttier\">Gifttier</a>,
+        <a href=\"/w/index.php?title=Gifttrank&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"Gifttrank (Seite nicht vorhanden)\">Gifttrank</a>, <a href=\"/w/index.php?title=Giftweizen&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Giftweizen (Seite nicht vorhanden)\">Giftweizen</a>,
+        <a href=\"/w/index.php?title=Giftwolke&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"Giftwolke (Seite nicht vorhanden)\">Giftwolke</a>, <a href=\"/wiki/Giftzahn\"
+        title=\"Giftzahn\">Giftzahn</a>, <a href=\"/wiki/Giftzwerg\" title=\"Giftzwerg\">Giftzwerg</a></dd>\n<dd><i><a
+        href=\"/wiki/Verb\" title=\"Verb\">Verben</a>:</i> <a href=\"/w/index.php?title=angiften&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"angiften (Seite nicht vorhanden)\">angiften</a>, <a
+        href=\"/wiki/vergiften\" title=\"vergiften\">vergiften</a> (\u2192 <a href=\"/wiki/Vergiftung\"
+        title=\"Vergiftung\">Vergiftung</a>)</dd>\n</dl>\n<h4><span class=\"mw-headline\"
+        id=\".C3.9Cbersetzungen\">\u00dcbersetzungen</span><span class=\"mw-editsection\"><span
+        class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Gift&amp;action=edit&amp;section=3\"
+        title=\"Abschnitt bearbeiten: \u00dcbersetzungen\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h4>\n<div
+        class=\"mw-collapsible NavFrame\" style=\"margin-bottom:1em; margin-left:0;
+        clear:both; text-align:left;\">\n<div style=\"border-top: dotted 1px #aaaaaa;
+        border-bottom: dotted 1px #aaaaaa; padding-left:5px; padding-top:1px; padding-bottom:1px;
+        height: 1.6em; font-size:100%; background-color: #EFF5FB; font-weight: bold;\">&#160;</div>\n<div
+        class=\"mw-collapsible-content NavContent\" style=\"background-color:#F5FAFE;\">\n<table
+        border=\"0\" style=\"width:100%; background-color:#F5FAFE;\" title=\"\u00dcbersetzungen
+        in andere Sprachen\">\n<tr>\n<td style=\"border-bottom: dotted 1px #aaaaaa;\"
+        bgcolor=\"#F7F7F9\" valign=\"top\" width=\"50%\">\n<ul>\n<li><a href=\"/wiki/Altgriechisch\"
+        title=\"Altgriechisch\">Altgriechisch</a>: [1] <span lang=\"grc\" xml:lang=\"grc\"><a
+        href=\"/wiki/%CF%86%CE%AC%CF%81%CE%BC%CE%B1%CE%BA%CE%BF%CE%BD#.CF.86.CE.AC.CF.81.CE.BC.CE.B1.CE.BA.CE.BF.CE.BD_.28Altgriechisch.29\"
+        title=\"\u03c6\u03ac\u03c1\u03bc\u03b1\u03ba\u03bf\u03bd\">\u03c6\u03ac\u03c1\u03bc\u03b1\u03ba\u03bf\u03bd</a></span>&#160;(ph\u00e1rmakon)&#160;<sup
+        style=\"color:slategray;\">\u2192&#160;grc</sup> <em title=\"Genus: Neutrum
+        (grammatikal. Geschlecht: s\u00e4chlich)\">n</em></li>\n<li><a href=\"/wiki/Arabisch\"
+        title=\"Arabisch\">Arabisch</a>: [1] <a href=\"/w/index.php?title=%D8%B0%D9%8F%D8%B9%D9%8E%D8%A7%D9%81%D9%8C&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"\u0630\u064f\u0639\u064e\u0627\u0641\u064c (Seite nicht
+        vorhanden)\">\u0630\u064f\u0639\u064e\u0627\u0641\u064c</a> (\u00f0u\u0295a:f(un))
+        <a href=\"https://ar.wiktionary.org/wiki/%D8%B0%D9%8F%D8%B9%D9%8E%D8%A7%D9%81%D9%8C\"
+        class=\"extiw\" title=\"ar:\u0630\u064f\u0639\u064e\u0627\u0641\u064c\"><sup>\u2192&#160;ar</sup></a>
+        <em title=\"Genus: Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em></li>\n<li><a
+        href=\"/wiki/Armenisch\" title=\"Armenisch\">Armenisch</a>: [1] <span lang=\"hy\"
+        xml:lang=\"hy\"><a href=\"/w/index.php?title=%D5%A9%D5%B8%D6%82%D5%B5%D5%B6&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"\u0569\u0578\u0582\u0575\u0576 (Seite nicht vorhanden)\">\u0569\u0578\u0582\u0575\u0576</a></span>&#160;(tujn)&#160;<a
+        href=\"https://hy.wiktionary.org/wiki/Special:Search/%D5%A9%D5%B8%D6%82%D5%B5%D5%B6\"
+        class=\"extiw\" title=\"hy:Special:Search/\u0569\u0578\u0582\u0575\u0576\"><sup>\u2192&#160;hy</sup></a></li>\n<li><a
+        href=\"/wiki/D%C3%A4nisch\" title=\"D\u00e4nisch\">D\u00e4nisch</a>: [1] <span
+        lang=\"da\" xml:lang=\"da\"><a href=\"/wiki/gift#gift_.28D.C3.A4nisch.29\"
+        title=\"gift\">gift</a></span>&#160;<a href=\"https://da.wiktionary.org/wiki/Special:Search/gift\"
+        class=\"extiw\" title=\"da:Special:Search/gift\"><sup>\u2192&#160;da</sup></a>
+        <em title=\"Genus: Utrum (grammatikal. Geschlecht: m\u00e4nnlich oder weiblich)\"><a
+        href=\"/wiki/Utrum\" title=\"Utrum\">u</a></em></li>\n<li><a href=\"/wiki/Englisch\"
+        title=\"Englisch\">Englisch</a>: [1] <span lang=\"en\" xml:lang=\"en\"><a
+        href=\"/wiki/poison#poison_.28Englisch.29\" title=\"poison\">poison</a></span>&#160;<a
+        href=\"https://en.wiktionary.org/wiki/Special:Search/poison\" class=\"extiw\"
+        title=\"en:Special:Search/poison\"><sup>\u2192&#160;en</sup></a>, <span lang=\"en\"
+        xml:lang=\"en\"><a href=\"/wiki/toxin#toxin_.28Englisch.29\" title=\"toxin\">toxin</a></span>&#160;<a
+        href=\"https://en.wiktionary.org/wiki/Special:Search/toxin\" class=\"extiw\"
+        title=\"en:Special:Search/toxin\"><sup>\u2192&#160;en</sup></a>; [2] <span
+        lang=\"en\" xml:lang=\"en\"><a href=\"/wiki/venom#venom_.28Englisch.29\" title=\"venom\">venom</a></span>&#160;<a
+        href=\"https://en.wiktionary.org/wiki/Special:Search/venom\" class=\"extiw\"
+        title=\"en:Special:Search/venom\"><sup>\u2192&#160;en</sup></a></li>\n<li><a
+        href=\"/wiki/Esperanto\" title=\"Esperanto\">Esperanto</a>: [1] <span lang=\"eo\"
+        xml:lang=\"eo\"><a href=\"/wiki/veneno#veneno_.28Esperanto.29\" title=\"veneno\">veneno</a></span>&#160;<a
+        href=\"https://eo.wiktionary.org/wiki/Special:Search/veneno\" class=\"extiw\"
+        title=\"eo:Special:Search/veneno\"><sup>\u2192&#160;eo</sup></a></li>\n<li><a
+        href=\"/wiki/F%C3%A4r%C3%B6isch\" title=\"F\u00e4r\u00f6isch\">F\u00e4r\u00f6isch</a>:
+        [1] <span lang=\"fo\" xml:lang=\"fo\"><a href=\"/wiki/eitur#eitur_.28F.C3.A4r.C3.B6isch.29\"
+        title=\"eitur\">eitur</a></span>&#160;<a href=\"https://fo.wiktionary.org/wiki/Special:Search/eitur\"
+        class=\"extiw\" title=\"fo:Special:Search/eitur\"><sup>\u2192&#160;fo</sup></a>
+        <em title=\"Genus: Neutrum (grammatikal. Geschlecht: s\u00e4chlich)\">n</em></li>\n<li><a
+        href=\"/wiki/Finnisch\" title=\"Finnisch\">Finnisch</a>: [1, 2] <span lang=\"fi\"
+        xml:lang=\"fi\"><a href=\"/w/index.php?title=myrkky&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"myrkky (Seite nicht vorhanden)\">myrkky</a></span>&#160;<a
+        href=\"https://fi.wiktionary.org/wiki/Special:Search/myrkky\" class=\"extiw\"
+        title=\"fi:Special:Search/myrkky\"><sup>\u2192&#160;fi</sup></a></li>\n<li><a
+        href=\"/wiki/Franz%C3%B6sisch\" title=\"Franz\u00f6sisch\">Franz\u00f6sisch</a>:
+        [1] <span lang=\"fr\" xml:lang=\"fr\"><a href=\"/wiki/poison#poison_.28Franz.C3.B6sisch.29\"
+        title=\"poison\">poison</a></span>&#160;<a href=\"https://fr.wiktionary.org/wiki/Special:Search/poison\"
+        class=\"extiw\" title=\"fr:Special:Search/poison\"><sup>\u2192&#160;fr</sup></a>
+        <em title=\"Genus: Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em>,
+        <span lang=\"fr\" xml:lang=\"fr\"><a href=\"/wiki/venin#venin_.28Franz.C3.B6sisch.29\"
+        title=\"venin\">venin</a></span>&#160;<a href=\"https://fr.wiktionary.org/wiki/Special:Search/venin\"
+        class=\"extiw\" title=\"fr:Special:Search/venin\"><sup>\u2192&#160;fr</sup></a>
+        <em title=\"Genus: Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em></li>\n<li><a
+        href=\"/wiki/Neugriechisch\" title=\"Neugriechisch\">Griechisch (Neu-)</a>:
+        [1] <span lang=\"el\" xml:lang=\"el\"><a href=\"/w/index.php?title=%CE%B4%CE%B7%CE%BB%CE%B7%CF%84%CE%AE%CF%81%CE%B9%CE%BF&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"\u03b4\u03b7\u03bb\u03b7\u03c4\u03ae\u03c1\u03b9\u03bf
+        (Seite nicht vorhanden)\">\u03b4\u03b7\u03bb\u03b7\u03c4\u03ae\u03c1\u03b9\u03bf</a></span>&#160;(dilit\u00edrio)&#160;<a
+        href=\"https://el.wiktionary.org/wiki/Special:Search/%CE%B4%CE%B7%CE%BB%CE%B7%CF%84%CE%AE%CF%81%CE%B9%CE%BF\"
+        class=\"extiw\" title=\"el:Special:Search/\u03b4\u03b7\u03bb\u03b7\u03c4\u03ae\u03c1\u03b9\u03bf\"><sup>\u2192&#160;el</sup></a>
+        <em title=\"Genus: Neutrum (grammatikal. Geschlecht: s\u00e4chlich)\">n</em></li>\n<li><a
+        href=\"/wiki/Gr%C3%B6nl%C3%A4ndisch\" title=\"Gr\u00f6nl\u00e4ndisch\">Gr\u00f6nl\u00e4ndisch</a>:
+        [1] <span lang=\"kl\" xml:lang=\"kl\"><a href=\"/w/index.php?title=toqunartoq&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"toqunartoq (Seite nicht vorhanden)\">toqunartoq</a></span>&#160;<a
+        href=\"https://kl.wiktionary.org/wiki/Special:Search/toqunartoq\" class=\"extiw\"
+        title=\"kl:Special:Search/toqunartoq\"><sup>\u2192&#160;kl</sup></a></li>\n<li><a
+        href=\"/wiki/Hawaiianisch\" title=\"Hawaiianisch\">Hawaiianisch</a>: [1] <span
+        lang=\"haw\" xml:lang=\"haw\"><a href=\"/wiki/l%C4%81%E2%80%99au_make#l.C4.81.E2.80.99au_make_.28Hawaiianisch.29\"
+        class=\"mw-redirect\" title=\"l\u0101\u2019au make\">l\u0101\u2019au make</a></span>&#160;<sup
+        style=\"color:slategray;\">\u2192&#160;haw</sup></li>\n<li><a href=\"/wiki/Interlingua\"
+        title=\"Interlingua\">Interlingua</a>: [1] <span lang=\"ia\" xml:lang=\"ia\"><a
+        href=\"/wiki/veneno#veneno_.28Interlingua.29\" title=\"veneno\">veneno</a></span>&#160;<a
+        href=\"https://ia.wiktionary.org/wiki/Special:Search/veneno\" class=\"extiw\"
+        title=\"ia:Special:Search/veneno\"><sup>\u2192&#160;ia</sup></a></li>\n<li><a
+        href=\"/wiki/Italienisch\" title=\"Italienisch\">Italienisch</a>: [1] <span
+        lang=\"it\" xml:lang=\"it\"><a href=\"/wiki/veleno#veleno_.28Italienisch.29\"
+        title=\"veleno\">veleno</a></span>&#160;<a href=\"https://it.wiktionary.org/wiki/Special:Search/veleno\"
+        class=\"extiw\" title=\"it:Special:Search/veleno\"><sup>\u2192&#160;it</sup></a>,
+        <span lang=\"it\" xml:lang=\"it\"><a href=\"/w/index.php?title=tossico&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"tossico (Seite nicht vorhanden)\">tossico</a></span>&#160;<a
+        href=\"https://it.wiktionary.org/wiki/Special:Search/tossico\" class=\"extiw\"
+        title=\"it:Special:Search/tossico\"><sup>\u2192&#160;it</sup></a> <em title=\"Genus:
+        Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em></li>\n<li><a
+        href=\"/wiki/Japanisch\" title=\"Japanisch\">Japanisch</a>: [1] <span lang=\"ja\"
+        xml:lang=\"ja\"><a href=\"/w/index.php?title=%E6%AF%92&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"\u6bd2 (Seite nicht vorhanden)\">\u6bd2</a></span>&#160;(\u3069\u304f,
+        doku)&#160;<a href=\"https://ja.wiktionary.org/wiki/Special:Search/%E6%AF%92\"
+        class=\"extiw\" title=\"ja:Special:Search/\u6bd2\"><sup>\u2192&#160;ja</sup></a>,
+        <span lang=\"ja\" xml:lang=\"ja\"><a href=\"/w/index.php?title=%E6%AF%92%E8%96%AC&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"\u6bd2\u85ac (Seite nicht vorhanden)\">\u6bd2\u85ac</a></span>&#160;(\u3069\u304f\u3084\u304f,
+        dokuyaku)&#160;<a href=\"https://ja.wiktionary.org/wiki/Special:Search/%E6%AF%92%E8%96%AC\"
+        class=\"extiw\" title=\"ja:Special:Search/\u6bd2\u85ac\"><sup>\u2192&#160;ja</sup></a></li>\n<li><a
+        href=\"/wiki/Katalanisch\" title=\"Katalanisch\">Katalanisch</a>: [1] <span
+        lang=\"ca\" xml:lang=\"ca\"><a href=\"/w/index.php?title=ver%C3%AD&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"ver\u00ed (Seite nicht vorhanden)\">ver\u00ed</a></span>&#160;<a
+        href=\"https://ca.wiktionary.org/wiki/Special:Search/ver%C3%AD\" class=\"extiw\"
+        title=\"ca:Special:Search/ver\u00ed\"><sup>\u2192&#160;ca</sup></a> <em title=\"Genus:
+        Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em>, <span lang=\"ca\"
+        xml:lang=\"ca\"><a href=\"/w/index.php?title=metzina&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"metzina (Seite nicht vorhanden)\">metzina</a></span>&#160;<a
+        href=\"https://ca.wiktionary.org/wiki/Special:Search/metzina\" class=\"extiw\"
+        title=\"ca:Special:Search/metzina\"><sup>\u2192&#160;ca</sup></a> <em title=\"Genus:
+        Femininum (grammatikal. Geschlecht: weiblich)\">f</em></li>\n<li><a href=\"/wiki/Koreanisch\"
+        title=\"Koreanisch\">Koreanisch</a>: [1] <span lang=\"ko\" xml:lang=\"ko\"><a
+        href=\"/w/index.php?title=%EB%8F%85&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"\ub3c5 (Seite nicht vorhanden)\">\ub3c5</a></span>&#160;(dog)&#160;<a
+        href=\"https://ko.wiktionary.org/wiki/Special:Search/%EB%8F%85\" class=\"extiw\"
+        title=\"ko:Special:Search/\ub3c5\"><sup>\u2192&#160;ko</sup></a></li>\n</ul>\n</td>\n<td
+        bgcolor=\"#F7F7F9\" style=\"border-bottom: dotted 1px #aaaaaa;\"></td>\n<td
+        style=\"border-bottom: dotted 1px #aaaaaa;\" bgcolor=\"#F7F7F9\" valign=\"top\"
+        width=\"50%\">\n<ul>\n<li><a href=\"/wiki/Latein\" title=\"Latein\">Latein</a>:
+        [1] <span lang=\"la\" xml:lang=\"la\"><a href=\"/w/index.php?title=venenum&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"venenum (Seite nicht vorhanden)\">venenum</a></span>&#160;<a
+        href=\"https://la.wiktionary.org/wiki/Special:Search/venenum\" class=\"extiw\"
+        title=\"la:Special:Search/venenum\"><sup>\u2192&#160;la</sup></a> <em title=\"Genus:
+        Neutrum (grammatikal. Geschlecht: s\u00e4chlich)\">n</em>, <span lang=\"la\"
+        xml:lang=\"la\"><a href=\"/wiki/toxicum#toxicum_.28Latein.29\" title=\"toxicum\">toxicum</a></span>&#160;<a
+        href=\"https://la.wiktionary.org/wiki/Special:Search/toxicum\" class=\"extiw\"
+        title=\"la:Special:Search/toxicum\"><sup>\u2192&#160;la</sup></a> <em title=\"Genus:
+        Neutrum (grammatikal. Geschlecht: s\u00e4chlich)\">n</em></li>\n<li><a href=\"/wiki/Niederdeutsch\"
+        title=\"Niederdeutsch\">Niederdeutsch</a>: [1] <span lang=\"nds\" xml:lang=\"nds\"><a
+        href=\"/w/index.php?title=Venien&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"Venien (Seite nicht vorhanden)\">Venien</a></span>&#160;<a href=\"https://nds.wiktionary.org/wiki/Special:Search/Venien\"
+        class=\"extiw\" title=\"nds:Special:Search/Venien\"><sup>\u2192&#160;nds</sup></a>
+        <em title=\"Genus: Neutrum (grammatikal. Geschlecht: s\u00e4chlich)\">n</em></li>\n<li><a
+        href=\"/wiki/Niederl%C3%A4ndisch\" title=\"Niederl\u00e4ndisch\">Niederl\u00e4ndisch</a>:
+        [1] <span lang=\"nl\" xml:lang=\"nl\"><a href=\"/w/index.php?title=gif&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"gif (Seite nicht vorhanden)\">gif</a></span>&#160;<a
+        href=\"https://nl.wiktionary.org/wiki/Special:Search/gif\" class=\"extiw\"
+        title=\"nl:Special:Search/gif\"><sup>\u2192&#160;nl</sup></a> <em title=\"Genus:
+        Neutrum (grammatikal. Geschlecht: s\u00e4chlich)\">n</em></li>\n<li><a href=\"/wiki/Norwegisch\"
+        title=\"Norwegisch\">Norwegisch</a>:\n<ul>\n<li><a href=\"/wiki/Bokm%C3%A5l\"
+        title=\"Bokm\u00e5l\">Bokm\u00e5l</a>: [1] <span lang=\"nb\" xml:lang=\"nb\"><a
+        href=\"/wiki/gift#gift_.28Bokm.C3.A5l.29\" title=\"gift\">gift</a></span>&#160;<a
+        href=\"https://no.wiktionary.org/wiki/Special:Search/gift\" class=\"extiw\"
+        title=\"no:Special:Search/gift\"><sup>\u2192&#160;nb</sup></a> <em title=\"Genus:
+        Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em>, <em title=\"Genus:
+        Femininum (grammatikal. Geschlecht: weiblich)\">f</em></li>\n</ul>\n</li>\n<li><a
+        href=\"/wiki/Polnisch\" title=\"Polnisch\">Polnisch</a>: [1, 2] <span lang=\"pl\"
+        xml:lang=\"pl\"><a href=\"/w/index.php?title=trucizna&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"trucizna (Seite nicht vorhanden)\">trucizna</a></span>&#160;<a
+        href=\"https://pl.wiktionary.org/wiki/Special:Search/trucizna\" class=\"extiw\"
+        title=\"pl:Special:Search/trucizna\"><sup>\u2192&#160;pl</sup></a> <em title=\"Genus:
+        Femininum (grammatikal. Geschlecht: weiblich)\">f</em></li>\n<li><a href=\"/wiki/Portugiesisch\"
+        title=\"Portugiesisch\">Portugiesisch</a>: [1] <span lang=\"pt\" xml:lang=\"pt\"><a
+        href=\"/w/index.php?title=t%C3%B3xico&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"t\u00f3xico (Seite nicht vorhanden)\">t\u00f3xico</a></span>&#160;<a
+        href=\"https://pt.wiktionary.org/wiki/Special:Search/t%C3%B3xico\" class=\"extiw\"
+        title=\"pt:Special:Search/t\u00f3xico\"><sup>\u2192&#160;pt</sup></a> <em
+        title=\"Genus: Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em>,
+        <span lang=\"pt\" xml:lang=\"pt\"><a href=\"/wiki/veneno#veneno_.28Portugiesisch.29\"
+        title=\"veneno\">veneno</a></span>&#160;<a href=\"https://pt.wiktionary.org/wiki/Special:Search/veneno\"
+        class=\"extiw\" title=\"pt:Special:Search/veneno\"><sup>\u2192&#160;pt</sup></a>
+        <em title=\"Genus: Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em></li>\n<li><a
+        href=\"/wiki/R%C3%A4toromanisch\" title=\"R\u00e4toromanisch\">R\u00e4toromanisch</a>:
+        [1] <span lang=\"rm\" xml:lang=\"rm\"><a href=\"/w/index.php?title=tissi&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"tissi (Seite nicht vorhanden)\">tissi</a></span>&#160;<sup
+        style=\"color:slategray;\">\u2192&#160;rm</sup></li>\n<li><a href=\"/wiki/Russisch\"
+        title=\"Russisch\">Russisch</a>: [1] <span lang=\"ru\" xml:lang=\"ru\"><a
+        href=\"/wiki/%D1%8F%D0%B4#.D1.8F.D0.B4_.28Russisch.29\" title=\"\u044f\u0434\">\u044f\u0434</a></span>&#160;(jad)&#160;<a
+        href=\"https://ru.wiktionary.org/wiki/Special:Search/%D1%8F%D0%B4\" class=\"extiw\"
+        title=\"ru:Special:Search/\u044f\u0434\"><sup>\u2192&#160;ru</sup></a> <em
+        title=\"Genus: Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em></li>\n<li><a
+        href=\"/wiki/Schwedisch\" title=\"Schwedisch\">Schwedisch</a>: [1] <span lang=\"sv\"
+        xml:lang=\"sv\"><a href=\"/wiki/gift#gift_.28Schwedisch.29\" title=\"gift\">gift</a></span>&#160;<a
+        href=\"https://sv.wiktionary.org/wiki/Special:Search/gift\" class=\"extiw\"
+        title=\"sv:Special:Search/gift\"><sup>\u2192&#160;sv</sup></a> <em title=\"Genus:
+        Neutrum (grammatikal. Geschlecht: s\u00e4chlich)\">n</em></li>\n<li><a href=\"/wiki/Sorbisch\"
+        title=\"Sorbisch\">Sorbisch</a>:\n<ul>\n<li><a href=\"/wiki/Niedersorbisch\"
+        title=\"Niedersorbisch\">Niedersorbisch</a>: [1, 2] <span lang=\"dsb\" xml:lang=\"dsb\"><a
+        href=\"/wiki/gad#gad_.28Niedersorbisch.29\" title=\"gad\">gad</a></span>&#160;<sup
+        style=\"color:slategray;\">\u2192&#160;dsb</sup>, <i>t\u00f6dlich:</i> <span
+        lang=\"dsb\" xml:lang=\"dsb\"><a href=\"/w/index.php?title=zawda%C5%9Be&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"zawda\u015be (Seite nicht vorhanden)\">zawda\u015be</a></span>&#160;<sup
+        style=\"color:slategray;\">\u2192&#160;dsb</sup></li>\n<li><a href=\"/wiki/Obersorbisch\"
+        title=\"Obersorbisch\">Obersorbisch</a>: [1, 2] <span lang=\"hsb\" xml:lang=\"hsb\"><a
+        href=\"/w/index.php?title=j%C4%9Bd&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"j\u011bd (Seite nicht vorhanden)\">j\u011bd</a></span>&#160;<a href=\"https://hsb.wiktionary.org/wiki/Special:Search/j%C4%9Bd\"
+        class=\"extiw\" title=\"hsb:Special:Search/j\u011bd\"><sup>\u2192&#160;hsb</sup></a></li>\n</ul>\n</li>\n<li><a
+        href=\"/wiki/Spanisch\" title=\"Spanisch\">Spanisch</a>: [1] <span lang=\"es\"
+        xml:lang=\"es\"><a href=\"/wiki/veneno#veneno_.28Spanisch.29\" title=\"veneno\">veneno</a></span>&#160;<a
+        href=\"https://es.wiktionary.org/wiki/Special:Search/veneno\" class=\"extiw\"
+        title=\"es:Special:Search/veneno\"><sup>\u2192&#160;es</sup></a>, <span lang=\"es\"
+        xml:lang=\"es\"><a href=\"/w/index.php?title=toxina&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"toxina (Seite nicht vorhanden)\">toxina</a></span>&#160;<a
+        href=\"https://es.wiktionary.org/wiki/Special:Search/toxina\" class=\"extiw\"
+        title=\"es:Special:Search/toxina\"><sup>\u2192&#160;es</sup></a> <em title=\"Genus:
+        Femininum (grammatikal. Geschlecht: weiblich)\">f</em>, <span lang=\"es\"
+        xml:lang=\"es\"><a href=\"/w/index.php?title=t%C3%B3xico&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"t\u00f3xico (Seite nicht vorhanden)\">t\u00f3xico</a></span>&#160;<a
+        href=\"https://es.wiktionary.org/wiki/Special:Search/t%C3%B3xico\" class=\"extiw\"
+        title=\"es:Special:Search/t\u00f3xico\"><sup>\u2192&#160;es</sup></a> <em
+        title=\"Genus: Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em></li>\n<li><a
+        href=\"/wiki/Tschechisch\" title=\"Tschechisch\">Tschechisch</a>: [1, 2] <span
+        lang=\"cs\" xml:lang=\"cs\"><a href=\"/wiki/jed#jed_.28Tschechisch.29\" title=\"jed\">jed</a></span>&#160;<a
+        href=\"https://cs.wiktionary.org/wiki/Special:Search/jed\" class=\"extiw\"
+        title=\"cs:Special:Search/jed\"><sup>\u2192&#160;cs</sup></a> <em title=\"Genus:
+        Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em></li>\n<li><a
+        href=\"/wiki/T%C3%BCrkisch\" title=\"T\u00fcrkisch\">T\u00fcrkisch</a>: [1]
+        <span lang=\"tr\" xml:lang=\"tr\"><a href=\"/w/index.php?title=zehir&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"zehir (Seite nicht vorhanden)\">zehir</a></span>&#160;<a
+        href=\"https://tr.wiktionary.org/wiki/Special:Search/zehir\" class=\"extiw\"
+        title=\"tr:Special:Search/zehir\"><sup>\u2192&#160;tr</sup></a></li>\n</ul>\n</td>\n</tr>\n</table>\n<table
+        border=\"0\" width=\"100%\" style=\"clear:both;background-color:#F5FAFE;\"
+        title=\"Deutsche Dialekte\">\n<tr>\n<th colspan=\"5\" bgcolor=\"#F5FAFE\"
+        align=\"left\">Dialektausdr\u00fccke:</th>\n</tr>\n<tr>\n<td style=\"border-top:
+        dotted 1px #aaaaaa; border-bottom: dotted 1px #aaaaaa;\" bgcolor=\"#F7F7F9\"
+        valign=\"top\" width=\"50%\">\n<ul>\n<li>Alemannisch:\n<ul>\n<li>Els\u00e4ssich:
+        [1,1a] <i>G\u00e9ft</i></li>\n</ul>\n</li>\n</ul>\n</td>\n<td bgcolor=\"#F7F7F9\"
+        style=\"border-top: dotted 1px #aaaaaa; border-bottom: dotted 1px #aaaaaa;\"></td>\n<td
+        style=\"border-top: dotted 1px #aaaaaa; border-bottom: dotted 1px #aaaaaa;\"
+        bgcolor=\"#F7F7F9\" valign=\"top\" width=\"50%\">\n<ul>\n<li>Ostmitteldeutsch:</li>\n</ul>\n</td>\n</tr>\n</table>\n</div>\n</div>\n<p
+        style=\"margin-bottom: -0.5em;\" title=\"Referenzen und weiterf\u00fchrende
+        Informationen\"><b><a href=\"/wiki/Wiktionary:Referenzen\" title=\"Wiktionary:Referenzen\">Referenzen
+        und weiterf\u00fchrende Informationen</a>:</b></p>\n<dl>\n<dd>[1] Wikipedia-Artikel
+        \u201e<a href=\"https://de.wikipedia.org/wiki/Spezial:Suche/Gift\" class=\"extiw\"
+        title=\"w:Spezial:Suche/Gift\">Gift</a>\u201c</dd>\n<dd>[1] Jacob Grimm, Wilhelm
+        Grimm: <i>Deutsches W\u00f6rterbuch.</i> 16 B\u00e4nde in 32 Teilb\u00e4nden.
+        Leipzig 1854\u20131961 \u201e<a rel=\"nofollow\" class=\"external text\" href=\"http://woerterbuchnetz.de/DWB?lemma=Gift\">Gift</a>\u201c.</dd>\n<dd>[1]
+        Digitales W\u00f6rterbuch der deutschen Sprache \u201e<a rel=\"nofollow\"
+        class=\"external text\" href=\"http://www.dwds.de/?q=Gift\">Gift</a>\u201c</dd>\n<dd>[1]
+        canoo.net \u201e<a rel=\"nofollow\" class=\"external text\" href=\"http://www.canoo.net/Gift?lookup=caseSensitive\">Gift</a>\u201c</dd>\n<dd>[1]
+        Uni Leipzig: <i>Wortschatz-Lexikon</i> \u201e<a rel=\"nofollow\" class=\"external
+        text\" href=\"http://corpora.informatik.uni-leipzig.de/de/res?corpusId=deu_newscrawl_2011&amp;word=Gift\">Gift</a>\u201c</dd>\n<dd>[1]
+        Duden online \u201e<a rel=\"nofollow\" class=\"external text\" href=\"http://www.duden.de/rechtschreibung/Gift\">Gift</a>\u201c</dd>\n</dl>\n<p><i>Quellen:</i><br
+        /></p>\n<ol class=\"references\">\n<li id=\"cite_note-1\"><b><a href=\"#cite_ref-1\">\u2191</a></b>
+        <span class=\"reference-text\"><span class=\"cite\">Friedrich Kluge, bearbeitet
+        von Elmar Seebold: <i>Etymologisches W\u00f6rterbuch der deutschen Sprache.</i>
+        24., durchgesehene und erweiterte&#160;Auflage. Walter de Gruyter, Berlin/New
+        York <span style=\"white-space:nowrap;\">2001</span>, <a href=\"/wiki/Spezial:ISBN-Suche/9783110174731\"
+        class=\"internal mw-magiclink-isbn\">ISBN 978-3-11-017473-1</a>, <span class=\"plainlinks-print\"><a
+        rel=\"nofollow\" class=\"external text\" href=\"http://d-nb.info/965096742\">DNB
+        965096742</a></span></span><span style=\"display: none;\" class=\"Z3988\"
+        title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rfr_id=info%3Asid%2Fde.wikipedia.org%3AGift&amp;rft.btitle=Etymologisches+W%C3%B6rterbuch+der+deutschen+Sprache&amp;rft.au=Friedrich+Kluge%2C+bearbeitet+von+Elmar+Seebold&amp;rft.date=2001&amp;rft.edition=24.%2C+durchgesehene+und+erweiterte&amp;rft.pub=Walter+de+Gruyter&amp;rft.place=Berlin%2FNew+York&amp;rft.isbn=978-3-11-017473-1\">&#160;</span>,
+        Stichwort: \u201eGift\u201c, Seite 357. <i>Gift</i> im Sinne von <i>sch\u00e4dliche
+        Substanz</i> trennt sich im 16. Jahrhundert als Neutrum von dem Wort, das
+        als Femininum mit der Bedeutung <i>Gabe</i> weiter existiert, inzwischen aber
+        veraltet ist. Siehe Eintrag <i>die Gift</i>.</span></li>\n<li id=\"cite_note-2\"><b><a
+        href=\"#cite_ref-2\">\u2191</a></b> <span class=\"reference-text\"><span class=\"cite\">Ralf
+        Berhorst: <i>Im Dienst des Kaisers.</i> In: <i>GeoEpoche: Die Wikinger.</i>  Nummer
+        Heft 53, <span style=\"white-space:nowrap;\">2012</span></span><span style=\"display:
+        none;\" class=\"Z3988\" title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rfr_id=info%3Asid%2Fde.wikipedia.org%3AGift&amp;rft.atitle=Im+Dienst+des+Kaisers&amp;rft.jtitle=GeoEpoche%3A+Die+Wikinger&amp;rft.au=Ralf+Berhorst&amp;rft.date=2012&amp;rft.issue=Heft+53\">&#160;</span></span>,
+        Seite 144-153, Zitat Seite 146.</li>\n</ol>\n<h3><span class=\"mw-headline\"
+        id=\"Substantiv.2C_f\"><a href=\"/wiki/Hilfe:Wortart\" title=\"Hilfe:Wortart\">Substantiv</a>,
+        <em title=\"Genus: Femininum (grammatikal. Geschlecht: weiblich)\">f</em></span><span
+        class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=Gift&amp;action=edit&amp;section=4\" title=\"Abschnitt
+        bearbeiten: Substantiv, f\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table
+        class=\"wikitable float-right inflection-table flexbox hintergrundfarbe2\"
+        style=\"margin:0 0 .5em .4em;\">\n<tr>\n<th width=\"65\"></th>\n<th><a href=\"/wiki/Hilfe:Singular\"
+        title=\"Hilfe:Singular\">Singular</a></th>\n<th><a href=\"/wiki/Hilfe:Plural\"
+        title=\"Hilfe:Plural\">Plural</a></th>\n</tr>\n<tr>\n<th style=\"text-align:left;\"><a
+        href=\"/wiki/Hilfe:Nominativ\" title=\"Hilfe:Nominativ\">Nominativ</a></th>\n<td>die
+        Gift</td>\n<td>die <a href=\"/wiki/Giften\" title=\"Giften\">Giften</a></td>\n</tr>\n<tr>\n<th
+        style=\"text-align:left;\"><a href=\"/wiki/Hilfe:Genitiv\" title=\"Hilfe:Genitiv\">Genitiv</a></th>\n<td>der
+        Gift</td>\n<td>der <a href=\"/wiki/Giften\" title=\"Giften\">Giften</a></td>\n</tr>\n<tr>\n<th
+        style=\"text-align:left;\"><a href=\"/wiki/Hilfe:Dativ\" title=\"Hilfe:Dativ\">Dativ</a></th>\n<td>der
+        Gift</td>\n<td>den <a href=\"/wiki/Giften\" title=\"Giften\">Giften</a></td>\n</tr>\n<tr>\n<th
+        style=\"text-align:left;\"><a href=\"/wiki/Hilfe:Akkusativ\" title=\"Hilfe:Akkusativ\">Akkusativ</a></th>\n<td>die
+        Gift</td>\n<td>die <a href=\"/wiki/Giften\" title=\"Giften\">Giften</a></td>\n</tr>\n</table>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Trennungsm\u00f6glichkeiten
+        am Zeilenumbruch\">Worttrennung:</p>\n<dl>\n<dd>Gift, <span style=\"font-size:95%;\">Plural:</span>
+        Gif\u00b7ten</dd>\n</dl>\n<p style=\"margin-bottom:-0.5em; font-weight:bold;\"
+        title=\"Phonetik\">Aussprache:</p>\n<dl>\n<dd><a href=\"/wiki/Hilfe:IPA\"
+        title=\"Hilfe:IPA\">IPA</a>: [<span class=\"ipa\" style=\"padding: 0 1px;
+        text-decoration: none;\">\u0261\u026aft</span>]</dd>\n<dd><a href=\"/wiki/Hilfe:H%C3%B6rbeispiele\"
+        title=\"Hilfe:H\u00f6rbeispiele\">H\u00f6rbeispiele</a>: \u2014</dd>\n<dd><a
+        href=\"/wiki/Hilfe:Reime\" title=\"Hilfe:Reime\">Reime</a>: <span class=\"ipa\"
+        style=\"padding: 0 1px; text-decoration: none;\"><a href=\"/wiki/Reim:Deutsch:-%C9%AAft\"
+        title=\"Reim:Deutsch:-\u026aft\">-\u026aft</a></span></dd>\n</dl>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Sinn und Bezeichnetes (Semantik)\">Bedeutungen:</p>\n<dl>\n<dd>[1]
+        <i>veraltet:</i> <a href=\"/wiki/Geschenk\" title=\"Geschenk\">Geschenk</a></dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Etymologie und Morphologie\">Herkunft:</p>\n<dl>\n<dd>mittelhochdeutsch
+        <i>gift</i>, althochdeutsch <i>gift</i>, germanisch *<i>gefti-</i> \u201eGabe\u201c,
+        belegt seit dem 9. Jahrhundert, in heutiger Bedeutung seit dem 11. Jahrhundert<sup
+        id=\"cite_ref-3\" class=\"reference\"><a href=\"#cite_note-3\">[1]</a></sup></dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"bedeutungsgleich
+        gebrauchte W\u00f6rter\">Synonyme:</p>\n<dl>\n<dd>[1] <a href=\"/wiki/Gabe\"
+        title=\"Gabe\">Gabe</a></dd>\n</dl>\n<p style=\"margin-bottom:-0.5em; font-weight:bold;\"
+        title=\"Verwendungsbeispiels\u00e4tze\">Beispiele:</p>\n<dl>\n<dd>[1] \u201eBei
+        Gott und Menschen ist beliebt, Wer <i>Gift</i> und Gaben richtig gibt.\u201c<sup
+        id=\"cite_ref-4\" class=\"reference\"><a href=\"#cite_note-4\">[2]</a></sup></dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Signifikante Kollokationen\">Charakteristische
+        Wortkombinationen:</p>\n<dl>\n<dd>[1] Gift und <a href=\"/wiki/Gabe\" title=\"Gabe\">Gabe</a></dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Derivate, Komposita
+        und Konversionen\">Wortbildungen:</p>\n<dl>\n<dd>[1] <a href=\"/wiki/Mitgift\"
+        title=\"Mitgift\">Mitgift</a></dd>\n</dl>\n<h4><span class=\"mw-headline\"
+        id=\".C3.9Cbersetzungen_2\">\u00dcbersetzungen</span><span class=\"mw-editsection\"><span
+        class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Gift&amp;action=edit&amp;section=5\"
+        title=\"Abschnitt bearbeiten: \u00dcbersetzungen\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h4>\n<div
+        class=\"mw-collapsible NavFrame\" style=\"margin-bottom:1em; margin-left:0;
+        clear:both; text-align:left;\">\n<div style=\"border-top: dotted 1px #aaaaaa;
+        border-bottom: dotted 1px #aaaaaa; padding-left:5px; padding-top:1px; padding-bottom:1px;
+        height: 1.6em; font-size:100%; background-color: #EFF5FB; font-weight: bold;\">&#160;</div>\n<div
+        class=\"mw-collapsible-content NavContent\" style=\"background-color:#F5FAFE;\">\n<table
+        border=\"0\" style=\"width:100%; background-color:#F5FAFE;\" title=\"\u00dcbersetzungen
+        in andere Sprachen\">\n<tr>\n<td style=\"border-bottom: dotted 1px #aaaaaa;\"
+        bgcolor=\"#F7F7F9\" valign=\"top\" width=\"50%\">\n<ul>\n<li><a href=\"/wiki/Englisch\"
+        title=\"Englisch\">Englisch</a>: [1] <span lang=\"en\" xml:lang=\"en\"><a
+        href=\"/wiki/gift#gift_.28Englisch.29\" title=\"gift\">gift</a></span>&#160;<a
+        href=\"https://en.wiktionary.org/wiki/Special:Search/gift\" class=\"extiw\"
+        title=\"en:Special:Search/gift\"><sup>\u2192&#160;en</sup></a>, <span lang=\"en\"
+        xml:lang=\"en\"><a href=\"/wiki/present#present_.28Englisch.29\" title=\"present\">present</a></span>&#160;<a
+        href=\"https://en.wiktionary.org/wiki/Special:Search/present\" class=\"extiw\"
+        title=\"en:Special:Search/present\"><sup>\u2192&#160;en</sup></a></li>\n<li><a
+        href=\"/wiki/Franz%C3%B6sisch\" title=\"Franz\u00f6sisch\">Franz\u00f6sisch</a>:
+        [1] <span lang=\"fr\" xml:lang=\"fr\"><a href=\"/wiki/cadeau#cadeau_.28Franz.C3.B6sisch.29\"
+        title=\"cadeau\">cadeau</a></span>&#160;<a href=\"https://fr.wiktionary.org/wiki/Special:Search/cadeau\"
+        class=\"extiw\" title=\"fr:Special:Search/cadeau\"><sup>\u2192&#160;fr</sup></a></li>\n</ul>\n</td>\n<td
+        bgcolor=\"#F7F7F9\" style=\"border-bottom: dotted 1px #aaaaaa;\"></td>\n<td
+        style=\"border-bottom: dotted 1px #aaaaaa;\" bgcolor=\"#F7F7F9\" valign=\"top\"
+        width=\"50%\">\n<ul>\n<li><a href=\"/wiki/Italienisch\" title=\"Italienisch\">Italienisch</a>:
+        [1] <span lang=\"it\" xml:lang=\"it\"><a href=\"/wiki/regalo#regalo_.28Italienisch.29\"
+        title=\"regalo\">regalo</a></span>&#160;<a href=\"https://it.wiktionary.org/wiki/Special:Search/regalo\"
+        class=\"extiw\" title=\"it:Special:Search/regalo\"><sup>\u2192&#160;it</sup></a></li>\n<li><a
+        href=\"/wiki/Schwedisch\" title=\"Schwedisch\">Schwedisch</a>: [1] <span lang=\"sv\"
+        xml:lang=\"sv\"><a href=\"/wiki/present#present_.28Schwedisch.29\" title=\"present\">present</a></span>&#160;<a
+        href=\"https://sv.wiktionary.org/wiki/Special:Search/present\" class=\"extiw\"
+        title=\"sv:Special:Search/present\"><sup>\u2192&#160;sv</sup></a></li>\n</ul>\n</td>\n</tr>\n</table>\n</div>\n</div>\n<p
+        style=\"margin-bottom: -0.5em;\" title=\"Referenzen und weiterf\u00fchrende
+        Informationen\"><b><a href=\"/wiki/Wiktionary:Referenzen\" title=\"Wiktionary:Referenzen\">Referenzen
+        und weiterf\u00fchrende Informationen</a>:</b></p>\n<dl>\n<dd>[1] Jacob Grimm,
+        Wilhelm Grimm: <i>Deutsches W\u00f6rterbuch.</i> 16 B\u00e4nde in 32 Teilb\u00e4nden.
+        Leipzig 1854\u20131961 \u201e<a rel=\"nofollow\" class=\"external text\" href=\"http://woerterbuchnetz.de/DWB?lemma=Gift\">Gift</a>\u201c.</dd>\n<dd>[1]
+        Digitales W\u00f6rterbuch der deutschen Sprache \u201e<a rel=\"nofollow\"
+        class=\"external text\" href=\"http://www.dwds.de/?q=Gift\">Gift</a>\u201c</dd>\n</dl>\n<p><i>Quellen:</i><br
+        /></p>\n<ol class=\"references\">\n<li id=\"cite_note-3\"><b><a href=\"#cite_ref-3\">\u2191</a></b>
+        <span class=\"reference-text\"><span class=\"cite\">Friedrich Kluge, bearbeitet
+        von Elmar Seebold: <i>Etymologisches W\u00f6rterbuch der deutschen Sprache.</i>
+        24., durchgesehene und erweiterte&#160;Auflage. Walter de Gruyter, Berlin/New
+        York <span style=\"white-space:nowrap;\">2001</span>, <a href=\"/wiki/Spezial:ISBN-Suche/9783110174731\"
+        class=\"internal mw-magiclink-isbn\">ISBN 978-3-11-017473-1</a>, <span class=\"plainlinks-print\"><a
+        rel=\"nofollow\" class=\"external text\" href=\"http://d-nb.info/965096742\">DNB
+        965096742</a></span></span><span style=\"display: none;\" class=\"Z3988\"
+        title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rfr_id=info%3Asid%2Fde.wikipedia.org%3AGift&amp;rft.btitle=Etymologisches+W%C3%B6rterbuch+der+deutschen+Sprache&amp;rft.au=Friedrich+Kluge%2C+bearbeitet+von+Elmar+Seebold&amp;rft.date=2001&amp;rft.edition=24.%2C+durchgesehene+und+erweiterte&amp;rft.pub=Walter+de+Gruyter&amp;rft.place=Berlin%2FNew+York&amp;rft.isbn=978-3-11-017473-1\">&#160;</span>,
+        Stichwort: \u201eGift\u201c, Seite 357.</span></li>\n<li id=\"cite_note-4\"><b><a
+        href=\"#cite_ref-4\">\u2191</a></b> <span class=\"reference-text\">Carl Leberecht
+        Immermann, M\u00fcnchhausen, Erster Teil, Zweites Buch. Der Wilde J\u00e4ger;
+        <a rel=\"nofollow\" class=\"external text\" href=\"http://www.zeno.org/Literatur/M/Immermann,+Karl/Romane/M%C3%BCnchhausen/Erster+Teil/Zweites+Buch.+Der+Wilde+J%C3%A4ger/Neuntes+Kapitel\">Vergleiche
+        zeno.org</a></span></li>\n</ol>\n<p><br /></p>\n<h3><span class=\"mw-headline\"
+        id=\"Substantiv.2C_m\"><a href=\"/wiki/Hilfe:Wortart\" title=\"Hilfe:Wortart\">Substantiv</a>,
+        <em title=\"Genus: Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em></span><span
+        class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=Gift&amp;action=edit&amp;section=6\" title=\"Abschnitt
+        bearbeiten: Substantiv, m\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table
+        class=\"wikitable float-right inflection-table flexbox hintergrundfarbe2\"
+        style=\"margin:0 0 .5em .4em;\">\n<tr>\n<th width=\"65\"></th>\n<th><a href=\"/wiki/Hilfe:Singular\"
+        title=\"Hilfe:Singular\">Singular</a></th>\n<th><a href=\"/wiki/Hilfe:Plural\"
+        title=\"Hilfe:Plural\">Plural</a></th>\n</tr>\n<tr>\n<th style=\"text-align:left;\"><a
+        href=\"/wiki/Hilfe:Nominativ\" title=\"Hilfe:Nominativ\">Nominativ</a></th>\n<td>der
+        Gift</td>\n<td>\n<center>\u2014</center>\n</td>\n</tr>\n<tr>\n<th style=\"text-align:left;\"><a
+        href=\"/wiki/Hilfe:Genitiv\" title=\"Hilfe:Genitiv\">Genitiv</a></th>\n<td>des
+        <a href=\"/wiki/Giftes\" title=\"Giftes\">Giftes</a><br />\ndes <a href=\"/wiki/Gifts\"
+        title=\"Gifts\">Gifts</a></td>\n<td>\n<center>\u2014</center>\n</td>\n</tr>\n<tr>\n<th
+        style=\"text-align:left;\"><a href=\"/wiki/Hilfe:Dativ\" title=\"Hilfe:Dativ\">Dativ</a></th>\n<td>dem
+        Gift</td>\n<td>\n<center>\u2014</center>\n</td>\n</tr>\n<tr>\n<th style=\"text-align:left;\"><a
+        href=\"/wiki/Hilfe:Akkusativ\" title=\"Hilfe:Akkusativ\">Akkusativ</a></th>\n<td>den
+        Gift</td>\n<td>\n<center>\u2014</center>\n</td>\n</tr>\n</table>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Trennungsm\u00f6glichkeiten am Zeilenumbruch\">Worttrennung:</p>\n<dl>\n<dd>Gift,
+        <i>kein Plural</i></dd>\n</dl>\n<p style=\"margin-bottom:-0.5em; font-weight:bold;\"
+        title=\"Phonetik\">Aussprache:</p>\n<dl>\n<dd><a href=\"/wiki/Hilfe:IPA\"
+        title=\"Hilfe:IPA\">IPA</a>: [<span class=\"ipa\" style=\"padding: 0 1px;
+        text-decoration: none;\">\u0261\u026aft</span>]</dd>\n<dd><a href=\"/wiki/Hilfe:H%C3%B6rbeispiele\"
+        title=\"Hilfe:H\u00f6rbeispiele\">H\u00f6rbeispiele</a>: \u2014</dd>\n<dd><a
+        href=\"/wiki/Hilfe:Reime\" title=\"Hilfe:Reime\">Reime</a>: <span class=\"ipa\"
+        style=\"padding: 0 1px; text-decoration: none;\"><a href=\"/wiki/Reim:Deutsch:-%C9%AAft\"
+        title=\"Reim:Deutsch:-\u026aft\">-\u026aft</a></span></dd>\n</dl>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Sinn und Bezeichnetes (Semantik)\">Bedeutungen:</p>\n<dl>\n<dd>[1]
+        <i><a href=\"/wiki/regional\" title=\"regional\">regional</a>, <a href=\"/wiki/s%C3%BCddeutsch\"
+        title=\"s\u00fcddeutsch\">s\u00fcddeutsch</a>:</i> ein meist durch <a href=\"/wiki/%C3%84rger\"
+        title=\"\u00c4rger\">\u00c4rger</a> mit einer anderen Person verursachtes
+        negatives Gef\u00fchl</dd>\n</dl>\n<p style=\"margin-bottom:-0.5em; font-weight:bold;\"
+        title=\"bedeutungsgleich gebrauchte W\u00f6rter\">Synonyme:</p>\n<dl>\n<dd>[1]
+        <a href=\"/wiki/Groll\" title=\"Groll\">Groll</a>, <a href=\"/wiki/Hass\"
+        title=\"Hass\">Hass</a>, <a href=\"/wiki/Wut\" title=\"Wut\">Wut</a>, <a href=\"/wiki/Zorn\"
+        title=\"Zorn\">Zorn</a></dd>\n</dl>\n<p style=\"margin-bottom:-0.5em; font-weight:bold;\"
+        title=\"Verwendungsbeispiels\u00e4tze\">Beispiele:</p>\n<dl>\n<dd>[1] \u201eIm
+        Bairischen kommt in solchen F\u00e4llen das Wort <i>Gift</i> zum Einsatz,
+        im Sinne von \u00c4rger, Zorn, Groll: Hoene\u00df hat einen <i>Gift</i> auf
+        Ude, und Ude hat einen <i>Gift</i> auf Hoene\u00df.\u201c<sup id=\"cite_ref-5\"
+        class=\"reference\"><a href=\"#cite_note-5\">[1]</a></sup></dd>\n<dd>[1] \u201eVoller
+        <i>Gift</i>, da\u00df es die H\u00e4ftlinge gewagt hatten, Trotz zu bieten,
+        fauchte Kluttig auf Schwahl ein.\u201c<sup id=\"cite_ref-6\" class=\"reference\"><a
+        href=\"#cite_note-6\">[2]</a></sup></dd>\n</dl>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Phraseologismen\">Redewendungen:</p>\n<dl>\n<dd>[1]
+        einen <i>Gift</i> auf jemanden haben</dd>\n</dl>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Derivate, Komposita und Konversionen\">Wortbildungen:</p>\n<dl>\n<dd>[1]
+        <a href=\"/w/index.php?title=angiften&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"angiften (Seite nicht vorhanden)\">angiften</a>, <a href=\"/wiki/giften\"
+        title=\"giften\">giften</a></dd>\n</dl>\n<h4><span class=\"mw-headline\" id=\".C3.9Cbersetzungen_3\">\u00dcbersetzungen</span><span
+        class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=Gift&amp;action=edit&amp;section=7\" title=\"Abschnitt
+        bearbeiten: \u00dcbersetzungen\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h4>\n<div
+        class=\"mw-collapsible NavFrame\" style=\"margin-bottom:1em; margin-left:0;
+        clear:both; text-align:left;\">\n<div style=\"border-top: dotted 1px #aaaaaa;
+        border-bottom: dotted 1px #aaaaaa; padding-left:5px; padding-top:1px; padding-bottom:1px;
+        height: 1.6em; font-size:100%; background-color: #EFF5FB; font-weight: bold;\">&#160;</div>\n<div
+        class=\"mw-collapsible-content NavContent\" style=\"background-color:#F5FAFE;\">\n<table
+        border=\"0\" style=\"width:100%; background-color:#F5FAFE;\" title=\"\u00dcbersetzungen
+        in andere Sprachen\">\n<tr>\n<td style=\"border-bottom: dotted 1px #aaaaaa;\"
+        bgcolor=\"#F7F7F9\" valign=\"top\" width=\"50%\">\n<ul>\n<li><a href=\"/wiki/Englisch\"
+        title=\"Englisch\">Englisch</a>: [1] <span lang=\"en\" xml:lang=\"en\"><a
+        href=\"/wiki/anger#anger_.28Englisch.29\" title=\"anger\">anger</a></span>&#160;<a
+        href=\"https://en.wiktionary.org/wiki/Special:Search/anger\" class=\"extiw\"
+        title=\"en:Special:Search/anger\"><sup>\u2192&#160;en</sup></a>, <span lang=\"en\"
+        xml:lang=\"en\"><a href=\"/wiki/wrath#wrath_.28Englisch.29\" title=\"wrath\">wrath</a></span>&#160;<a
+        href=\"https://en.wiktionary.org/wiki/Special:Search/wrath\" class=\"extiw\"
+        title=\"en:Special:Search/wrath\"><sup>\u2192&#160;en</sup></a></li>\n<li><a
+        href=\"/wiki/Franz%C3%B6sisch\" title=\"Franz\u00f6sisch\">Franz\u00f6sisch</a>:
+        [1]</li>\n</ul>\n</td>\n<td bgcolor=\"#F7F7F9\" style=\"border-bottom: dotted
+        1px #aaaaaa;\"></td>\n<td style=\"border-bottom: dotted 1px #aaaaaa;\" bgcolor=\"#F7F7F9\"
+        valign=\"top\" width=\"50%\">\n<ul>\n<li><a href=\"/wiki/Italienisch\" title=\"Italienisch\">Italienisch</a>:
+        [1]</li>\n<li><a href=\"/wiki/Schwedisch\" title=\"Schwedisch\">Schwedisch</a>:
+        [1]</li>\n</ul>\n</td>\n</tr>\n</table>\n</div>\n</div>\n<p style=\"margin-bottom:
+        -0.5em;\" title=\"Referenzen und weiterf\u00fchrende Informationen\"><b><a
+        href=\"/wiki/Wiktionary:Referenzen\" title=\"Wiktionary:Referenzen\">Referenzen
+        und weiterf\u00fchrende Informationen</a>:</b></p>\n<dl>\n<dd>[1] Duden online
+        \u201e<a rel=\"nofollow\" class=\"external text\" href=\"http://www.duden.de/rechtschreibung/Gift_Wut_Groll_Zorn\">Gift</a>\u201c</dd>\n<dd>[1]
+        Digitales W\u00f6rterbuch der deutschen Sprache \u201e<a rel=\"nofollow\"
+        class=\"external text\" href=\"http://www.dwds.de/?q=Gift\">Gift</a>\u201c</dd>\n</dl>\n<p><i>Quellen:</i><br
+        /></p>\n<ol class=\"references\">\n<li id=\"cite_note-5\"><b><a href=\"#cite_ref-5\">\u2191</a></b>
+        <span class=\"reference-text\"><span class=\"cite\">Robert Haas: <i>Kratzers
+        Wortschatz - Wenn Rib\u00e9ry bratzelt.</i> In: <i>sueddeutsche.de.</i>  <span
+        style=\"white-space:nowrap;\">20.&#160;Oktober 2014</span>, <span class=\"plainlinks-print\"><a
+        rel=\"nofollow\" class=\"external text\" href=\"http://dispatch.opac.d-nb.de/DB=1.1/CMD?ACT=SRCHA&amp;IKT=8&amp;TRM=0174-4917\">ISSN
+        0174-4917</a></span> (<a rel=\"nofollow\" class=\"external text\" href=\"http://www.sueddeutsche.de/bayern/kratzers-wortschatz-wenn-ribery-bratzelt-1.1977030-14\">URL</a>,
+        abgerufen am 20.&#160;Januar 2015)</span><span style=\"display: none;\" class=\"Z3988\"
+        title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rfr_id=info%3Asid%2Fde.wikipedia.org%3AGift&amp;rft.atitle=Kratzers+Wortschatz+-+Wenn+Rib%C3%A9ry+bratzelt&amp;rft.jtitle=sueddeutsche.de&amp;rft.au=Robert+Haas&amp;rft.date=2014-10-20.&amp;rft.issn=0174-4917&amp;rft_id=%5Bhttp%3A%2F%2Fwww.sueddeutsche.de%2Fbayern%2Fkratzers-wortschatz-wenn-ribery-bratzelt-1.1977030-14+URL%5D\">&#160;</span></span>.</li>\n<li
+        id=\"cite_note-6\"><b><a href=\"#cite_ref-6\">\u2191</a></b> <span class=\"reference-text\"><span
+        class=\"cite\">Bruno Apitz: <i>Nackt unter W\u00f6lfen.</i> Mitteldeutscher
+        Verlag, Halle (Saale) <span style=\"white-space:nowrap;\">1958</span>, Seite&#160;298</span><span
+        style=\"display: none;\" class=\"Z3988\" title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rfr_id=info%3Asid%2Fde.wikipedia.org%3AGift&amp;rft.btitle=Nackt+unter+W%C3%B6lfen&amp;rft.au=Bruno+Apitz&amp;rft.date=1958&amp;rft.pub=Mitteldeutscher+Verlag&amp;rft.place=Halle+%28Saale%29&amp;rft.pages=298\">&#160;</span></span></li>\n</ol>\n<p
+        style=\"margin-top:20px; margin-bottom:0em; border-top:1px solid #AAAAAA;\"
+        title=\"\u00c4hnlich geschriebene oder gleich klingende W\u00f6rter\"></p>\n<div
+        style=\"clear:both\">\n<p style=\"margin-bottom:-0.5em; font-weight:bold;\"
+        title=\"\u00c4hnliche W\u00f6rter (Deutsch)\">\u00c4hnliche W\u00f6rter (Deutsch):</p>\n<dl>\n<dd><i>\u00e4hnlich
+        geschrieben und/oder ausgesprochen:</i> <a href=\"/wiki/gibt\" title=\"gibt\">gibt</a>,
+        <a href=\"/wiki/kifft\" title=\"kifft\">kifft</a></dd>\n</dl>\n</div>\n\n\n<!--
+        \nNewPP limit report\nParsed by mw1238\nCached time: 20170309214153\nCache
+        expiry: 2592000\nDynamic content: false\nCPU time usage: 0.436 seconds\nReal
+        time usage: 0.520 seconds\nPreprocessor visited node count: 15686/1000000\nPreprocessor
+        generated node count: 0/1500000\nPost\u2010expand include size: 90722/2097152
+        bytes\nTemplate argument size: 21960/2097152 bytes\nHighest expansion depth:
+        17/40\nExpensive parser function count: 9/500\nLua time usage: 0.092/10.000
+        seconds\nLua memory usage: 2.06 MB/50 MB\n-->\n<!--\nTransclusion expansion
+        time report (%,ms,calls,template)\n100.00%  445.693      1 -total\n 38.96%  173.624      3
+        Vorlage:\u00dc-Tabelle\n 21.73%   96.835     44 Vorlage:\u00dc\n 17.57%   78.326      3
+        Vorlage:Deutsch_Substantiv_\u00dcbersicht\n 11.93%   53.166      3 Vorlage:Quellen\n  8.71%   38.838      5
+        Vorlage:Literatur\n  7.83%   34.914     41 Vorlage:Flexlink\n  7.80%   34.747      1
+        Vorlage:Sprache\n  5.01%   22.320      2 Vorlage:Lit-Kluge:_Etymologisches_W\u00f6rterbuch\n  4.97%   22.151      7
+        Vorlage:\u00dct\n-->\n\n<!-- Saved in parser cache with key dewiktionary:pcache:idhash:33380-0!*!0!!de!4!*
+        and timestamp 20170309214153 and revision id 5309337\n -->\n"},"langlinks":[{"lang":"az","url":"https://az.wiktionary.org/wiki/Gift","langname":"Aserbaidschanisch","autonym":"az\u0259rbaycanca","*":"Gift"},{"lang":"chr","url":"https://chr.wiktionary.org/wiki/Gift","langname":"Cherokee","autonym":"\u13e3\u13b3\u13a9","*":"Gift"},{"lang":"cs","url":"https://cs.wiktionary.org/wiki/Gift","langname":"Tschechisch","autonym":"\u010de\u0161tina","*":"Gift"},{"lang":"el","url":"https://el.wiktionary.org/wiki/Gift","langname":"Griechisch","autonym":"\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac","*":"Gift"},{"lang":"en","url":"https://en.wiktionary.org/wiki/Gift","langname":"Englisch","autonym":"English","*":"Gift"},{"lang":"et","url":"https://et.wiktionary.org/wiki/Gift","langname":"Estnisch","autonym":"eesti","*":"Gift"},{"lang":"fi","url":"https://fi.wiktionary.org/wiki/Gift","langname":"Finnisch","autonym":"suomi","*":"Gift"},{"lang":"fr","url":"https://fr.wiktionary.org/wiki/Gift","langname":"Franz\u00f6sisch","autonym":"fran\u00e7ais","*":"Gift"},{"lang":"gl","url":"https://gl.wiktionary.org/wiki/Gift","langname":"Galicisch","autonym":"galego","*":"Gift"},{"lang":"hu","url":"https://hu.wiktionary.org/wiki/Gift","langname":"Ungarisch","autonym":"magyar","*":"Gift"},{"lang":"id","url":"https://id.wiktionary.org/wiki/Gift","langname":"Indonesisch","autonym":"Bahasa
+        Indonesia","*":"Gift"},{"lang":"io","url":"https://io.wiktionary.org/wiki/Gift","langname":"Ido","autonym":"Ido","*":"Gift"},{"lang":"ja","url":"https://ja.wiktionary.org/wiki/Gift","langname":"Japanisch","autonym":"\u65e5\u672c\u8a9e","*":"Gift"},{"lang":"ko","url":"https://ko.wiktionary.org/wiki/Gift","langname":"Koreanisch","autonym":"\ud55c\uad6d\uc5b4","*":"Gift"},{"lang":"ku","url":"https://ku.wiktionary.org/wiki/Gift","langname":"Kurdisch","autonym":"Kurd\u00ee","*":"Gift"},{"lang":"lo","url":"https://lo.wiktionary.org/wiki/Gift","langname":"Laotisch","autonym":"\u0ea5\u0eb2\u0ea7","*":"Gift"},{"lang":"mg","url":"https://mg.wiktionary.org/wiki/Gift","langname":"Madagassisch","autonym":"Malagasy","*":"Gift"},{"lang":"mk","url":"https://mk.wiktionary.org/wiki/Gift","langname":"Mazedonisch","autonym":"\u043c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\u0438","*":"Gift"},{"lang":"no","url":"https://no.wiktionary.org/wiki/Gift","langname":"Norwegisch","autonym":"norsk
+        bokm\u00e5l","*":"Gift"},{"lang":"pl","url":"https://pl.wiktionary.org/wiki/Gift","langname":"Polnisch","autonym":"polski","*":"Gift"},{"lang":"pt","url":"https://pt.wiktionary.org/wiki/Gift","langname":"Portugiesisch","autonym":"portugu\u00eas","*":"Gift"},{"lang":"ru","url":"https://ru.wiktionary.org/wiki/Gift","langname":"Russisch","autonym":"\u0440\u0443\u0441\u0441\u043a\u0438\u0439","*":"Gift"},{"lang":"sv","url":"https://sv.wiktionary.org/wiki/Gift","langname":"Schwedisch","autonym":"svenska","*":"Gift"},{"lang":"tr","url":"https://tr.wiktionary.org/wiki/Gift","langname":"T\u00fcrkisch","autonym":"T\u00fcrk\u00e7e","*":"Gift"},{"lang":"zh","url":"https://zh.wiktionary.org/wiki/Gift","langname":"Chinesisch","autonym":"\u4e2d\u6587","*":"Gift"}],"categories":[{"sortkey":"","hidden":"","*":"Seiten,_die_magische_ISBN-Links_verwenden"},{"sortkey":"","*":"Deutsch"},{"sortkey":"gift","hidden":"","*":"siehe_auch"},{"sortkey":"","*":"Substantiv_(Deutsch)"},{"sortkey":"tfiG","hidden":"","*":"R\u00fcckl\u00e4ufige_W\u00f6rterliste_(Deutsch)"},{"sortkey":"","*":"Substantiv"},{"sortkey":"","*":"Substantiv_n_(Deutsch)"},{"sortkey":"","hidden":"","*":"Wiktionary:Audio-Datei"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Altgriechisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Arabisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Armenisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(D\u00e4nisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Englisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Esperanto)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(F\u00e4r\u00f6isch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Finnisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Franz\u00f6sisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Neugriechisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Gr\u00f6nl\u00e4ndisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Hawaiianisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Interlingua)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Italienisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Japanisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Katalanisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Koreanisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Latein)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Niederdeutsch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Niederl\u00e4ndisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Bokm\u00e5l)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Polnisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Portugiesisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(R\u00e4toromanisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Russisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Schwedisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Niedersorbisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Obersorbisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Spanisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Tschechisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(T\u00fcrkisch)"},{"sortkey":"","hidden":"","*":"Link_zur_Wikipedia"},{"sortkey":"","*":"Substantiv_f_(Deutsch)"},{"sortkey":"","*":"Substantiv_m_(Deutsch)"},{"sortkey":"","*":"Singularetantum_(Deutsch)"}],"links":[{"ns":0,"exists":"","*":"Gifte"},{"ns":0,"exists":"","*":"Giften"},{"ns":0,"exists":"","*":"Gifts"},{"ns":0,"exists":"","*":"Biologie"},{"ns":0,"exists":"","*":"Gift"},{"ns":0,"exists":"","*":"Giftes"},{"ns":0,"exists":"","*":"Adjektiv"},{"ns":0,"exists":"","*":"Altgriechisch"},{"ns":0,"exists":"","*":"Antidot"},{"ns":0,"exists":"","*":"Arabisch"},{"ns":0,"exists":"","*":"Armenisch"},{"ns":0,"exists":"","*":"Bienengift"},{"ns":0,"exists":"","*":"Bokm\u00e5l"},{"ns":0,"exists":"","*":"D\u00e4nisch"},{"ns":0,"exists":"","*":"Englisch"},{"ns":0,"exists":"","*":"Esperanto"},{"ns":0,"exists":"","*":"Finnisch"},{"ns":0,"exists":"","*":"Franz\u00f6sisch"},{"ns":0,"exists":"","*":"F\u00e4r\u00f6isch"},{"ns":0,"exists":"","*":"Gabe"},{"ns":0,"exists":"","*":"Gegengift"},{"ns":0,"exists":"","*":"Geschenk"},{"ns":0,"exists":"","*":"Gift
+        und Galle speien"},{"ns":0,"exists":"","*":"Gift und Galle spucken"},{"ns":0,"exists":"","*":"Giftampulle"},{"ns":0,"exists":"","*":"Giftdr\u00fcse"},{"ns":0,"exists":"","*":"Gifteinsatz"},{"ns":0,"exists":"","*":"Giftgas"},{"ns":0,"exists":"","*":"Giftler"},{"ns":0,"exists":"","*":"Giftm\u00fcll"},{"ns":0,"exists":"","*":"Giftpfeil"},{"ns":0,"exists":"","*":"Giftpflanze"},{"ns":0,"exists":"","*":"Giftschlange"},{"ns":0,"exists":"","*":"Giftspritze"},{"ns":0,"exists":"","*":"Giftstoff"},{"ns":0,"exists":"","*":"Gifttier"},{"ns":0,"exists":"","*":"Giftzahn"},{"ns":0,"exists":"","*":"Giftzwerg"},{"ns":0,"exists":"","*":"Groll"},{"ns":0,"exists":"","*":"Gr\u00f6nl\u00e4ndisch"},{"ns":0,"exists":"","*":"Hass"},{"ns":0,"exists":"","*":"Hawaiianisch"},{"ns":0,"exists":"","*":"Heilmittel"},{"ns":0,"exists":"","*":"Interlingua"},{"ns":0,"exists":"","*":"Italienisch"},{"ns":0,"exists":"","*":"Japanisch"},{"ns":0,"exists":"","*":"Katalanisch"},{"ns":0,"exists":"","*":"Kontaktgift"},{"ns":0,"exists":"","*":"Koreanisch"},{"ns":0,"exists":"","*":"Latein"},{"ns":0,"exists":"","*":"Mitgift"},{"ns":0,"exists":"","*":"Neugriechisch"},{"ns":0,"exists":"","*":"Niederdeutsch"},{"ns":0,"exists":"","*":"Niederl\u00e4ndisch"},{"ns":0,"exists":"","*":"Niedersorbisch"},{"ns":0,"exists":"","*":"Norwegisch"},{"ns":0,"exists":"","*":"Obersorbisch"},{"ns":0,"exists":"","*":"Pfeilgift"},{"ns":0,"exists":"","*":"Polnisch"},{"ns":0,"exists":"","*":"Portugiesisch"},{"ns":0,"exists":"","*":"Rattengift"},{"ns":0,"exists":"","*":"Rauschgift"},{"ns":0,"exists":"","*":"Russisch"},{"ns":0,"exists":"","*":"R\u00e4toromanisch"},{"ns":0,"exists":"","*":"Schadstoff"},{"ns":0,"exists":"","*":"Schlangengift"},{"ns":0,"exists":"","*":"Schwedisch"},{"ns":0,"exists":"","*":"Sorbisch"},{"ns":0,"exists":"","*":"Spanisch"},{"ns":0,"exists":"","*":"Substantiv"},{"ns":0,"exists":"","*":"Suchtgift"},{"ns":0,"exists":"","*":"Tschechisch"},{"ns":0,"exists":"","*":"T\u00fcrkisch"},{"ns":0,"exists":"","*":"Umweltgift"},{"ns":0,"exists":"","*":"Utrum"},{"ns":0,"exists":"","*":"Verb"},{"ns":0,"exists":"","*":"Vergiftung"},{"ns":0,"exists":"","*":"Wut"},{"ns":0,"exists":"","*":"Zorn"},{"ns":0,"exists":"","*":"anger"},{"ns":0,"exists":"","*":"b\u00f6sartig"},{"ns":0,"exists":"","*":"cadeau"},{"ns":0,"exists":"","*":"eitur"},{"ns":0,"exists":"","*":"gad"},{"ns":0,"exists":"","*":"gibt"},{"ns":0,"exists":"","*":"gift"},{"ns":0,"exists":"","*":"giften"},{"ns":0,"exists":"","*":"giftfrei"},{"ns":0,"exists":"","*":"gifthaltig"},{"ns":0,"exists":"","*":"gifth\u00e4ltig"},{"ns":0,"exists":"","*":"giftig"},{"ns":0,"exists":"","*":"jed"},{"ns":0,"exists":"","*":"kifft"},{"ns":0,"exists":"","*":"l\u0101\u2019au
+        make"},{"ns":0,"exists":"","*":"mittelhochdeutsch"},{"ns":0,"exists":"","*":"poison"},{"ns":0,"exists":"","*":"present"},{"ns":0,"exists":"","*":"regalo"},{"ns":0,"exists":"","*":"regional"},{"ns":0,"exists":"","*":"s\u00fcddeutsch"},{"ns":0,"exists":"","*":"toxicum"},{"ns":0,"exists":"","*":"toxin"},{"ns":0,"exists":"","*":"veleno"},{"ns":0,"exists":"","*":"veneno"},{"ns":0,"exists":"","*":"venin"},{"ns":0,"exists":"","*":"venom"},{"ns":0,"exists":"","*":"vergiften"},{"ns":0,"exists":"","*":"wrath"},{"ns":0,"exists":"","*":"\u00c4rger"},{"ns":0,"exists":"","*":"\u03c6\u03ac\u03c1\u03bc\u03b1\u03ba\u03bf\u03bd"},{"ns":0,"exists":"","*":"\u044f\u0434"},{"ns":0,"*":"Toxin"},{"ns":0,"*":"Noxe"},{"ns":0,"*":"Ameisengift"},{"ns":0,"*":"Atemgift"},{"ns":0,"*":"Nahrungsmittelgift"},{"ns":0,"*":"Nervengift"},{"ns":0,"*":"Zellgift"},{"ns":0,"*":"sein
+        Gift verspr\u00fchen"},{"ns":0,"*":"giftfest"},{"ns":0,"*":"Giftattentat"},{"ns":0,"*":"Giftbecher"},{"ns":0,"*":"Giftblase"},{"ns":0,"*":"Giftei"},{"ns":0,"*":"Giftempfindlichkeit"},{"ns":0,"*":"Giftfracht"},{"ns":0,"*":"Giftgetreide"},{"ns":0,"*":"Giftinformationsstelle"},{"ns":0,"*":"Giftkr\u00f6te"},{"ns":0,"*":"Giftk\u00fcche"},{"ns":0,"*":"Giftmischer"},{"ns":0,"*":"Giftmord"},{"ns":0,"*":"Giftnatter"},{"ns":0,"*":"Giftnotruf"},{"ns":0,"*":"Giftpilz"},{"ns":0,"*":"Giftschrank"},{"ns":0,"*":"Giftspinne"},{"ns":0,"*":"Giftst\u00e4bchen"},{"ns":0,"*":"Giftstachel"},{"ns":0,"*":"Gifttrank"},{"ns":0,"*":"Giftweizen"},{"ns":0,"*":"Giftwolke"},{"ns":0,"*":"angiften"},{"ns":0,"*":"\u0630\u064f\u0639\u064e\u0627\u0641\u064c"},{"ns":0,"*":"\u0569\u0578\u0582\u0575\u0576"},{"ns":0,"*":"myrkky"},{"ns":0,"*":"\u03b4\u03b7\u03bb\u03b7\u03c4\u03ae\u03c1\u03b9\u03bf"},{"ns":0,"*":"toqunartoq"},{"ns":0,"*":"tossico"},{"ns":0,"*":"\u6bd2"},{"ns":0,"*":"\u6bd2\u85ac"},{"ns":0,"*":"ver\u00ed"},{"ns":0,"*":"metzina"},{"ns":0,"*":"\ub3c5"},{"ns":0,"*":"venenum"},{"ns":0,"*":"Venien"},{"ns":0,"*":"gif"},{"ns":0,"*":"trucizna"},{"ns":0,"*":"t\u00f3xico"},{"ns":0,"*":"tissi"},{"ns":0,"*":"zawda\u015be"},{"ns":0,"*":"j\u011bd"},{"ns":0,"*":"toxina"},{"ns":0,"*":"zehir"},{"ns":106,"exists":"","*":"Reim:Deutsch:-\u026aft"},{"ns":14,"*":"Kategorie:Biologie
+        (Deutsch)"},{"ns":14,"*":"Kategorie:Biologie"},{"ns":6,"*":"Datei:De-Gift.ogg"},{"ns":4,"exists":"","*":"Wiktionary:Deutsch"},{"ns":4,"exists":"","*":"Wiktionary:Referenzen"},{"ns":12,"exists":"","*":"Hilfe:Akkusativ"},{"ns":12,"exists":"","*":"Hilfe:Dativ"},{"ns":12,"exists":"","*":"Hilfe:Genitiv"},{"ns":12,"exists":"","*":"Hilfe:H\u00f6rbeispiele"},{"ns":12,"exists":"","*":"Hilfe:IPA"},{"ns":12,"exists":"","*":"Hilfe:Nominativ"},{"ns":12,"exists":"","*":"Hilfe:Plural"},{"ns":12,"exists":"","*":"Hilfe:Reime"},{"ns":12,"exists":"","*":"Hilfe:Singular"},{"ns":12,"exists":"","*":"Hilfe:Wortart"}],"templates":[{"ns":10,"exists":"","*":"Vorlage:Siehe
+        auch"},{"ns":10,"exists":"","*":"Vorlage:Sprache"},{"ns":10,"exists":"","*":"Vorlage:Anker"},{"ns":10,"exists":"","*":"Vorlage:Anker/code"},{"ns":10,"exists":"","*":"Vorlage:Wortart"},{"ns":10,"exists":"","*":"Vorlage:n"},{"ns":10,"exists":"","*":"Vorlage:Deutsch
+        Substantiv \u00dcbersicht"},{"ns":10,"exists":"","*":"Vorlage:Art"},{"ns":10,"exists":"","*":"Vorlage:Flexlink"},{"ns":10,"exists":"","*":"Vorlage:NoCat"},{"ns":10,"exists":"","*":"Vorlage:Worttrennung"},{"ns":10,"exists":"","*":"Vorlage:Textbaustein"},{"ns":10,"exists":"","*":"Vorlage:Pl."},{"ns":10,"exists":"","*":"Vorlage:Aussprache"},{"ns":10,"exists":"","*":"Vorlage:IPA"},{"ns":10,"exists":"","*":"Vorlage:Lautschrift"},{"ns":10,"exists":"","*":"Vorlage:IPA-Text"},{"ns":10,"exists":"","*":"Vorlage:Str
+        match"},{"ns":10,"exists":"","*":"Vorlage:H\u00f6rbeispiele"},{"ns":10,"exists":"","*":"Vorlage:Audio"},{"ns":10,"exists":"","*":"Vorlage:Reime"},{"ns":10,"exists":"","*":"Vorlage:Reim"},{"ns":10,"exists":"","*":"Vorlage:Bedeutungen"},{"ns":10,"exists":"","*":"Vorlage:K"},{"ns":10,"exists":"","*":"Vorlage:K/Abk"},{"ns":10,"exists":"","*":"Vorlage:Herkunft"},{"ns":10,"exists":"","*":"Vorlage:Synonyme"},{"ns":10,"exists":"","*":"Vorlage:Gegenw\u00f6rter"},{"ns":10,"exists":"","*":"Vorlage:Oberbegriffe"},{"ns":10,"exists":"","*":"Vorlage:Unterbegriffe"},{"ns":10,"exists":"","*":"Vorlage:Beispiele"},{"ns":10,"exists":"","*":"Vorlage:Redewendungen"},{"ns":10,"exists":"","*":"Vorlage:Charakteristische
+        Wortkombinationen"},{"ns":10,"exists":"","*":"Vorlage:Wortbildungen"},{"ns":10,"exists":"","*":"Vorlage:\u00dc-Tabelle"},{"ns":10,"exists":"","*":"Vorlage:grc"},{"ns":10,"exists":"","*":"Vorlage:\u00dct"},{"ns":10,"exists":"","*":"Vorlage:ar"},{"ns":10,"exists":"","*":"Vorlage:\u00dcxx5"},{"ns":10,"exists":"","*":"Vorlage:m"},{"ns":10,"exists":"","*":"Vorlage:hy"},{"ns":10,"exists":"","*":"Vorlage:da"},{"ns":10,"exists":"","*":"Vorlage:\u00dc"},{"ns":10,"exists":"","*":"Vorlage:u"},{"ns":10,"exists":"","*":"Vorlage:en"},{"ns":10,"exists":"","*":"Vorlage:eo"},{"ns":10,"exists":"","*":"Vorlage:fo"},{"ns":10,"exists":"","*":"Vorlage:fi"},{"ns":10,"exists":"","*":"Vorlage:fr"},{"ns":10,"exists":"","*":"Vorlage:el"},{"ns":10,"exists":"","*":"Vorlage:kl"},{"ns":10,"exists":"","*":"Vorlage:haw"},{"ns":10,"exists":"","*":"Vorlage:ia"},{"ns":10,"exists":"","*":"Vorlage:it"},{"ns":10,"exists":"","*":"Vorlage:ja"},{"ns":10,"exists":"","*":"Vorlage:ca"},{"ns":10,"exists":"","*":"Vorlage:f"},{"ns":10,"exists":"","*":"Vorlage:ko"},{"ns":10,"exists":"","*":"Vorlage:la"},{"ns":10,"exists":"","*":"Vorlage:nds"},{"ns":10,"exists":"","*":"Vorlage:nl"},{"ns":10,"exists":"","*":"Vorlage:no"},{"ns":10,"exists":"","*":"Vorlage:nb"},{"ns":10,"exists":"","*":"Vorlage:mf"},{"ns":10,"exists":"","*":"Vorlage:pl"},{"ns":10,"exists":"","*":"Vorlage:pt"},{"ns":10,"exists":"","*":"Vorlage:rm"},{"ns":10,"exists":"","*":"Vorlage:ru"},{"ns":10,"exists":"","*":"Vorlage:sv"},{"ns":10,"exists":"","*":"Vorlage:wen"},{"ns":10,"exists":"","*":"Vorlage:dsb"},{"ns":10,"exists":"","*":"Vorlage:hsb"},{"ns":10,"exists":"","*":"Vorlage:es"},{"ns":10,"exists":"","*":"Vorlage:cs"},{"ns":10,"exists":"","*":"Vorlage:tr"},{"ns":10,"exists":"","*":"Vorlage:(!"},{"ns":10,"exists":"","*":"Vorlage:!)"},{"ns":10,"exists":"","*":"Vorlage:Referenzen"},{"ns":10,"exists":"","*":"Vorlage:Wikipedia"},{"ns":10,"exists":"","*":"Vorlage:Ref-Grimm"},{"ns":10,"exists":"","*":"Vorlage:Ref-woerterbuchnetz"},{"ns":10,"exists":"","*":"Vorlage:="},{"ns":10,"exists":"","*":"Vorlage:Ref-DWDS"},{"ns":10,"exists":"","*":"Vorlage:Ref-Canoo"},{"ns":10,"exists":"","*":"Vorlage:Ref-UniLeipzig"},{"ns":10,"exists":"","*":"Vorlage:Ref-Duden"},{"ns":10,"exists":"","*":"Vorlage:Quellen"},{"ns":10,"exists":"","*":"Vorlage:Lit-Kluge:
+        Etymologisches W\u00f6rterbuch"},{"ns":10,"exists":"","*":"Vorlage:Literatur"},{"ns":10,"exists":"","*":"Vorlage:Datum"},{"ns":10,"exists":"","*":"Vorlage:DNB"},{"ns":10,"exists":"","*":"Vorlage:kPl."},{"ns":10,"exists":"","*":"Vorlage:Per-S\u00fcddeutsche
+        Online"},{"ns":10,"exists":"","*":"Vorlage:ISSN"},{"ns":10,"exists":"","*":"Vorlage:FormatDate"},{"ns":10,"exists":"","*":"Vorlage:Monat
+        Name-Nummer"},{"ns":10,"exists":"","*":"Vorlage:IstZahl"},{"ns":10,"exists":"","*":"Vorlage:\u00c4hnlichkeiten
+        1"},{"ns":10,"exists":"","*":"Vorlage:de"},{"ns":828,"exists":"","*":"Modul:sieheAuch"},{"ns":828,"exists":"","*":"Modul:Str"},{"ns":828,"exists":"","*":"Modul:Convert-CH"},{"ns":828,"exists":"","*":"Modul:flexlink"},{"ns":828,"exists":"","*":"Modul:String"},{"ns":828,"exists":"","*":"Modul:ErsetzeZeichen"}],"images":["De-Gift.ogg","Disambig.svg","Loudspeaker.svg"],"externallinks":["http://d-nb.info/965096742","http://www.zeno.org/Literatur/M/Immermann,+Karl/Romane/M%C3%BCnchhausen/Erster+Teil/Zweites+Buch.+Der+Wilde+J%C3%A4ger/Neuntes+Kapitel","http://dispatch.opac.d-nb.de/DB=1.1/CMD?ACT=SRCHA&IKT=8&TRM=0174-4917","http://www.sueddeutsche.de/bayern/kratzers-wortschatz-wenn-ribery-bratzelt-1.1977030-14","http://woerterbuchnetz.de/DWB?lemma=Gift","http://www.dwds.de/?q=Gift","http://www.canoo.net/Gift?lookup=caseSensitive","http://corpora.informatik.uni-leipzig.de/de/res?corpusId=deu_newscrawl_2011&word=Gift","http://www.duden.de/rechtschreibung/Gift","http://www.duden.de/rechtschreibung/Gift_Wut_Groll_Zorn"],"sections":[{"toclevel":1,"level":"2","line":"Gift
+        (Deutsch<span></span><span></span><span></span>)","number":"1","index":"1","fromtitle":"Gift","byteoffset":24,"anchor":"Gift_.28Deutsch.29"},{"toclevel":2,"level":"3","line":"Substantiv,
+        n","number":"1.1","index":"2","fromtitle":"Gift","byteoffset":57,"anchor":"Substantiv.2C_n"},{"toclevel":3,"level":"4","line":"\u00dcbersetzungen","number":"1.1.1","index":"3","fromtitle":"Gift","byteoffset":3433,"anchor":".C3.9Cbersetzungen"},{"toclevel":2,"level":"3","line":"Substantiv,
+        f","number":"1.2","index":"4","fromtitle":"Gift","byteoffset":5083,"anchor":"Substantiv.2C_f"},{"toclevel":3,"level":"4","line":"\u00dcbersetzungen","number":"1.2.1","index":"5","fromtitle":"Gift","byteoffset":6296,"anchor":".C3.9Cbersetzungen_2"},{"toclevel":2,"level":"3","line":"Substantiv,
+        m","number":"1.3","index":"6","fromtitle":"Gift","byteoffset":6567,"anchor":"Substantiv.2C_m"},{"toclevel":3,"level":"4","line":"\u00dcbersetzungen","number":"1.3.1","index":"7","fromtitle":"Gift","byteoffset":8013,"anchor":".C3.9Cbersetzungen_3"}],"displaytitle":"Gift","iwlinks":[{"prefix":"ar","url":"https://ar.wiktionary.org/wiki/%D8%B0%D9%8F%D8%B9%D9%8E%D8%A7%D9%81%D9%8C","*":"ar:\u0630\u064f\u0639\u064e\u0627\u0641\u064c"},{"prefix":"hy","url":"https://hy.wiktionary.org/wiki/Special:Search/%D5%A9%D5%B8%D6%82%D5%B5%D5%B6","*":"hy:Special:Search/\u0569\u0578\u0582\u0575\u0576"},{"prefix":"da","url":"https://da.wiktionary.org/wiki/Special:Search/gift","*":"da:Special:Search/gift"},{"prefix":"en","url":"https://en.wiktionary.org/wiki/Special:Search/poison","*":"en:Special:Search/poison"},{"prefix":"en","url":"https://en.wiktionary.org/wiki/Special:Search/toxin","*":"en:Special:Search/toxin"},{"prefix":"en","url":"https://en.wiktionary.org/wiki/Special:Search/venom","*":"en:Special:Search/venom"},{"prefix":"en","url":"https://en.wiktionary.org/wiki/Special:Search/gift","*":"en:Special:Search/gift"},{"prefix":"en","url":"https://en.wiktionary.org/wiki/Special:Search/present","*":"en:Special:Search/present"},{"prefix":"en","url":"https://en.wiktionary.org/wiki/Special:Search/anger","*":"en:Special:Search/anger"},{"prefix":"en","url":"https://en.wiktionary.org/wiki/Special:Search/wrath","*":"en:Special:Search/wrath"},{"prefix":"eo","url":"https://eo.wiktionary.org/wiki/Special:Search/veneno","*":"eo:Special:Search/veneno"},{"prefix":"fo","url":"https://fo.wiktionary.org/wiki/Special:Search/eitur","*":"fo:Special:Search/eitur"},{"prefix":"fi","url":"https://fi.wiktionary.org/wiki/Special:Search/myrkky","*":"fi:Special:Search/myrkky"},{"prefix":"fr","url":"https://fr.wiktionary.org/wiki/Special:Search/poison","*":"fr:Special:Search/poison"},{"prefix":"fr","url":"https://fr.wiktionary.org/wiki/Special:Search/venin","*":"fr:Special:Search/venin"},{"prefix":"fr","url":"https://fr.wiktionary.org/wiki/Special:Search/cadeau","*":"fr:Special:Search/cadeau"},{"prefix":"el","url":"https://el.wiktionary.org/wiki/Special:Search/%CE%B4%CE%B7%CE%BB%CE%B7%CF%84%CE%AE%CF%81%CE%B9%CE%BF","*":"el:Special:Search/\u03b4\u03b7\u03bb\u03b7\u03c4\u03ae\u03c1\u03b9\u03bf"},{"prefix":"kl","url":"https://kl.wiktionary.org/wiki/Special:Search/toqunartoq","*":"kl:Special:Search/toqunartoq"},{"prefix":"ia","url":"https://ia.wiktionary.org/wiki/Special:Search/veneno","*":"ia:Special:Search/veneno"},{"prefix":"it","url":"https://it.wiktionary.org/wiki/Special:Search/veleno","*":"it:Special:Search/veleno"},{"prefix":"it","url":"https://it.wiktionary.org/wiki/Special:Search/tossico","*":"it:Special:Search/tossico"},{"prefix":"it","url":"https://it.wiktionary.org/wiki/Special:Search/regalo","*":"it:Special:Search/regalo"},{"prefix":"ja","url":"https://ja.wiktionary.org/wiki/Special:Search/%E6%AF%92","*":"ja:Special:Search/\u6bd2"},{"prefix":"ja","url":"https://ja.wiktionary.org/wiki/Special:Search/%E6%AF%92%E8%96%AC","*":"ja:Special:Search/\u6bd2\u85ac"},{"prefix":"ca","url":"https://ca.wiktionary.org/wiki/Special:Search/ver%C3%AD","*":"ca:Special:Search/ver\u00ed"},{"prefix":"ca","url":"https://ca.wiktionary.org/wiki/Special:Search/metzina","*":"ca:Special:Search/metzina"},{"prefix":"ko","url":"https://ko.wiktionary.org/wiki/Special:Search/%EB%8F%85","*":"ko:Special:Search/\ub3c5"},{"prefix":"la","url":"https://la.wiktionary.org/wiki/Special:Search/venenum","*":"la:Special:Search/venenum"},{"prefix":"la","url":"https://la.wiktionary.org/wiki/Special:Search/toxicum","*":"la:Special:Search/toxicum"},{"prefix":"nds","url":"https://nds.wiktionary.org/wiki/Special:Search/Venien","*":"nds:Special:Search/Venien"},{"prefix":"nl","url":"https://nl.wiktionary.org/wiki/Special:Search/gif","*":"nl:Special:Search/gif"},{"prefix":"no","url":"https://no.wiktionary.org/wiki/Special:Search/gift","*":"no:Special:Search/gift"},{"prefix":"pl","url":"https://pl.wiktionary.org/wiki/Special:Search/trucizna","*":"pl:Special:Search/trucizna"},{"prefix":"pt","url":"https://pt.wiktionary.org/wiki/Special:Search/t%C3%B3xico","*":"pt:Special:Search/t\u00f3xico"},{"prefix":"pt","url":"https://pt.wiktionary.org/wiki/Special:Search/veneno","*":"pt:Special:Search/veneno"},{"prefix":"ru","url":"https://ru.wiktionary.org/wiki/Special:Search/%D1%8F%D0%B4","*":"ru:Special:Search/\u044f\u0434"},{"prefix":"sv","url":"https://sv.wiktionary.org/wiki/Special:Search/gift","*":"sv:Special:Search/gift"},{"prefix":"sv","url":"https://sv.wiktionary.org/wiki/Special:Search/present","*":"sv:Special:Search/present"},{"prefix":"hsb","url":"https://hsb.wiktionary.org/wiki/Special:Search/j%C4%9Bd","*":"hsb:Special:Search/j\u011bd"},{"prefix":"es","url":"https://es.wiktionary.org/wiki/Special:Search/veneno","*":"es:Special:Search/veneno"},{"prefix":"es","url":"https://es.wiktionary.org/wiki/Special:Search/toxina","*":"es:Special:Search/toxina"},{"prefix":"es","url":"https://es.wiktionary.org/wiki/Special:Search/t%C3%B3xico","*":"es:Special:Search/t\u00f3xico"},{"prefix":"cs","url":"https://cs.wiktionary.org/wiki/Special:Search/jed","*":"cs:Special:Search/jed"},{"prefix":"tr","url":"https://tr.wiktionary.org/wiki/Special:Search/zehir","*":"tr:Special:Search/zehir"},{"prefix":"w","url":"https://de.wikipedia.org/wiki/Spezial:Suche/Gift","*":"w:Spezial:Suche/Gift"}],"properties":[]}}'
+    http_version: 
+  recorded_at: Sun, 12 Mar 2017 20:33:18 GMT
 recorded_with: VCR 2.9.3

@@ -28,7 +28,7 @@ module Parsers
       nokogiri
         .css('a')
         .detect do |a|
-          a.attributes['href'].value =~ /upload.*ogg/
+          a.attributes['href'].value =~ /upload.*De.*\.ogg/i
         end['href']
     rescue => e
       Rails.logger.info "No sound found for #{@q}: #{e.inspect}"
