@@ -846,4 +846,79 @@ http_interactions:
         Form","number":"1.1","index":"2","fromtitle":"Nichtraucherinnen","byteoffset":46,"anchor":"Deklinierte_Form"}],"displaytitle":"Nichtraucherinnen","iwlinks":[],"properties":[]}}'
     http_version: 
   recorded_at: Sun, 12 Mar 2017 19:16:44 GMT
+- request:
+    method: post
+    uri: https://de.wiktionary.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=parse&format=json&page=Myfakeword&token=%2B%5C
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Cookie:
+      - GeoIP=US:PA:Philadelphia:39.94:-75.15:v4; WMF-Last-Access=12-Mar-2017; WMF-Last-Access-Global=12-Mar-2017
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 12 Mar 2017 19:27:44 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '251'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1191.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://de.wiktionary.org/wiki/Spezial:CentralAutoLogin/P3P
+        for more info."
+      Mediawiki-Api-Error:
+      - missingtitle
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding
+      Backend-Timing:
+      - D=38316 t=1489346864454985
+      X-Varnish:
+      - 872884239, 944874034
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1054 pass, cp1052 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Analytics:
+      - WMF-Last-Access=12-Mar-2017;WMF-Last-Access-Global=12-Mar-2017;https=1
+      X-Client-Ip:
+      - 2601:42:901:1f70:48c8:5adf:e79e:81f4
+    body:
+      encoding: ASCII-8BIT
+      string: '{"error":{"code":"missingtitle","info":"The page you specified doesn''t
+        exist.","*":"See https://de.wiktionary.org/w/api.php for API usage. Subscribe
+        to the mediawiki-api-announce mailing list at &lt;https://lists.wikimedia.org/mailman/listinfo/mediawiki-api-announce&gt;
+        for notice of API deprecations and breaking changes."},"servedby":"mw1191"}'
+    http_version: 
+  recorded_at: Sun, 12 Mar 2017 19:27:44 GMT
 recorded_with: VCR 2.9.3

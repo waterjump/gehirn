@@ -16,6 +16,10 @@ $(function() {
     }
   };
 
+  var fillError = function(json) {
+    $('#error').html('<p>' + json.error + '</p>');
+  }
+
   $('#q').focus();
 
   $('#language').on('change', function(){
@@ -29,8 +33,12 @@ $(function() {
       $.ajax({
           url: "/query?q=" + q,
       }).done(function(json) {
-        $('#ipa').html(json.ipa);
-        fillAudio(json);
+        if (json.error !== undefined) {
+          fillError(json);
+        } else {
+          $('#ipa').html(json.ipa);
+          fillAudio(json);
+        }
       })
     }, 1000);
   });

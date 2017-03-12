@@ -6,11 +6,13 @@ module Parsers
 
     def initialize(q)
       @q = q
+      @tries = 0
       @response = fetch_response
     end
 
     def parse
-      { q: @q, ipa: ipa, sound: sound }
+      return { q: @q, ipa: ipa, sound: sound } unless @response.nil?
+      { error: 'No results.' }
     end
 
     private
@@ -34,13 +36,15 @@ module Parsers
     end
 
     def fetch_response
+      @tries += 1
       self.class.client.action(:parse, page: @q)
     rescue MediawikiApi::ApiError => e
-      if e.message =~ /missingtitle/
+      if e.message =~ /missingtitle/ && @tries < 2
         @q = @q.capitalize
-        self.class.client.action(:parse, page: @q)
+        fetch_response
       else
-        raise e
+        Rails.logger.info "Error fetching response from Wiktionary: #{e.inspect}"
+        nil
       end
     end
 
