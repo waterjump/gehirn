@@ -1,29 +1,9 @@
 $(function() {
-  var language = 'Deutsch';
+  var language = 'Deutsch',
+      timer;
 
   var setLanguage = function() {
     language = $('#language').val();
-  };
-
-  var googleImageUrl = function(q) {
-    switch (language) {
-      case 'Deutsch':
-        return 'https://www.google.de/search?hl=de&site=imghp&tbm=isch&source=hp&q=' + q
-    }
-  };  
-
-  var wiktionaryUrl = function(q) {
-    switch (language) {
-      case 'Deutsch':
-        return 'https://de.m.wiktionary.org/wiki/' + q
-    }
-  };
-
-  var forvoUrl = function(q) {
-    switch (language) {
-      case 'Deutsch':
-        return 'https://forvo.com/word/' + q + '/#de' 
-    }
   };
 
   $('#language').on('change', function(){
@@ -31,18 +11,15 @@ $(function() {
   });
 
   $('#q').on('keyup', function(){
+    clearTimeout(timer);
     var q = $(this).val();
-    // $('iframe.google').prop('src', googleImageUrl(q));
-    // $('iframe.wiktionary').prop('src', wiktionaryUrl(q));
-    // $('iframe.forvo').prop('src', forvoUrl(q));
-    
-    $.ajax({
-        url: "/query?q=" + q,
-    }).done(function(json) {
-      console.log(json);  
-      // return $("#results").append(html);
-    });
-
-    $(this).focus();
+    timer = setTimeout(function(){
+      $.ajax({
+          url: "/query?q=" + q,
+      }).done(function(json) {
+        $('#ipa').html('/' + json.ipa + '/');
+        $('#sound').html('<a href="' + json.sound + '">' + q + '</a>');
+      });
+    }, 1000);
   });
 });

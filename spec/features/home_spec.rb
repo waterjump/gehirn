@@ -11,4 +11,10 @@ feature 'the home page', type: :feature, js: true do
     expect(page).to have_field('q')
     expect(page).to have_select('language')
   end
+
+  scenario 'user enters query' do
+    fill_in 'q', with: 'Gehirn'
+    expect(page).to have_content('/ɡəˈhɪʁn/')
+    expect(page).to have_link('Gehirn')
+  end
 end
