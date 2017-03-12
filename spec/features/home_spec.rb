@@ -13,8 +13,10 @@ feature 'the home page', type: :feature, js: true do
   end
 
   scenario 'user enters query' do
-    fill_in 'q', with: 'Gehirn'
-    expect(page).to have_content('/ɡəˈhɪʁn/')
-    expect(page).to have_link('Gehirn')
+    VCR.use_cassette('home') do
+      fill_in 'q', with: 'Gehirn'
+      expect(page).to have_content('/ɡəˈhɪʁn/')
+      expect(page).to have_link('Gehirn')
+    end
   end
 end

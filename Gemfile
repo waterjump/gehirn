@@ -52,8 +52,8 @@ end
 group :test do
   gem 'database_cleaner'
   gem 'mongoid-rspec', '3.0.0'
-#  gem 'vcr'
-#  gem 'webmock'
+ gem 'vcr'
+ gem 'webmock'
 end
 
 group :development do

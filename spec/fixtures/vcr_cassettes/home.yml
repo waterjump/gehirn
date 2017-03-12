@@ -1,0 +1,654 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://de.wiktionary.org/w/api.php?action=query&format=json&meta=tokens&type=csrf
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 12 Mar 2017 17:46:18 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '72'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1288.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://de.wiktionary.org/wiki/Spezial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding
+      Backend-Timing:
+      - D=19416 t=1489340778361208
+      X-Varnish:
+      - 928158530, 533720366
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1066 pass, cp1053 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=US:PA:Philadelphia:39.94:-75.15:v4; Path=/; secure; Domain=.wiktionary.org
+      - WMF-Last-Access-Global=12-Mar-2017;Path=/;Domain=.wiktionary.org;HttpOnly;secure;Expires=Thu,
+        13 Apr 2017 12:00:00 GMT
+      - WMF-Last-Access=12-Mar-2017;Path=/;HttpOnly;secure;Expires=Thu, 13 Apr 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 2601:42:901:1f70:58eb:6229:a498:4e17
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"tokens":{"csrftoken":"+\\"}}}'
+    http_version: 
+  recorded_at: Sun, 12 Mar 2017 17:46:18 GMT
+- request:
+    method: post
+    uri: https://de.wiktionary.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=parse&format=json&page=Gehirn&token=%2B%5C
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Cookie:
+      - GeoIP=US:PA:Philadelphia:39.94:-75.15:v4; WMF-Last-Access=12-Mar-2017; WMF-Last-Access-Global=12-Mar-2017
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 12 Mar 2017 17:46:18 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - mw1207.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://de.wiktionary.org/wiki/Spezial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=61535 t=1489340778681368
+      X-Varnish:
+      - 814667165, 535302849
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1054 pass, cp1053 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Analytics:
+      - ns=-1;special=Badtitle;WMF-Last-Access=12-Mar-2017;WMF-Last-Access-Global=12-Mar-2017;https=1
+      X-Client-Ip:
+      - 2601:42:901:1f70:58eb:6229:a498:4e17
+    body:
+      encoding: ASCII-8BIT
+      string: '{"warnings":{"main":{"*":"Unrecognized parameter: token."}},"parse":{"title":"Gehirn","pageid":11340,"revid":5331889,"text":{"*":"<h2><span
+        class=\"mw-headline\" id=\"Gehirn_.28Deutsch.29\">Gehirn (<a href=\"/wiki/Wiktionary:Deutsch\"
+        title=\"Wiktionary:Deutsch\">Deutsch</a><span style=\"visibility:hidden\"
+        id=\"Gehirn_.28Deutsch.29\"><span id=\"Anker:Gehirn_.28Deutsch.29\"></span></span><span
+        style=\"visibility:hidden\" id=\"Deutsch\"><span id=\"Anker:Deutsch\"></span></span><span
+        style=\"visibility:hidden\" id=\"Deutsch\"><span id=\"Anker:Deutsch\"></span></span>)</span><span
+        class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=Gehirn&amp;action=edit&amp;section=1\" title=\"Abschnitt
+        bearbeiten: Gehirn (Deutsch)\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span
+        class=\"mw-headline\" id=\"Substantiv.2C_n\"><a href=\"/wiki/Hilfe:Wortart\"
+        title=\"Hilfe:Wortart\">Substantiv</a>, <em title=\"Genus: Neutrum (grammatikal.
+        Geschlecht: s\u00e4chlich)\">n</em></span><span class=\"mw-editsection\"><span
+        class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Gehirn&amp;action=edit&amp;section=2\"
+        title=\"Abschnitt bearbeiten: Substantiv, n\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table
+        class=\"wikitable float-right inflection-table flexbox hintergrundfarbe2\"
+        style=\"margin:0 0 .5em .4em;\">\n<tr>\n<th width=\"65\"></th>\n<th><a href=\"/wiki/Hilfe:Singular\"
+        title=\"Hilfe:Singular\">Singular</a></th>\n<th><a href=\"/wiki/Hilfe:Plural\"
+        title=\"Hilfe:Plural\">Plural</a></th>\n</tr>\n<tr>\n<th style=\"text-align:left;\"><a
+        href=\"/wiki/Hilfe:Nominativ\" title=\"Hilfe:Nominativ\">Nominativ</a></th>\n<td>das
+        Gehirn</td>\n<td>die <a href=\"/wiki/Gehirne\" title=\"Gehirne\">Gehirne</a></td>\n</tr>\n<tr>\n<th
+        style=\"text-align:left;\"><a href=\"/wiki/Hilfe:Genitiv\" title=\"Hilfe:Genitiv\">Genitiv</a></th>\n<td>des
+        <a href=\"/wiki/Gehirns\" title=\"Gehirns\">Gehirns</a><br />\ndes <a href=\"/wiki/Gehirnes\"
+        title=\"Gehirnes\">Gehirnes</a></td>\n<td>der <a href=\"/wiki/Gehirne\" title=\"Gehirne\">Gehirne</a></td>\n</tr>\n<tr>\n<th
+        style=\"text-align:left;\"><a href=\"/wiki/Hilfe:Dativ\" title=\"Hilfe:Dativ\">Dativ</a></th>\n<td>dem
+        Gehirn<br />\ndem <a href=\"/wiki/Gehirne\" title=\"Gehirne\">Gehirne</a></td>\n<td>den
+        <a href=\"/wiki/Gehirnen\" title=\"Gehirnen\">Gehirnen</a></td>\n</tr>\n<tr>\n<th
+        style=\"text-align:left;\"><a href=\"/wiki/Hilfe:Akkusativ\" title=\"Hilfe:Akkusativ\">Akkusativ</a></th>\n<td>das
+        Gehirn</td>\n<td>die <a href=\"/wiki/Gehirne\" title=\"Gehirne\">Gehirne</a></td>\n</tr>\n</table>\n<table
+        cellspacing=\"0\" cellpadding=\"0\" class=\"hintergrundfarbe2 rahmenfarbe1\"
+        style=\"float:right; clear:right; margin:0em 0em 1em 1em; empty-cells:show;\">\n<tr>\n<td
+        colspan=\"10\">\n<div class=\"center\">\n<div class=\"thumb tnone\">\n<div
+        class=\"thumbinner\" style=\"width:222px;\"><a href=\"/wiki/Datei:Gehirn,_medial_-_Lobi_deu.svg\"
+        class=\"image\"><img alt=\"\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Gehirn%2C_medial_-_Lobi_deu.svg/220px-Gehirn%2C_medial_-_Lobi_deu.svg.png\"
+        width=\"220\" height=\"143\" class=\"thumbimage\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Gehirn%2C_medial_-_Lobi_deu.svg/330px-Gehirn%2C_medial_-_Lobi_deu.svg.png
+        1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/06/Gehirn%2C_medial_-_Lobi_deu.svg/440px-Gehirn%2C_medial_-_Lobi_deu.svg.png
+        2x\" data-file-width=\"739\" data-file-height=\"482\" /></a>\n<div class=\"thumbcaption\">\n<div
+        class=\"magnify\"><a href=\"/wiki/Datei:Gehirn,_medial_-_Lobi_deu.svg\" class=\"internal\"
+        title=\"vergr\u00f6\u00dfern\"></a></div>\n[1] Medialansicht eines halbierten
+        menschlichen <i>Gehirns</i></div>\n</div>\n</div>\n</div>\n</td>\n</tr>\n</table>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Trennungsm\u00f6glichkeiten
+        am Zeilenumbruch\">Worttrennung:</p>\n<dl>\n<dd>Ge\u00b7hirn, <span style=\"font-size:95%;\">Plural:</span>
+        Ge\u00b7hir\u00b7ne</dd>\n</dl>\n<p style=\"margin-bottom:-0.5em; font-weight:bold;\"
+        title=\"Phonetik\">Aussprache:</p>\n<dl>\n<dd><a href=\"/wiki/Hilfe:IPA\"
+        title=\"Hilfe:IPA\">IPA</a>: [<span class=\"ipa\" style=\"padding: 0 1px;
+        text-decoration: none;\">\u0261\u0259\u02c8h\u026a\u0281n</span>]</dd>\n<dd><a
+        href=\"/wiki/Hilfe:H%C3%B6rbeispiele\" title=\"Hilfe:H\u00f6rbeispiele\">H\u00f6rbeispiele</a>:
+        <img alt=\"Lautsprecherbild\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/15px-Loudspeaker.svg.png\"
+        title=\"Lautsprecherbild\" width=\"15\" height=\"15\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/23px-Loudspeaker.svg.png
+        1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/30px-Loudspeaker.svg.png
+        2x\" data-file-width=\"20\" data-file-height=\"20\" />&#160;<a href=\"//upload.wikimedia.org/wikipedia/commons/0/00/De-Gehirn.ogg\"
+        class=\"internal\" title=\"De-Gehirn.ogg\">Gehirn</a><sup>&#160;(<a href=\"/wiki/Datei:De-Gehirn.ogg\"
+        title=\"Datei:De-Gehirn.ogg\">Info</a>)</sup></dd>\n<dd><a href=\"/wiki/Hilfe:Reime\"
+        title=\"Hilfe:Reime\">Reime</a>: <span class=\"ipa\" style=\"padding: 0 1px;
+        text-decoration: none;\"><a href=\"/wiki/Reim:Deutsch:-%C9%AA%CA%81n\" title=\"Reim:Deutsch:-\u026a\u0281n\">-\u026a\u0281n</a></span></dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Sinn und Bezeichnetes
+        (Semantik)\">Bedeutungen:</p>\n<dl>\n<dd>[1] <i><a href=\"/wiki/Anatomie\"
+        title=\"Anatomie\">Anatomie</a>:</i> der im <a href=\"/wiki/Kopf\" title=\"Kopf\">Kopf</a>
+        gelegenen <a href=\"/wiki/Teil\" title=\"Teil\">Teil</a> des <a href=\"/wiki/Zentralnervensystem\"
+        title=\"Zentralnervensystem\">Zentralnervensystems</a> der <a href=\"/wiki/Wirbeltier\"
+        title=\"Wirbeltier\">Wirbeltiere</a></dd>\n<dd>[2] <i><a href=\"/w/index.php?title=Vergleichende_Anatomie&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Vergleichende Anatomie (Seite nicht vorhanden)\">Vergleichende
+        Anatomie</a>:</i> der <a href=\"/wiki/Ansatz\" title=\"Ansatz\">Ansatz</a>
+        zur <a href=\"/wiki/Bildung\" title=\"Bildung\">Bildung</a> von <a href=\"/w/index.php?title=Nervenzentrum&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Nervenzentrum (Seite nicht vorhanden)\">Nervenzentren</a></dd>\n<dd>[3]
+        <i><a href=\"/wiki/umgangssprachlich\" title=\"umgangssprachlich\">umgangssprachlich</a>:</i>
+        <a href=\"/wiki/Verstand\" title=\"Verstand\">Verstand</a>, <a href=\"/w/index.php?title=Denkverm%C3%B6gen&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Denkverm\u00f6gen (Seite nicht vorhanden)\">Denkverm\u00f6gen</a></dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Etymologie und Morphologie\">Herkunft:</p>\n<dl>\n<dd>15.
+        Jahrhundert, <a href=\"/wiki/mittelhochdeutsch\" title=\"mittelhochdeutsch\">mittelhochdeutsch</a>
+        <i>gehirne</i>, <a href=\"/wiki/Kollektivbildung\" title=\"Kollektivbildung\">Kollektivbildung</a>
+        zu <i><a href=\"/wiki/Hirn\" title=\"Hirn\">Hirn</a></i><sup id=\"cite_ref-1\"
+        class=\"reference\"><a href=\"#cite_note-1\">[1]</a></sup><sup id=\"cite_ref-2\"
+        class=\"reference\"><a href=\"#cite_note-2\">[2]</a></sup></dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"bedeutungsgleich
+        gebrauchte W\u00f6rter\">Synonyme:</p>\n<dl>\n<dd>[3] <i>umgangssprachlich:</i>
+        <a href=\"/w/index.php?title=Denkapparat&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"Denkapparat (Seite nicht vorhanden)\">Denkapparat</a>, <a href=\"/w/index.php?title=graue_Zellen&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"graue Zellen (Seite nicht vorhanden)\">graue Zellen</a>,
+        <a href=\"/wiki/Grips\" title=\"Grips\">Grips</a></dd>\n</dl>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Sinnverwandte W\u00f6rter\">Sinnverwandte W\u00f6rter:</p>\n<dl>\n<dd>[3]
+        <a href=\"/wiki/Ged%C3%A4chtnis\" title=\"Ged\u00e4chtnis\">Ged\u00e4chtnis</a>;
+        <i>umgangssprachlich:</i> <a href=\"/w/index.php?title=Hinterst%C3%BCbchen&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Hinterst\u00fcbchen (Seite nicht vorhanden)\">Hinterst\u00fcbchen</a>;
+        <i>\u00fcbertragen:</i> <a href=\"/w/index.php?title=Ged%C3%A4chtnispalast&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Ged\u00e4chtnispalast (Seite nicht vorhanden)\">Ged\u00e4chtnispalast</a></dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Hyperonyme\">Oberbegriffe:</p>\n<dl>\n<dd>[1]
+        <a href=\"/wiki/Zentralnervensystem\" title=\"Zentralnervensystem\">Zentralnervensystem</a>,
+        <a href=\"/wiki/ZNS\" title=\"ZNS\">ZNS</a>, <a href=\"/wiki/Organ\" title=\"Organ\">Organ</a></dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Hyponyme\">Unterbegriffe:</p>\n<dl>\n<dd>[1]
+        <a href=\"/wiki/Gro%C3%9Fhirn\" title=\"Gro\u00dfhirn\">Gro\u00dfhirn</a>,
+        <a href=\"/wiki/Kleinhirn\" title=\"Kleinhirn\">Kleinhirn</a>, <a href=\"/w/index.php?title=Zwischenhirn&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Zwischenhirn (Seite nicht vorhanden)\">Zwischenhirn</a>,
+        <a href=\"/w/index.php?title=Hirnstamm&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"Hirnstamm (Seite nicht vorhanden)\">Hirnstamm</a>, <a href=\"/w/index.php?title=Gehirnhaut&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Gehirnhaut (Seite nicht vorhanden)\">Gehirnhaut</a>,
+        <a href=\"/w/index.php?title=Gehirnrinde&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"Gehirnrinde (Seite nicht vorhanden)\">Gehirnrinde</a>, <a href=\"/wiki/Gehirnlappen\"
+        title=\"Gehirnlappen\">Gehirnlappen</a>, <a href=\"/w/index.php?title=Gehirnnerv&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Gehirnnerv (Seite nicht vorhanden)\">Gehirnnerv</a></dd>\n<dd>[1]
+        <a href=\"/w/index.php?title=Kalbshirn&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"Kalbshirn (Seite nicht vorhanden)\">Kalbshirn</a></dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Kurzformen\">Kurzformen:</p>\n<dl>\n<dd>[1,
+        3] <a href=\"/wiki/Hirn\" title=\"Hirn\">Hirn</a></dd>\n</dl>\n<p style=\"margin-bottom:-0.5em;
+        font-weight:bold;\" title=\"Verwendungsbeispiels\u00e4tze\">Beispiele:</p>\n<dl>\n<dd>[1]
+        Das <i>Gehirn</i> selbst ist schmerzunempfindlich.</dd>\n<dd>[1] \u00dcberm\u00e4\u00dfiger
+        Drogenkonsum zerst\u00f6rt die Zellen im <i>Gehirn.</i></dd>\n<dd>[1] \u201eDa\u00df
+        es ihm schon vor zwanzig Jahren gelungen war, aus animalischen Zellen unter
+        dem Einflu\u00df des magnetischen Feldes und durch mechanische Rotation vollst\u00e4ndig
+        ausgebildete <i>Gehirne</i> auf Glasplatten wachsen zu lassen, -- <i>Gehirne,</i>
+        die, nach allem zu schlie\u00dfen, sogar selbst\u00e4ndig zu denken vermochten,
+        -- hatte zwar hie und da in Zeitungen gestanden, -- wissenschaftliches, tieferes
+        Interesse aber hatte es nicht geweckt.\u201c<sup id=\"cite_ref-3\" class=\"reference\"><a
+        href=\"#cite_note-3\">[3]</a></sup></dd>\n<dd>[1] Mancherorts steht das <i>Gehirn</i>
+        des Kalbes auf der Speisekarte, in Butter geschwenkt und mit einem leichten
+        Blattsalat als Beilage.</dd>\n<dd>[2] Sobald die Nervenzentren komplexer werden,
+        wie bei den h\u00f6herentwickelten Insekten, sprechen wir von <i>Gehirnen.</i></dd>\n<dd>[3]
+        Sie zermarterte sich das <i>Gehirn,</i> konnte aber partout nicht auf Rolfs
+        Nachnamen kommen.</dd>\n<dd>[3] Haben sie dir das <i>Gehirn</i> amputiert?
+        Du kannst doch keine Plastikt\u00fcten in den offenen Kamin schmei\u00dfen!</dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Phraseologismen\">Redewendungen:</p>\n<dl>\n<dd><i>derb:</i>
+        jemandem hat man <a href=\"/w/index.php?title=ins_Gehirn_geschissen&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"ins Gehirn geschissen (Seite nicht vorhanden)\">ins
+        Gehirn geschissen</a> (= jemand verh\u00e4lt sich unm\u00f6glich)</dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Signifikante Kollokationen\">Charakteristische
+        Wortkombinationen:</p>\n<dl>\n<dd>[1] <a href=\"/wiki/elektronisch\" title=\"elektronisch\">elektronisches</a>,
+        <a href=\"/wiki/krank\" title=\"krank\">krankes</a>, <a href=\"/wiki/menschlich\"
+        title=\"menschlich\">menschliches</a> <i>Gehirn</i></dd>\n<dd>[1] <i>Gehirn</i>
+        <a href=\"/wiki/stimulieren\" title=\"stimulieren\">stimulieren</a></dd>\n<dd>[3]
+        <i>Gehirn</i> <a href=\"/wiki/aktivieren\" title=\"aktivieren\">aktivieren</a>,
+        <a href=\"/wiki/einschalten\" title=\"einschalten\">einschalten</a>, <a href=\"/w/index.php?title=zermartern&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"zermartern (Seite nicht vorhanden)\">zermartern</a></dd>\n</dl>\n<p
+        style=\"margin-bottom:-0.5em; font-weight:bold;\" title=\"Derivate, Komposita
+        und Konversionen\">Wortbildungen:</p>\n<dl>\n<dd>[1] <a href=\"/wiki/Gehirnblutung\"
+        title=\"Gehirnblutung\">Gehirnblutung</a>, <a href=\"/w/index.php?title=Gehirnchirurgie&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Gehirnchirurgie (Seite nicht vorhanden)\">Gehirnchirurgie</a>,
+        <a href=\"/w/index.php?title=Gehirndurchblutung&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Gehirndurchblutung (Seite nicht vorhanden)\">Gehirndurchblutung</a>,
+        <a href=\"/wiki/Gehirnersch%C3%BCtterung\" title=\"Gehirnersch\u00fctterung\">Gehirnersch\u00fctterung</a>,
+        <a href=\"/w/index.php?title=Gehirnerweichung&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Gehirnerweichung (Seite nicht vorhanden)\">Gehirnerweichung</a>,
+        <a href=\"/w/index.php?title=Gehirnfunktion&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Gehirnfunktion (Seite nicht vorhanden)\">Gehirnfunktion</a>,
+        <a href=\"/w/index.php?title=Gehirnquetschung&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Gehirnquetschung (Seite nicht vorhanden)\">Gehirnquetschung</a>,
+        <a href=\"/wiki/Gehirnschale\" title=\"Gehirnschale\">Gehirnschale</a>, <a
+        href=\"/w/index.php?title=Gehirnschlag&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"Gehirnschlag (Seite nicht vorhanden)\">Gehirnschlag</a>, <a href=\"/w/index.php?title=Gehirnstoffwechsel&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Gehirnstoffwechsel (Seite nicht vorhanden)\">Gehirnstoffwechsel</a>,
+        <a href=\"/w/index.php?title=Gehirnt%C3%A4tigkeit&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Gehirnt\u00e4tigkeit (Seite nicht vorhanden)\">Gehirnt\u00e4tigkeit</a>,
+        <a href=\"/w/index.php?title=Gehirntod&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"Gehirntod (Seite nicht vorhanden)\">Gehirntod</a>, <a href=\"/w/index.php?title=Gehirntumor&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Gehirntumor (Seite nicht vorhanden)\">Gehirntumor</a>,
+        <a href=\"/wiki/Gehirnverletzung\" title=\"Gehirnverletzung\">Gehirnverletzung</a>,
+        <a href=\"/wiki/Gehirnw%C3%A4sche\" title=\"Gehirnw\u00e4sche\">Gehirnw\u00e4sche</a>,
+        <a href=\"/wiki/Gehirnzelle\" title=\"Gehirnzelle\">Gehirnzelle</a></dd>\n<dd>[3]
+        <a href=\"/w/index.php?title=Gehirnakrobatik&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Gehirnakrobatik (Seite nicht vorhanden)\">Gehirnakrobatik</a>,
+        <a href=\"/w/index.php?title=gehirnamputiert&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"gehirnamputiert (Seite nicht vorhanden)\">gehirnamputiert</a>,
+        <a href=\"/w/index.php?title=gehirnblond&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"gehirnblond (Seite nicht vorhanden)\">gehirnblond</a>, <a href=\"/w/index.php?title=Gehirnkasten&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Gehirnkasten (Seite nicht vorhanden)\">Gehirnkasten</a>,
+        <a href=\"/w/index.php?title=Gehirnschmalz&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Gehirnschmalz (Seite nicht vorhanden)\">Gehirnschmalz</a>,
+        <a href=\"/w/index.php?title=Gehirnschwund&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Gehirnschwund (Seite nicht vorhanden)\">Gehirnschwund</a>,
+        <a href=\"/w/index.php?title=Gehirnt%C3%A4tigkeit&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Gehirnt\u00e4tigkeit (Seite nicht vorhanden)\">Gehirnt\u00e4tigkeit</a></dd>\n</dl>\n<h4><span
+        class=\"mw-headline\" id=\".C3.9Cbersetzungen\">\u00dcbersetzungen</span><span
+        class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=Gehirn&amp;action=edit&amp;section=3\" title=\"Abschnitt
+        bearbeiten: \u00dcbersetzungen\">Bearbeiten</a><span class=\"mw-editsection-bracket\">]</span></span></h4>\n<div
+        class=\"mw-collapsible NavFrame\" style=\"margin-bottom:1em; margin-left:0;
+        clear:both; text-align:left;\">\n<div style=\"border-top: dotted 1px #aaaaaa;
+        border-bottom: dotted 1px #aaaaaa; padding-left:5px; padding-top:1px; padding-bottom:1px;
+        height: 1.6em; font-size:100%; background-color: #EFF5FB; font-weight: bold;\">&#160;</div>\n<div
+        class=\"mw-collapsible-content NavContent\" style=\"background-color:#F5FAFE;\">\n<table
+        border=\"0\" style=\"width:100%; background-color:#F5FAFE;\" title=\"\u00dcbersetzungen
+        in andere Sprachen\">\n<tr>\n<td style=\"border-bottom: dotted 1px #aaaaaa;\"
+        bgcolor=\"#F7F7F9\" valign=\"top\" width=\"50%\">\n<ul>\n<li><a href=\"/wiki/Afrikaans\"
+        title=\"Afrikaans\">Afrikaans</a>: [1] <span lang=\"af\" xml:lang=\"af\"><a
+        href=\"/w/index.php?title=brein&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"brein (Seite nicht vorhanden)\">brein</a></span>&#160;<a href=\"https://af.wiktionary.org/wiki/Special:Search/brein\"
+        class=\"extiw\" title=\"af:Special:Search/brein\"><sup>\u2192&#160;af</sup></a></li>\n<li><a
+        href=\"/wiki/Arabisch\" title=\"Arabisch\">Arabisch</a>: [1] <span lang=\"ar\"
+        xml:lang=\"ar\"><a href=\"/wiki/%D8%AF%D9%85%D8%A7%D8%BA#.D8.AF.D9.85.D8.A7.D8.BA_.28Arabisch.29\"
+        title=\"\u062f\u0645\u0627\u063a\">\u062f\u0645\u0627\u063a</a></span>&#160;(dm\u1ea1g\u1e96)&#160;<a
+        href=\"https://ar.wiktionary.org/wiki/Special:Search/%D8%AF%D9%85%D8%A7%D8%BA\"
+        class=\"extiw\" title=\"ar:Special:Search/\u062f\u0645\u0627\u063a\"><sup>\u2192&#160;ar</sup></a>
+        <em title=\"Genus: Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em></li>\n<li><a
+        href=\"/wiki/Bambara\" title=\"Bambara\">Bambara</a>: [1] <span lang=\"bm\"
+        xml:lang=\"bm\"><a href=\"/w/index.php?title=kunkolos%C9%9Bm%C9%9B&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"kunkolos\u025bm\u025b (Seite nicht vorhanden)\">kunkolos\u025bm\u025b</a></span>&#160;<sup
+        style=\"color:slategray;\">\u2192&#160;bm</sup></li>\n<li><a href=\"/wiki/Bengalisch\"
+        title=\"Bengalisch\">Bengalisch</a>: [1] <span lang=\"bn\" xml:lang=\"bn\"><a
+        href=\"/w/index.php?title=%E0%A6%AE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%95&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"\u09ae\u09b8\u09cd\u09a4\u09bf\u09b7\u09cd\u0995 (Seite
+        nicht vorhanden)\">\u09ae\u09b8\u09cd\u09a4\u09bf\u09b7\u09cd\u0995</a></span>&#160;(masti\u1e63ka)&#160;<a
+        href=\"https://bn.wiktionary.org/wiki/Special:Search/%E0%A6%AE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%95\"
+        class=\"extiw\" title=\"bn:Special:Search/\u09ae\u09b8\u09cd\u09a4\u09bf\u09b7\u09cd\u0995\"><sup>\u2192&#160;bn</sup></a></li>\n<li><a
+        href=\"/wiki/Bulgarisch\" title=\"Bulgarisch\">Bulgarisch</a>: [1] <span lang=\"bg\"
+        xml:lang=\"bg\"><a href=\"/w/index.php?title=%D0%BC%D0%BE%D0%B7%D1%8A%D0%BA&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"\u043c\u043e\u0437\u044a\u043a (Seite nicht vorhanden)\">\u043c\u043e\u0437\u044a\u043a</a></span>&#160;(moz\u0103k)&#160;<a
+        href=\"https://bg.wiktionary.org/wiki/Special:Search/%D0%BC%D0%BE%D0%B7%D1%8A%D0%BA\"
+        class=\"extiw\" title=\"bg:Special:Search/\u043c\u043e\u0437\u044a\u043a\"><sup>\u2192&#160;bg</sup></a></li>\n<li><a
+        href=\"/wiki/Chinesisch\" title=\"Chinesisch\">Chinesisch</a>:\n<ul>\n<li><a
+        href=\"/wiki/Chinesisch\" title=\"Chinesisch\">Chinesisch (traditionell)</a>:
+        [1] <span lang=\"zh\" xml:lang=\"zh\"><a href=\"/w/index.php?title=%E8%85%A6&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"\u8166 (Seite nicht vorhanden)\">\u8166</a></span>&#160;(n\u01ceo)&#160;<a
+        href=\"https://zh.wiktionary.org/wiki/Special:Search/%E8%85%A6\" class=\"extiw\"
+        title=\"zh:Special:Search/\u8166\"><sup>\u2192&#160;zh</sup></a></li>\n<li><a
+        href=\"/wiki/Chinesisch\" title=\"Chinesisch\">Chinesisch (vereinfacht)</a>:
+        [1] <span lang=\"zh\" xml:lang=\"zh\"><a href=\"/w/index.php?title=%E8%84%91&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"\u8111 (Seite nicht vorhanden)\">\u8111</a></span>&#160;(n\u01ceo)&#160;<a
+        href=\"https://zh.wiktionary.org/wiki/Special:Search/%E8%84%91\" class=\"extiw\"
+        title=\"zh:Special:Search/\u8111\"><sup>\u2192&#160;zh</sup></a></li>\n</ul>\n</li>\n<li><a
+        href=\"/wiki/D%C3%A4nisch\" title=\"D\u00e4nisch\">D\u00e4nisch</a>: [1] <span
+        lang=\"da\" xml:lang=\"da\"><a href=\"/w/index.php?title=hjerne&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"hjerne (Seite nicht vorhanden)\">hjerne</a></span>&#160;<a
+        href=\"https://da.wiktionary.org/wiki/Special:Search/hjerne\" class=\"extiw\"
+        title=\"da:Special:Search/hjerne\"><sup>\u2192&#160;da</sup></a></li>\n<li><a
+        href=\"/wiki/Englisch\" title=\"Englisch\">Englisch</a>: [1, 3] <span lang=\"en\"
+        xml:lang=\"en\"><a href=\"/wiki/brain#brain_.28Englisch.29\" title=\"brain\">brain</a></span>&#160;<a
+        href=\"https://en.wiktionary.org/wiki/Special:Search/brain\" class=\"extiw\"
+        title=\"en:Special:Search/brain\"><sup>\u2192&#160;en</sup></a>; [3] <span
+        lang=\"en\" xml:lang=\"en\"><a href=\"/wiki/mind#mind_.28Englisch.29\" title=\"mind\">mind</a></span>&#160;<a
+        href=\"https://en.wiktionary.org/wiki/Special:Search/mind\" class=\"extiw\"
+        title=\"en:Special:Search/mind\"><sup>\u2192&#160;en</sup></a></li>\n<li><a
+        href=\"/wiki/Esperanto\" title=\"Esperanto\">Esperanto</a>: [1] <span lang=\"eo\"
+        xml:lang=\"eo\"><a href=\"/wiki/cerbo#cerbo_.28Esperanto.29\" title=\"cerbo\">cerbo</a></span>&#160;<a
+        href=\"https://eo.wiktionary.org/wiki/Special:Search/cerbo\" class=\"extiw\"
+        title=\"eo:Special:Search/cerbo\"><sup>\u2192&#160;eo</sup></a></li>\n<li><a
+        href=\"/wiki/Finnisch\" title=\"Finnisch\">Finnisch</a>: [1] <span lang=\"fi\"
+        xml:lang=\"fi\"><a href=\"/w/index.php?title=aivot&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"aivot (Seite nicht vorhanden)\">aivot</a></span>&#160;<a
+        href=\"https://fi.wiktionary.org/wiki/Special:Search/aivot\" class=\"extiw\"
+        title=\"fi:Special:Search/aivot\"><sup>\u2192&#160;fi</sup></a></li>\n<li><a
+        href=\"/wiki/Franz%C3%B6sisch\" title=\"Franz\u00f6sisch\">Franz\u00f6sisch</a>:
+        [1] <span lang=\"fr\" xml:lang=\"fr\"><a href=\"/wiki/cerveau#cerveau_.28Franz.C3.B6sisch.29\"
+        title=\"cerveau\">cerveau</a></span>&#160;<a href=\"https://fr.wiktionary.org/wiki/Special:Search/cerveau\"
+        class=\"extiw\" title=\"fr:Special:Search/cerveau\"><sup>\u2192&#160;fr</sup></a>
+        <em title=\"Genus: Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em></li>\n<li><a
+        href=\"/wiki/Hebr%C3%A4isch\" title=\"Hebr\u00e4isch\">Hebr\u00e4isch</a>:
+        [1] <span lang=\"he\" xml:lang=\"he\"><a href=\"/w/index.php?title=%D7%9E%D7%95%D7%97&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"\u05de\u05d5\u05d7 (Seite nicht vorhanden)\">\u05de\u05d5\u05d7</a></span>&#160;(mw\u1e96)&#160;<a
+        href=\"https://he.wiktionary.org/wiki/Special:Search/%D7%9E%D7%95%D7%97\"
+        class=\"extiw\" title=\"he:Special:Search/\u05de\u05d5\u05d7\"><sup>\u2192&#160;he</sup></a></li>\n<li><a
+        href=\"/wiki/Ido\" title=\"Ido\">Ido</a>: [1] <span lang=\"io\" xml:lang=\"io\"><a
+        href=\"/wiki/cerebro#cerebro_.28Ido.29\" title=\"cerebro\">cerebro</a></span>&#160;<a
+        href=\"https://io.wiktionary.org/wiki/Special:Search/cerebro\" class=\"extiw\"
+        title=\"io:Special:Search/cerebro\"><sup>\u2192&#160;io</sup></a></li>\n<li><a
+        href=\"/wiki/Indonesisch\" title=\"Indonesisch\">Indonesisch</a>: [1] <span
+        lang=\"id\" xml:lang=\"id\"><a href=\"/w/index.php?title=otak&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"otak (Seite nicht vorhanden)\">otak</a></span>&#160;<a
+        href=\"https://id.wiktionary.org/wiki/Special:Search/otak\" class=\"extiw\"
+        title=\"id:Special:Search/otak\"><sup>\u2192&#160;id</sup></a></li>\n<li><a
+        href=\"/wiki/Interlingua\" title=\"Interlingua\">Interlingua</a>: [1] <span
+        lang=\"ia\" xml:lang=\"ia\"><a href=\"/wiki/cerebro#cerebro_.28Interlingua.29\"
+        title=\"cerebro\">cerebro</a></span>&#160;<a href=\"https://ia.wiktionary.org/wiki/Special:Search/cerebro\"
+        class=\"extiw\" title=\"ia:Special:Search/cerebro\"><sup>\u2192&#160;ia</sup></a></li>\n<li><a
+        href=\"/wiki/Isl%C3%A4ndisch\" title=\"Isl\u00e4ndisch\">Isl\u00e4ndisch</a>:
+        [1] <span lang=\"is\" xml:lang=\"is\"><a href=\"/w/index.php?title=heili&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"heili (Seite nicht vorhanden)\">heili</a></span>&#160;<a
+        href=\"https://is.wiktionary.org/wiki/Special:Search/heili\" class=\"extiw\"
+        title=\"is:Special:Search/heili\"><sup>\u2192&#160;is</sup></a></li>\n<li><a
+        href=\"/wiki/Italienisch\" title=\"Italienisch\">Italienisch</a>: [1] <span
+        lang=\"it\" xml:lang=\"it\"><a href=\"/wiki/cervello#cervello_.28Italienisch.29\"
+        title=\"cervello\">cervello</a></span>&#160;<a href=\"https://it.wiktionary.org/wiki/Special:Search/cervello\"
+        class=\"extiw\" title=\"it:Special:Search/cervello\"><sup>\u2192&#160;it</sup></a>
+        <em title=\"Genus: Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em></li>\n<li><a
+        href=\"/wiki/Japanisch\" title=\"Japanisch\">Japanisch</a>: [1] <span lang=\"ja\"
+        xml:lang=\"ja\"><a href=\"/w/index.php?title=%E8%84%B3&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"\u8133 (Seite nicht vorhanden)\">\u8133</a></span>&#160;(\u306e\u3046,
+        n\u014d)&#160;<a href=\"https://ja.wiktionary.org/wiki/Special:Search/%E8%84%B3\"
+        class=\"extiw\" title=\"ja:Special:Search/\u8133\"><sup>\u2192&#160;ja</sup></a></li>\n<li><a
+        href=\"/wiki/Katalanisch\" title=\"Katalanisch\">Katalanisch</a>: [1] <span
+        lang=\"ca\" xml:lang=\"ca\"><a href=\"/wiki/cervell#cervell_.28Katalanisch.29\"
+        title=\"cervell\">cervell</a></span>&#160;<a href=\"https://ca.wiktionary.org/wiki/Special:Search/cervell\"
+        class=\"extiw\" title=\"ca:Special:Search/cervell\"><sup>\u2192&#160;ca</sup></a>
+        <em title=\"Genus: Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em></li>\n<li><a
+        href=\"/wiki/Koreanisch\" title=\"Koreanisch\">Koreanisch</a>: [1] <span lang=\"ko\"
+        xml:lang=\"ko\"><a href=\"/w/index.php?title=%EB%87%8C&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"\ub1cc (Seite nicht vorhanden)\">\ub1cc</a></span>&#160;(noe)&#160;<a
+        href=\"https://ko.wiktionary.org/wiki/Special:Search/%EB%87%8C\" class=\"extiw\"
+        title=\"ko:Special:Search/\ub1cc\"><sup>\u2192&#160;ko</sup></a></li>\n<li><a
+        href=\"/wiki/Krimtatarisch\" title=\"Krimtatarisch\">Krimtatarisch</a>: [1]
+        <span lang=\"crh\" xml:lang=\"crh\"><a href=\"/wiki/miy#miy_.28Krimtatarisch.29\"
+        title=\"miy\">miy</a></span>&#160;<sup style=\"color:slategray;\">\u2192&#160;crh</sup></li>\n<li><a
+        href=\"/wiki/Kurdisch\" title=\"Kurdisch\">Kurdisch</a>: [1] <span lang=\"ku\"
+        xml:lang=\"ku\"><a href=\"/w/index.php?title=mej%C3%AE&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"mej\u00ee (Seite nicht vorhanden)\">mej\u00ee</a></span>&#160;<a
+        href=\"https://ku.wiktionary.org/wiki/Special:Search/mej%C3%AE\" class=\"extiw\"
+        title=\"ku:Special:Search/mej\u00ee\"><sup>\u2192&#160;ku</sup></a></li>\n<li><a
+        href=\"/wiki/Latein\" title=\"Latein\">Latein</a>: [1] <span lang=\"la\" xml:lang=\"la\"><a
+        href=\"/wiki/cerebrum#cerebrum_.28Latein.29\" title=\"cerebrum\">cerebrum</a></span>&#160;<a
+        href=\"https://la.wiktionary.org/wiki/Special:Search/cerebrum\" class=\"extiw\"
+        title=\"la:Special:Search/cerebrum\"><sup>\u2192&#160;la</sup></a> <em title=\"Genus:
+        Neutrum (grammatikal. Geschlecht: s\u00e4chlich)\">n</em>, <span lang=\"la\"
+        xml:lang=\"la\"><a href=\"/wiki/cerebellum#cerebellum_.28Latein.29\" title=\"cerebellum\">cerebellum</a></span>&#160;<a
+        href=\"https://la.wiktionary.org/wiki/Special:Search/cerebellum\" class=\"extiw\"
+        title=\"la:Special:Search/cerebellum\"><sup>\u2192&#160;la</sup></a> <em title=\"Genus:
+        Neutrum (grammatikal. Geschlecht: s\u00e4chlich)\">n</em></li>\n<li><a href=\"/wiki/Litauisch\"
+        title=\"Litauisch\">Litauisch</a>: [1] <span lang=\"lt\" xml:lang=\"lt\"><a
+        href=\"/w/index.php?title=galvos_smegenys&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"galvos smegenys (Seite nicht vorhanden)\">galvos smegenys</a></span>&#160;<a
+        href=\"https://lt.wiktionary.org/wiki/Special:Search/galvos_smegenys\" class=\"extiw\"
+        title=\"lt:Special:Search/galvos smegenys\"><sup>\u2192&#160;lt</sup></a></li>\n</ul>\n</td>\n<td
+        bgcolor=\"#F7F7F9\" style=\"border-bottom: dotted 1px #aaaaaa;\"></td>\n<td
+        style=\"border-bottom: dotted 1px #aaaaaa;\" bgcolor=\"#F7F7F9\" valign=\"top\"
+        width=\"50%\">\n<ul>\n<li><a href=\"/wiki/Maltesisch\" title=\"Maltesisch\">Maltesisch</a>:
+        [1] <span lang=\"mt\" xml:lang=\"mt\"><a href=\"/w/index.php?title=mohh&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"mohh (Seite nicht vorhanden)\">mohh</a></span>&#160;<a
+        href=\"https://mt.wiktionary.org/wiki/Special:Search/mohh\" class=\"extiw\"
+        title=\"mt:Special:Search/mohh\"><sup>\u2192&#160;mt</sup></a> <em title=\"Genus:
+        Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em></li>\n<li><a
+        href=\"/wiki/Maori#Substantiv.2C_n\" title=\"Maori\">Maori</a>: [1] <span
+        lang=\"mi\" xml:lang=\"mi\"><a href=\"/wiki/roro#roro_.28Maori.29\" title=\"roro\">roro</a></span>&#160;<a
+        href=\"https://mi.wiktionary.org/wiki/Special:Search/roro\" class=\"extiw\"
+        title=\"mi:Special:Search/roro\"><sup>\u2192&#160;mi</sup></a></li>\n<li><a
+        href=\"/wiki/Mazedonisch\" title=\"Mazedonisch\">Mazedonisch</a>: [1] <span
+        lang=\"mk\" xml:lang=\"mk\"><a href=\"/w/index.php?title=%D0%BC%D0%BE%D0%B7%D0%BE%D0%BA&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"\u043c\u043e\u0437\u043e\u043a (Seite nicht vorhanden)\">\u043c\u043e\u0437\u043e\u043a</a></span>&#160;(mozok)&#160;<a
+        href=\"https://mk.wiktionary.org/wiki/Special:Search/%D0%BC%D0%BE%D0%B7%D0%BE%D0%BA\"
+        class=\"extiw\" title=\"mk:Special:Search/\u043c\u043e\u0437\u043e\u043a\"><sup>\u2192&#160;mk</sup></a></li>\n<li><a
+        href=\"/wiki/Niederdeutsch\" title=\"Niederdeutsch\">Niederdeutsch</a>: [1]
+        <span lang=\"nds\" xml:lang=\"nds\"><a href=\"/wiki/Bregen#Bregen_.28Niederdeutsch.29\"
+        title=\"Bregen\">Bregen</a></span>&#160;<a href=\"https://nds.wiktionary.org/wiki/Special:Search/Bregen\"
+        class=\"extiw\" title=\"nds:Special:Search/Bregen\"><sup>\u2192&#160;nds</sup></a>
+        <em title=\"Genus: Neutrum (grammatikal. Geschlecht: s\u00e4chlich)\">n</em></li>\n<li><a
+        href=\"/wiki/Niederl%C3%A4ndisch\" title=\"Niederl\u00e4ndisch\">Niederl\u00e4ndisch</a>:
+        [1] <span lang=\"nl\" xml:lang=\"nl\"><a href=\"/w/index.php?title=hersenen&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"hersenen (Seite nicht vorhanden)\">hersenen</a></span>&#160;<a
+        href=\"https://nl.wiktionary.org/wiki/Special:Search/hersenen\" class=\"extiw\"
+        title=\"nl:Special:Search/hersenen\"><sup>\u2192&#160;nl</sup></a></li>\n<li><a
+        href=\"/wiki/Norwegisch\" title=\"Norwegisch\">Norwegisch</a>: [1] <span lang=\"no\"
+        xml:lang=\"no\"><a href=\"/w/index.php?title=hjerne&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"hjerne (Seite nicht vorhanden)\">hjerne</a></span>&#160;<a
+        href=\"https://no.wiktionary.org/wiki/Special:Search/hjerne\" class=\"extiw\"
+        title=\"no:Special:Search/hjerne\"><sup>\u2192&#160;no</sup></a></li>\n<li><a
+        href=\"/wiki/Okzitanisch\" title=\"Okzitanisch\">Okzitanisch</a>: [1] <span
+        lang=\"oc\" xml:lang=\"oc\"><a href=\"/wiki/cerv%C3%A8l#cerv.C3.A8l_.28Okzitanisch.29\"
+        title=\"cerv\u00e8l\">cerv\u00e8l</a></span>&#160;<a href=\"https://oc.wiktionary.org/wiki/Special:Search/cerv%C3%A8l\"
+        class=\"extiw\" title=\"oc:Special:Search/cerv\u00e8l\"><sup>\u2192&#160;oc</sup></a></li>\n<li><a
+        href=\"/wiki/Persisch\" title=\"Persisch\">Persisch</a>: [1] <span lang=\"fa\"
+        xml:lang=\"fa\"><a href=\"/wiki/%D9%85%D8%BA%D8%B2#.D9.85.D8.BA.D8.B2_.28Persisch.29\"
+        title=\"\u0645\u063a\u0632\">\u0645\u063a\u0632</a></span>&#160;(mghz)&#160;<a
+        href=\"https://fa.wiktionary.org/wiki/Special:Search/%D9%85%D8%BA%D8%B2\"
+        class=\"extiw\" title=\"fa:Special:Search/\u0645\u063a\u0632\"><sup>\u2192&#160;fa</sup></a></li>\n<li><a
+        href=\"/wiki/Polnisch\" title=\"Polnisch\">Polnisch</a>: [1] <span lang=\"pl\"
+        xml:lang=\"pl\"><a href=\"/w/index.php?title=m%C3%B3zg&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"m\u00f3zg (Seite nicht vorhanden)\">m\u00f3zg</a></span>&#160;<a
+        href=\"https://pl.wiktionary.org/wiki/Special:Search/m%C3%B3zg\" class=\"extiw\"
+        title=\"pl:Special:Search/m\u00f3zg\"><sup>\u2192&#160;pl</sup></a></li>\n<li><a
+        href=\"/wiki/Portugiesisch\" title=\"Portugiesisch\">Portugiesisch</a>: [1]
+        <span lang=\"pt\" xml:lang=\"pt\"><a href=\"/w/index.php?title=c%C3%A9rebro&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"c\u00e9rebro (Seite nicht vorhanden)\">c\u00e9rebro</a></span>&#160;<a
+        href=\"https://pt.wiktionary.org/wiki/Special:Search/c%C3%A9rebro\" class=\"extiw\"
+        title=\"pt:Special:Search/c\u00e9rebro\"><sup>\u2192&#160;pt</sup></a> <em
+        title=\"Genus: Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em></li>\n<li><a
+        href=\"/wiki/Rum%C3%A4nisch\" title=\"Rum\u00e4nisch\">Rum\u00e4nisch</a>:
+        [1] <span lang=\"ro\" xml:lang=\"ro\"><a href=\"/w/index.php?title=creier&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"creier (Seite nicht vorhanden)\">creier</a></span>&#160;<a
+        href=\"https://ro.wiktionary.org/wiki/Special:Search/creier\" class=\"extiw\"
+        title=\"ro:Special:Search/creier\"><sup>\u2192&#160;ro</sup></a> <em title=\"Genus:
+        Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em></li>\n<li><a
+        href=\"/wiki/Russisch\" title=\"Russisch\">Russisch</a>: [1] <span lang=\"ru\"
+        xml:lang=\"ru\"><a href=\"/w/index.php?title=%D0%BC%D0%BE%D0%B7%D0%B3&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"\u043c\u043e\u0437\u0433 (Seite nicht vorhanden)\">\u043c\u043e\u0437\u0433</a></span>&#160;(mozg)&#160;<a
+        href=\"https://ru.wiktionary.org/wiki/Special:Search/%D0%BC%D0%BE%D0%B7%D0%B3\"
+        class=\"extiw\" title=\"ru:Special:Search/\u043c\u043e\u0437\u0433\"><sup>\u2192&#160;ru</sup></a>
+        <em title=\"Genus: Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em>,
+        <span lang=\"ru\" xml:lang=\"ru\"><a href=\"/w/index.php?title=%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9_%D0%BC%D0%BE%D0%B7%D0%B3&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"\u0433\u043e\u043b\u043e\u0432\u043d\u043e\u0439 \u043c\u043e\u0437\u0433
+        (Seite nicht vorhanden)\">\u0433\u043e\u043b\u043e\u0432\u043d\u043e\u0439
+        \u043c\u043e\u0437\u0433</a></span>&#160;(golownoj mozg)&#160;<a href=\"https://ru.wiktionary.org/wiki/Special:Search/%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9_%D0%BC%D0%BE%D0%B7%D0%B3\"
+        class=\"extiw\" title=\"ru:Special:Search/\u0433\u043e\u043b\u043e\u0432\u043d\u043e\u0439
+        \u043c\u043e\u0437\u0433\"><sup>\u2192&#160;ru</sup></a></li>\n<li><a href=\"/wiki/Schwedisch\"
+        title=\"Schwedisch\">Schwedisch</a>: [1, 3] <span lang=\"sv\" xml:lang=\"sv\"><a
+        href=\"/w/index.php?title=hj%C3%A4rna&amp;action=edit&amp;redlink=1\" class=\"new\"
+        title=\"hj\u00e4rna (Seite nicht vorhanden)\">hj\u00e4rna</a></span>&#160;<a
+        href=\"https://sv.wiktionary.org/wiki/Special:Search/hj%C3%A4rna\" class=\"extiw\"
+        title=\"sv:Special:Search/hj\u00e4rna\"><sup>\u2192&#160;sv</sup></a></li>\n<li><a
+        href=\"/wiki/Sizilianisch\" title=\"Sizilianisch\">Sizilianisch</a>: [1] <span
+        lang=\"scn\" xml:lang=\"scn\"><a href=\"/w/index.php?title=ciriveddu&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"ciriveddu (Seite nicht vorhanden)\">ciriveddu</a></span>&#160;<a
+        href=\"https://scn.wiktionary.org/wiki/Special:Search/ciriveddu\" class=\"extiw\"
+        title=\"scn:Special:Search/ciriveddu\"><sup>\u2192&#160;scn</sup></a></li>\n<li><a
+        href=\"/wiki/Slowakisch\" title=\"Slowakisch\">Slowakisch</a>: [1] <span lang=\"sk\"
+        xml:lang=\"sk\"><a href=\"/w/index.php?title=mozog&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"mozog (Seite nicht vorhanden)\">mozog</a></span>&#160;<a
+        href=\"https://sk.wiktionary.org/wiki/Special:Search/mozog\" class=\"extiw\"
+        title=\"sk:Special:Search/mozog\"><sup>\u2192&#160;sk</sup></a></li>\n<li><a
+        href=\"/wiki/Slowenisch\" title=\"Slowenisch\">Slowenisch</a>: [1] <span lang=\"sl\"
+        xml:lang=\"sl\"><a href=\"/w/index.php?title=mo%C5%BEgani&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"mo\u017egani (Seite nicht vorhanden)\">mo\u017egani</a></span>&#160;<a
+        href=\"https://sl.wiktionary.org/wiki/Special:Search/mo%C5%BEgani\" class=\"extiw\"
+        title=\"sl:Special:Search/mo\u017egani\"><sup>\u2192&#160;sl</sup></a></li>\n<li><a
+        href=\"/wiki/Spanisch\" title=\"Spanisch\">Spanisch</a>: [1] <span lang=\"es\"
+        xml:lang=\"es\"><a href=\"/wiki/cerebro#cerebro_.28Spanisch.29\" title=\"cerebro\">cerebro</a></span>&#160;<a
+        href=\"https://es.wiktionary.org/wiki/Special:Search/cerebro\" class=\"extiw\"
+        title=\"es:Special:Search/cerebro\"><sup>\u2192&#160;es</sup></a> <em title=\"Genus:
+        Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em></li>\n<li><a
+        href=\"/wiki/Tamil\" title=\"Tamil\">Tamil</a>: [1] <span lang=\"ta\" xml:lang=\"ta\"><a
+        href=\"/w/index.php?title=%E0%AE%AE%E0%AE%A9%E0%AE%BF%E0%AE%A4_%E0%AE%AE%E0%AF%82%E0%AE%B3%E0%AF%88&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"\u0bae\u0ba9\u0bbf\u0ba4 \u0bae\u0bc2\u0bb3\u0bc8 (Seite
+        nicht vorhanden)\">\u0bae\u0ba9\u0bbf\u0ba4 \u0bae\u0bc2\u0bb3\u0bc8</a></span>&#160;(ma\u1e49ita
+        m\u016b\u1e37ai)&#160;<a href=\"https://ta.wiktionary.org/wiki/Special:Search/%E0%AE%AE%E0%AE%A9%E0%AE%BF%E0%AE%A4_%E0%AE%AE%E0%AF%82%E0%AE%B3%E0%AF%88\"
+        class=\"extiw\" title=\"ta:Special:Search/\u0bae\u0ba9\u0bbf\u0ba4 \u0bae\u0bc2\u0bb3\u0bc8\"><sup>\u2192&#160;ta</sup></a></li>\n<li><a
+        href=\"/wiki/Thai\" title=\"Thai\">Thai</a>: [1] <span lang=\"th\" xml:lang=\"th\"><a
+        href=\"/w/index.php?title=%E0%B8%AA%E0%B8%A1%E0%B8%AD%E0%B8%87&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"\u0e2a\u0e21\u0e2d\u0e07 (Seite nicht vorhanden)\">\u0e2a\u0e21\u0e2d\u0e07</a></span>&#160;(s\u0304mxng)&#160;<a
+        href=\"https://th.wiktionary.org/wiki/Special:Search/%E0%B8%AA%E0%B8%A1%E0%B8%AD%E0%B8%87\"
+        class=\"extiw\" title=\"th:Special:Search/\u0e2a\u0e21\u0e2d\u0e07\"><sup>\u2192&#160;th</sup></a></li>\n<li><a
+        href=\"/wiki/Tschechisch\" title=\"Tschechisch\">Tschechisch</a>: [1, 3] <span
+        lang=\"cs\" xml:lang=\"cs\"><a href=\"/wiki/mozek#mozek_.28Tschechisch.29\"
+        title=\"mozek\">mozek</a></span>&#160;<a href=\"https://cs.wiktionary.org/wiki/Special:Search/mozek\"
+        class=\"extiw\" title=\"cs:Special:Search/mozek\"><sup>\u2192&#160;cs</sup></a>
+        <em title=\"Genus: Maskulinum (grammatikalisches Geschlecht: m\u00e4nnlich)\">m</em></li>\n<li><a
+        href=\"/wiki/T%C3%BCrkisch\" title=\"T\u00fcrkisch\">T\u00fcrkisch</a>: [1]
+        <span lang=\"tr\" xml:lang=\"tr\"><a href=\"/w/index.php?title=beyin&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"beyin (Seite nicht vorhanden)\">beyin</a></span>&#160;<a
+        href=\"https://tr.wiktionary.org/wiki/Special:Search/beyin\" class=\"extiw\"
+        title=\"tr:Special:Search/beyin\"><sup>\u2192&#160;tr</sup></a></li>\n<li><a
+        href=\"/wiki/Ukrainisch\" title=\"Ukrainisch\">Ukrainisch</a>: [1] <span lang=\"uk\"
+        xml:lang=\"uk\"><a href=\"/w/index.php?title=%D0%BC%D0%BE%D0%B7%D0%BE%D0%BA&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"\u043c\u043e\u0437\u043e\u043a (Seite nicht vorhanden)\">\u043c\u043e\u0437\u043e\u043a</a></span>&#160;(mozok)&#160;<a
+        href=\"https://uk.wiktionary.org/wiki/Special:Search/%D0%BC%D0%BE%D0%B7%D0%BE%D0%BA\"
+        class=\"extiw\" title=\"uk:Special:Search/\u043c\u043e\u0437\u043e\u043a\"><sup>\u2192&#160;uk</sup></a></li>\n<li><a
+        href=\"/wiki/Ungarisch\" title=\"Ungarisch\">Ungarisch</a>: [1] <span lang=\"hu\"
+        xml:lang=\"hu\"><a href=\"/w/index.php?title=agy&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"agy (Seite nicht vorhanden)\">agy</a></span>&#160;<a
+        href=\"https://hu.wiktionary.org/wiki/Special:Search/agy\" class=\"extiw\"
+        title=\"hu:Special:Search/agy\"><sup>\u2192&#160;hu</sup></a>, [3] <span lang=\"hu\"
+        xml:lang=\"hu\"><a href=\"/w/index.php?title=%C3%A9sz&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"\u00e9sz (Seite nicht vorhanden)\">\u00e9sz</a></span>&#160;<a
+        href=\"https://hu.wiktionary.org/wiki/Special:Search/%C3%A9sz\" class=\"extiw\"
+        title=\"hu:Special:Search/\u00e9sz\"><sup>\u2192&#160;hu</sup></a></li>\n<li><a
+        href=\"/wiki/Urdu\" title=\"Urdu\">Urdu</a>: [1] <span lang=\"ur\" xml:lang=\"ur\"><a
+        href=\"/wiki/%D8%AF%D9%85%D8%A7%D8%BA#.D8.AF.D9.85.D8.A7.D8.BA_.28Urdu.29\"
+        title=\"\u062f\u0645\u0627\u063a\">\u062f\u0645\u0627\u063a</a></span>&#160;(dm\u1ea1g\u1e96)&#160;<a
+        href=\"https://ur.wiktionary.org/wiki/Special:Search/%D8%AF%D9%85%D8%A7%D8%BA\"
+        class=\"extiw\" title=\"ur:Special:Search/\u062f\u0645\u0627\u063a\"><sup>\u2192&#160;ur</sup></a></li>\n<li><a
+        href=\"/wiki/Vietnamesisch\" title=\"Vietnamesisch\">Vietnamesisch</a>: [1]
+        <span lang=\"vi\" xml:lang=\"vi\"><a href=\"/w/index.php?title=%C3%B3c&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"\u00f3c (Seite nicht vorhanden)\">\u00f3c</a></span>&#160;<a
+        href=\"https://vi.wiktionary.org/wiki/Special:Search/%C3%B3c\" class=\"extiw\"
+        title=\"vi:Special:Search/\u00f3c\"><sup>\u2192&#160;vi</sup></a></li>\n<li><a
+        href=\"/wiki/Walisisch\" title=\"Walisisch\">Walisisch</a>: [1] <span lang=\"cy\"
+        xml:lang=\"cy\"><a href=\"/w/index.php?title=ymennydd&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"ymennydd (Seite nicht vorhanden)\">ymennydd</a></span>&#160;<a
+        href=\"https://cy.wiktionary.org/wiki/Special:Search/ymennydd\" class=\"extiw\"
+        title=\"cy:Special:Search/ymennydd\"><sup>\u2192&#160;cy</sup></a></li>\n</ul>\n</td>\n</tr>\n</table>\n</div>\n</div>\n<p
+        style=\"margin-bottom: -0.5em;\" title=\"Referenzen und weiterf\u00fchrende
+        Informationen\"><b><a href=\"/wiki/Wiktionary:Referenzen\" title=\"Wiktionary:Referenzen\">Referenzen
+        und weiterf\u00fchrende Informationen</a>:</b></p>\n<dl>\n<dd>[1] Wikipedia-Artikel
+        \u201e<a href=\"https://de.wikipedia.org/wiki/Spezial:Suche/Gehirn\" class=\"extiw\"
+        title=\"w:Spezial:Suche/Gehirn\">Gehirn</a>\u201c</dd>\n<dd>[1, 3] Digitales
+        W\u00f6rterbuch der deutschen Sprache \u201e<a rel=\"nofollow\" class=\"external
+        text\" href=\"http://www.dwds.de/?q=Gehirn\">Gehirn</a>\u201c</dd>\n<dd>[1,
+        3] Duden online \u201e<a rel=\"nofollow\" class=\"external text\" href=\"http://www.duden.de/rechtschreibung/Gehirn\">Gehirn</a>\u201c</dd>\n<dd>[1]
+        canoo.net \u201e<a rel=\"nofollow\" class=\"external text\" href=\"http://www.canoo.net/Gehirn?lookup=caseSensitive\">Gehirn</a>\u201c</dd>\n<dd>[1,
+        3] Uni Leipzig: <i>Wortschatz-Lexikon</i> \u201e<a rel=\"nofollow\" class=\"external
+        text\" href=\"http://corpora.informatik.uni-leipzig.de/de/res?corpusId=deu_newscrawl_2011&amp;word=Gehirn\">Gehirn</a>\u201c</dd>\n</dl>\n<p><i>Quellen:</i><br
+        /></p>\n<ol class=\"references\">\n<li id=\"cite_note-1\"><b><a href=\"#cite_ref-1\">\u2191</a></b>
+        <span class=\"reference-text\">Duden online \u201e<a rel=\"nofollow\" class=\"external
+        text\" href=\"http://www.duden.de/rechtschreibung/Gehirn\">Gehirn</a>\u201c</span></li>\n<li
+        id=\"cite_note-2\"><b><a href=\"#cite_ref-2\">\u2191</a></b> <span class=\"reference-text\">Digitales
+        W\u00f6rterbuch der deutschen Sprache \u201e<a rel=\"nofollow\" class=\"external
+        text\" href=\"http://www.dwds.de/?q=Gehirn\">Gehirn</a>\u201c</span></li>\n<li
+        id=\"cite_note-3\"><b><a href=\"#cite_ref-3\">\u2191</a></b> <span class=\"reference-text\">Gustav
+        Meyrink, Das verdunstete Gehirn, z.n. Projekt Gutenberg</span></li>\n</ol>\n<p
+        style=\"margin-top:20px; margin-bottom:0em; border-top:1px solid #AAAAAA;\"
+        title=\"\u00c4hnlich geschriebene oder gleich klingende W\u00f6rter\"></p>\n<div
+        style=\"clear:both\">\n<p style=\"margin-bottom:-0.5em; font-weight:bold;\"
+        title=\"\u00c4hnliche W\u00f6rter (Deutsch)\">\u00c4hnliche W\u00f6rter (Deutsch):</p>\n<dl>\n<dd><i>\u00e4hnlich
+        geschrieben und/oder ausgesprochen:</i> <a href=\"/w/index.php?title=Geh%C3%B6rn&amp;action=edit&amp;redlink=1\"
+        class=\"new\" title=\"Geh\u00f6rn (Seite nicht vorhanden)\">Geh\u00f6rn</a></dd>\n<dd><i><a
+        href=\"/wiki/Hilfe:Anagramme\" title=\"Hilfe:Anagramme\">Anagramme</a>:</i>
+        <a href=\"/wiki/Hering\" title=\"Hering\">Hering</a></dd>\n</dl>\n</div>\n\n\n<!--
+        \nNewPP limit report\nParsed by mw1172\nCached time: 20170309230651\nCache
+        expiry: 2592000\nDynamic content: false\nCPU time usage: 0.352 seconds\nReal
+        time usage: 0.433 seconds\nPreprocessor visited node count: 12822/1000000\nPreprocessor
+        generated node count: 0/1500000\nPost\u2010expand include size: 58108/2097152
+        bytes\nTemplate argument size: 18026/2097152 bytes\nHighest expansion depth:
+        11/40\nExpensive parser function count: 5/500\nLua time usage: 0.086/10.000
+        seconds\nLua memory usage: 1.7 MB/50 MB\n-->\n<!--\nTransclusion expansion
+        time report (%,ms,calls,template)\n100.00%  375.960      1 -total\n 57.82%  217.368      1
+        Vorlage:\u00dc-Tabelle\n 26.35%   99.083     39 Vorlage:\u00dc\n 12.46%   46.863      1
+        Vorlage:Deutsch_Substantiv_\u00dcbersicht\n 11.81%   44.415      1 Vorlage:Sprache\n
+        11.56%   43.449     16 Vorlage:\u00dct\n  4.65%   17.464     16 Vorlage:Flexlink\n  1.89%    7.114      1
+        Vorlage:Lautschrift\n  1.63%    6.142      1 Vorlage:Wortart\n  1.53%    5.771      2
+        Vorlage:Ref-DWDS\n-->\n\n<!-- Saved in parser cache with key dewiktionary:pcache:idhash:11340-0!*!0!!*!4!*
+        and timestamp 20170309230650 and revision id 5331889\n -->\n"},"langlinks":[{"lang":"ar","url":"https://ar.wiktionary.org/wiki/Gehirn","langname":"Arabisch","autonym":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629","*":"Gehirn"},{"lang":"chr","url":"https://chr.wiktionary.org/wiki/Gehirn","langname":"Cherokee","autonym":"\u13e3\u13b3\u13a9","*":"Gehirn"},{"lang":"cs","url":"https://cs.wiktionary.org/wiki/Gehirn","langname":"Tschechisch","autonym":"\u010de\u0161tina","*":"Gehirn"},{"lang":"da","url":"https://da.wiktionary.org/wiki/Gehirn","langname":"D\u00e4nisch","autonym":"dansk","*":"Gehirn"},{"lang":"el","url":"https://el.wiktionary.org/wiki/Gehirn","langname":"Griechisch","autonym":"\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac","*":"Gehirn"},{"lang":"en","url":"https://en.wiktionary.org/wiki/Gehirn","langname":"Englisch","autonym":"English","*":"Gehirn"},{"lang":"et","url":"https://et.wiktionary.org/wiki/Gehirn","langname":"Estnisch","autonym":"eesti","*":"Gehirn"},{"lang":"eu","url":"https://eu.wiktionary.org/wiki/Gehirn","langname":"Baskisch","autonym":"euskara","*":"Gehirn"},{"lang":"fi","url":"https://fi.wiktionary.org/wiki/Gehirn","langname":"Finnisch","autonym":"suomi","*":"Gehirn"},{"lang":"fr","url":"https://fr.wiktionary.org/wiki/Gehirn","langname":"Franz\u00f6sisch","autonym":"fran\u00e7ais","*":"Gehirn"},{"lang":"gl","url":"https://gl.wiktionary.org/wiki/Gehirn","langname":"Galicisch","autonym":"galego","*":"Gehirn"},{"lang":"hr","url":"https://hr.wiktionary.org/wiki/Gehirn","langname":"Kroatisch","autonym":"hrvatski","*":"Gehirn"},{"lang":"hu","url":"https://hu.wiktionary.org/wiki/Gehirn","langname":"Ungarisch","autonym":"magyar","*":"Gehirn"},{"lang":"io","url":"https://io.wiktionary.org/wiki/Gehirn","langname":"Ido","autonym":"Ido","*":"Gehirn"},{"lang":"ja","url":"https://ja.wiktionary.org/wiki/Gehirn","langname":"Japanisch","autonym":"\u65e5\u672c\u8a9e","*":"Gehirn"},{"lang":"kn","url":"https://kn.wiktionary.org/wiki/Gehirn","langname":"Kannada","autonym":"\u0c95\u0ca8\u0ccd\u0ca8\u0ca1","*":"Gehirn"},{"lang":"ko","url":"https://ko.wiktionary.org/wiki/Gehirn","langname":"Koreanisch","autonym":"\ud55c\uad6d\uc5b4","*":"Gehirn"},{"lang":"ku","url":"https://ku.wiktionary.org/wiki/Gehirn","langname":"Kurdisch","autonym":"Kurd\u00ee","*":"Gehirn"},{"lang":"lo","url":"https://lo.wiktionary.org/wiki/Gehirn","langname":"Laotisch","autonym":"\u0ea5\u0eb2\u0ea7","*":"Gehirn"},{"lang":"mg","url":"https://mg.wiktionary.org/wiki/Gehirn","langname":"Madagassisch","autonym":"Malagasy","*":"Gehirn"},{"lang":"nah","url":"https://nah.wiktionary.org/wiki/Gehirn","langname":"N\u0101huatl","autonym":"N\u0101huatl","*":"Gehirn"},{"lang":"oc","url":"https://oc.wiktionary.org/wiki/Gehirn","langname":"Okzitanisch","autonym":"occitan","*":"Gehirn"},{"lang":"pl","url":"https://pl.wiktionary.org/wiki/Gehirn","langname":"Polnisch","autonym":"polski","*":"Gehirn"},{"lang":"pt","url":"https://pt.wiktionary.org/wiki/Gehirn","langname":"Portugiesisch","autonym":"portugu\u00eas","*":"Gehirn"},{"lang":"ro","url":"https://ro.wiktionary.org/wiki/Gehirn","langname":"Rum\u00e4nisch","autonym":"rom\u00e2n\u0103","*":"Gehirn"},{"lang":"ru","url":"https://ru.wiktionary.org/wiki/Gehirn","langname":"Russisch","autonym":"\u0440\u0443\u0441\u0441\u043a\u0438\u0439","*":"Gehirn"},{"lang":"sv","url":"https://sv.wiktionary.org/wiki/Gehirn","langname":"Schwedisch","autonym":"svenska","*":"Gehirn"},{"lang":"th","url":"https://th.wiktionary.org/wiki/Gehirn","langname":"Thail\u00e4ndisch","autonym":"\u0e44\u0e17\u0e22","*":"Gehirn"},{"lang":"tl","url":"https://tl.wiktionary.org/wiki/Gehirn","langname":"Tagalog","autonym":"Tagalog","*":"Gehirn"},{"lang":"tr","url":"https://tr.wiktionary.org/wiki/Gehirn","langname":"T\u00fcrkisch","autonym":"T\u00fcrk\u00e7e","*":"Gehirn"},{"lang":"zh","url":"https://zh.wiktionary.org/wiki/Gehirn","langname":"Chinesisch","autonym":"\u4e2d\u6587","*":"Gehirn"}],"categories":[{"sortkey":"","*":"Deutsch"},{"sortkey":"gehirn","hidden":"","*":"siehe_auch"},{"sortkey":"","*":"Substantiv_(Deutsch)"},{"sortkey":"nriheG","hidden":"","*":"R\u00fcckl\u00e4ufige_W\u00f6rterliste_(Deutsch)"},{"sortkey":"","*":"Substantiv"},{"sortkey":"","hidden":"","*":"Wiktionary:Illustration"},{"sortkey":"","*":"Substantiv_n_(Deutsch)"},{"sortkey":"","hidden":"","*":"Wiktionary:Audio-Datei"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Afrikaans)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Arabisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Bambara)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Bengalisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Bulgarisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Chinesisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(D\u00e4nisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Englisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Esperanto)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Finnisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Franz\u00f6sisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Hebr\u00e4isch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Ido)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Indonesisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Interlingua)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Isl\u00e4ndisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Italienisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Japanisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Katalanisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Koreanisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Krimtatarisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Kurdisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Latein)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Litauisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Maltesisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Maori)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Mazedonisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Niederdeutsch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Niederl\u00e4ndisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Norwegisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Okzitanisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Persisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Polnisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Portugiesisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Rum\u00e4nisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Russisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Schwedisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Sizilianisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Slowakisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Slowenisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Spanisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Tamil)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Thai)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Tschechisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(T\u00fcrkisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Ukrainisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Ungarisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Urdu)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Vietnamesisch)"},{"sortkey":"","hidden":"","*":"\u00dcbersetzungen_(Walisisch)"},{"sortkey":"","hidden":"","*":"Link_zur_Wikipedia"}],"links":[{"ns":0,"exists":"","*":"Gehirne"},{"ns":0,"exists":"","*":"Gehirnen"},{"ns":0,"exists":"","*":"Gehirns"},{"ns":0,"exists":"","*":"Afrikaans"},{"ns":0,"exists":"","*":"Anatomie"},{"ns":0,"exists":"","*":"Ansatz"},{"ns":0,"exists":"","*":"Arabisch"},{"ns":0,"exists":"","*":"Bambara"},{"ns":0,"exists":"","*":"Bengalisch"},{"ns":0,"exists":"","*":"Bildung"},{"ns":0,"exists":"","*":"Bregen"},{"ns":0,"exists":"","*":"Bulgarisch"},{"ns":0,"exists":"","*":"Chinesisch"},{"ns":0,"exists":"","*":"D\u00e4nisch"},{"ns":0,"exists":"","*":"Englisch"},{"ns":0,"exists":"","*":"Esperanto"},{"ns":0,"exists":"","*":"Finnisch"},{"ns":0,"exists":"","*":"Franz\u00f6sisch"},{"ns":0,"exists":"","*":"Ged\u00e4chtnis"},{"ns":0,"exists":"","*":"Gehirnblutung"},{"ns":0,"exists":"","*":"Gehirnersch\u00fctterung"},{"ns":0,"exists":"","*":"Gehirnes"},{"ns":0,"exists":"","*":"Gehirnlappen"},{"ns":0,"exists":"","*":"Gehirnschale"},{"ns":0,"exists":"","*":"Gehirnverletzung"},{"ns":0,"exists":"","*":"Gehirnw\u00e4sche"},{"ns":0,"exists":"","*":"Gehirnzelle"},{"ns":0,"exists":"","*":"Grips"},{"ns":0,"exists":"","*":"Gro\u00dfhirn"},{"ns":0,"exists":"","*":"Hebr\u00e4isch"},{"ns":0,"exists":"","*":"Hering"},{"ns":0,"exists":"","*":"Hirn"},{"ns":0,"exists":"","*":"Ido"},{"ns":0,"exists":"","*":"Indonesisch"},{"ns":0,"exists":"","*":"Interlingua"},{"ns":0,"exists":"","*":"Isl\u00e4ndisch"},{"ns":0,"exists":"","*":"Italienisch"},{"ns":0,"exists":"","*":"Japanisch"},{"ns":0,"exists":"","*":"Katalanisch"},{"ns":0,"exists":"","*":"Kleinhirn"},{"ns":0,"exists":"","*":"Kollektivbildung"},{"ns":0,"exists":"","*":"Kopf"},{"ns":0,"exists":"","*":"Koreanisch"},{"ns":0,"exists":"","*":"Krimtatarisch"},{"ns":0,"exists":"","*":"Kurdisch"},{"ns":0,"exists":"","*":"Latein"},{"ns":0,"exists":"","*":"Litauisch"},{"ns":0,"exists":"","*":"Maltesisch"},{"ns":0,"exists":"","*":"Maori"},{"ns":0,"exists":"","*":"Mazedonisch"},{"ns":0,"exists":"","*":"Niederdeutsch"},{"ns":0,"exists":"","*":"Niederl\u00e4ndisch"},{"ns":0,"exists":"","*":"Norwegisch"},{"ns":0,"exists":"","*":"Okzitanisch"},{"ns":0,"exists":"","*":"Organ"},{"ns":0,"exists":"","*":"Persisch"},{"ns":0,"exists":"","*":"Polnisch"},{"ns":0,"exists":"","*":"Portugiesisch"},{"ns":0,"exists":"","*":"Rum\u00e4nisch"},{"ns":0,"exists":"","*":"Russisch"},{"ns":0,"exists":"","*":"Schwedisch"},{"ns":0,"exists":"","*":"Sizilianisch"},{"ns":0,"exists":"","*":"Slowakisch"},{"ns":0,"exists":"","*":"Slowenisch"},{"ns":0,"exists":"","*":"Spanisch"},{"ns":0,"exists":"","*":"Tamil"},{"ns":0,"exists":"","*":"Teil"},{"ns":0,"exists":"","*":"Thai"},{"ns":0,"exists":"","*":"Tschechisch"},{"ns":0,"exists":"","*":"T\u00fcrkisch"},{"ns":0,"exists":"","*":"Ukrainisch"},{"ns":0,"exists":"","*":"Ungarisch"},{"ns":0,"exists":"","*":"Urdu"},{"ns":0,"exists":"","*":"Verstand"},{"ns":0,"exists":"","*":"Vietnamesisch"},{"ns":0,"exists":"","*":"Walisisch"},{"ns":0,"exists":"","*":"Wirbeltier"},{"ns":0,"exists":"","*":"ZNS"},{"ns":0,"exists":"","*":"Zentralnervensystem"},{"ns":0,"exists":"","*":"aktivieren"},{"ns":0,"exists":"","*":"brain"},{"ns":0,"exists":"","*":"cerbo"},{"ns":0,"exists":"","*":"cerebellum"},{"ns":0,"exists":"","*":"cerebro"},{"ns":0,"exists":"","*":"cerebrum"},{"ns":0,"exists":"","*":"cerveau"},{"ns":0,"exists":"","*":"cervell"},{"ns":0,"exists":"","*":"cervello"},{"ns":0,"exists":"","*":"cerv\u00e8l"},{"ns":0,"exists":"","*":"einschalten"},{"ns":0,"exists":"","*":"elektronisch"},{"ns":0,"exists":"","*":"krank"},{"ns":0,"exists":"","*":"menschlich"},{"ns":0,"exists":"","*":"mind"},{"ns":0,"exists":"","*":"mittelhochdeutsch"},{"ns":0,"exists":"","*":"miy"},{"ns":0,"exists":"","*":"mozek"},{"ns":0,"exists":"","*":"roro"},{"ns":0,"exists":"","*":"stimulieren"},{"ns":0,"exists":"","*":"umgangssprachlich"},{"ns":0,"exists":"","*":"\u062f\u0645\u0627\u063a"},{"ns":0,"exists":"","*":"\u0645\u063a\u0632"},{"ns":0,"*":"Vergleichende
+        Anatomie"},{"ns":0,"*":"Nervenzentrum"},{"ns":0,"*":"Denkverm\u00f6gen"},{"ns":0,"*":"Denkapparat"},{"ns":0,"*":"graue
+        Zellen"},{"ns":0,"*":"Hinterst\u00fcbchen"},{"ns":0,"*":"Ged\u00e4chtnispalast"},{"ns":0,"*":"Zwischenhirn"},{"ns":0,"*":"Hirnstamm"},{"ns":0,"*":"Gehirnhaut"},{"ns":0,"*":"Gehirnrinde"},{"ns":0,"*":"Gehirnnerv"},{"ns":0,"*":"Kalbshirn"},{"ns":0,"*":"ins
+        Gehirn geschissen"},{"ns":0,"*":"zermartern"},{"ns":0,"*":"Gehirnchirurgie"},{"ns":0,"*":"Gehirndurchblutung"},{"ns":0,"*":"Gehirnerweichung"},{"ns":0,"*":"Gehirnfunktion"},{"ns":0,"*":"Gehirnquetschung"},{"ns":0,"*":"Gehirnschlag"},{"ns":0,"*":"Gehirnstoffwechsel"},{"ns":0,"*":"Gehirnt\u00e4tigkeit"},{"ns":0,"*":"Gehirntod"},{"ns":0,"*":"Gehirntumor"},{"ns":0,"*":"Gehirnakrobatik"},{"ns":0,"*":"gehirnamputiert"},{"ns":0,"*":"gehirnblond"},{"ns":0,"*":"Gehirnkasten"},{"ns":0,"*":"Gehirnschmalz"},{"ns":0,"*":"Gehirnschwund"},{"ns":0,"*":"brein"},{"ns":0,"*":"kunkolos\u025bm\u025b"},{"ns":0,"*":"\u09ae\u09b8\u09cd\u09a4\u09bf\u09b7\u09cd\u0995"},{"ns":0,"*":"\u043c\u043e\u0437\u044a\u043a"},{"ns":0,"*":"\u8166"},{"ns":0,"*":"\u8111"},{"ns":0,"*":"hjerne"},{"ns":0,"*":"aivot"},{"ns":0,"*":"\u05de\u05d5\u05d7"},{"ns":0,"*":"otak"},{"ns":0,"*":"heili"},{"ns":0,"*":"\u8133"},{"ns":0,"*":"\ub1cc"},{"ns":0,"*":"mej\u00ee"},{"ns":0,"*":"galvos
+        smegenys"},{"ns":0,"*":"mohh"},{"ns":0,"*":"\u043c\u043e\u0437\u043e\u043a"},{"ns":0,"*":"hersenen"},{"ns":0,"*":"m\u00f3zg"},{"ns":0,"*":"c\u00e9rebro"},{"ns":0,"*":"creier"},{"ns":0,"*":"\u043c\u043e\u0437\u0433"},{"ns":0,"*":"\u0433\u043e\u043b\u043e\u0432\u043d\u043e\u0439
+        \u043c\u043e\u0437\u0433"},{"ns":0,"*":"hj\u00e4rna"},{"ns":0,"*":"ciriveddu"},{"ns":0,"*":"mozog"},{"ns":0,"*":"mo\u017egani"},{"ns":0,"*":"\u0bae\u0ba9\u0bbf\u0ba4
+        \u0bae\u0bc2\u0bb3\u0bc8"},{"ns":0,"*":"\u0e2a\u0e21\u0e2d\u0e07"},{"ns":0,"*":"beyin"},{"ns":0,"*":"agy"},{"ns":0,"*":"\u00e9sz"},{"ns":0,"*":"\u00f3c"},{"ns":0,"*":"ymennydd"},{"ns":0,"*":"Geh\u00f6rn"},{"ns":106,"exists":"","*":"Reim:Deutsch:-\u026a\u0281n"},{"ns":6,"*":"Datei:De-Gehirn.ogg"},{"ns":4,"exists":"","*":"Wiktionary:Deutsch"},{"ns":4,"exists":"","*":"Wiktionary:Referenzen"},{"ns":12,"exists":"","*":"Hilfe:Akkusativ"},{"ns":12,"exists":"","*":"Hilfe:Anagramme"},{"ns":12,"exists":"","*":"Hilfe:Dativ"},{"ns":12,"exists":"","*":"Hilfe:Genitiv"},{"ns":12,"exists":"","*":"Hilfe:H\u00f6rbeispiele"},{"ns":12,"exists":"","*":"Hilfe:IPA"},{"ns":12,"exists":"","*":"Hilfe:Nominativ"},{"ns":12,"exists":"","*":"Hilfe:Plural"},{"ns":12,"exists":"","*":"Hilfe:Reime"},{"ns":12,"exists":"","*":"Hilfe:Singular"},{"ns":12,"exists":"","*":"Hilfe:Wortart"}],"templates":[{"ns":10,"exists":"","*":"Vorlage:Sprache"},{"ns":10,"exists":"","*":"Vorlage:Anker"},{"ns":10,"exists":"","*":"Vorlage:Anker/code"},{"ns":10,"exists":"","*":"Vorlage:Wortart"},{"ns":10,"exists":"","*":"Vorlage:n"},{"ns":10,"exists":"","*":"Vorlage:Deutsch
+        Substantiv \u00dcbersicht"},{"ns":10,"exists":"","*":"Vorlage:Art"},{"ns":10,"exists":"","*":"Vorlage:Flexlink"},{"ns":10,"exists":"","*":"Vorlage:!-"},{"ns":10,"exists":"","*":"Vorlage:NoCat"},{"ns":10,"exists":"","*":"Vorlage:Worttrennung"},{"ns":10,"exists":"","*":"Vorlage:Textbaustein"},{"ns":10,"exists":"","*":"Vorlage:Pl."},{"ns":10,"exists":"","*":"Vorlage:Aussprache"},{"ns":10,"exists":"","*":"Vorlage:IPA"},{"ns":10,"exists":"","*":"Vorlage:Lautschrift"},{"ns":10,"exists":"","*":"Vorlage:IPA-Text"},{"ns":10,"exists":"","*":"Vorlage:Str
+        match"},{"ns":10,"exists":"","*":"Vorlage:H\u00f6rbeispiele"},{"ns":10,"exists":"","*":"Vorlage:Audio"},{"ns":10,"exists":"","*":"Vorlage:Reime"},{"ns":10,"exists":"","*":"Vorlage:Reim"},{"ns":10,"exists":"","*":"Vorlage:Bedeutungen"},{"ns":10,"exists":"","*":"Vorlage:Herkunft"},{"ns":10,"exists":"","*":"Vorlage:Synonyme"},{"ns":10,"exists":"","*":"Vorlage:Sinnverwandte
+        W\u00f6rter"},{"ns":10,"exists":"","*":"Vorlage:Oberbegriffe"},{"ns":10,"exists":"","*":"Vorlage:Unterbegriffe"},{"ns":10,"exists":"","*":"Vorlage:Kurzformen"},{"ns":10,"exists":"","*":"Vorlage:Beispiele"},{"ns":10,"exists":"","*":"Vorlage:Redewendungen"},{"ns":10,"exists":"","*":"Vorlage:Charakteristische
+        Wortkombinationen"},{"ns":10,"exists":"","*":"Vorlage:Wortbildungen"},{"ns":10,"exists":"","*":"Vorlage:\u00dc-Tabelle"},{"ns":10,"exists":"","*":"Vorlage:af"},{"ns":10,"exists":"","*":"Vorlage:\u00dc"},{"ns":10,"exists":"","*":"Vorlage:ar"},{"ns":10,"exists":"","*":"Vorlage:\u00dct"},{"ns":10,"exists":"","*":"Vorlage:m"},{"ns":10,"exists":"","*":"Vorlage:bm"},{"ns":10,"exists":"","*":"Vorlage:bn"},{"ns":10,"exists":"","*":"Vorlage:bg"},{"ns":10,"exists":"","*":"Vorlage:zh"},{"ns":10,"exists":"","*":"Vorlage:zh-tw"},{"ns":10,"exists":"","*":"Vorlage:zh-cn"},{"ns":10,"exists":"","*":"Vorlage:da"},{"ns":10,"exists":"","*":"Vorlage:en"},{"ns":10,"exists":"","*":"Vorlage:eo"},{"ns":10,"exists":"","*":"Vorlage:fi"},{"ns":10,"exists":"","*":"Vorlage:fr"},{"ns":10,"exists":"","*":"Vorlage:he"},{"ns":10,"exists":"","*":"Vorlage:io"},{"ns":10,"exists":"","*":"Vorlage:id"},{"ns":10,"exists":"","*":"Vorlage:ia"},{"ns":10,"exists":"","*":"Vorlage:is"},{"ns":10,"exists":"","*":"Vorlage:it"},{"ns":10,"exists":"","*":"Vorlage:ja"},{"ns":10,"exists":"","*":"Vorlage:ca"},{"ns":10,"exists":"","*":"Vorlage:ko"},{"ns":10,"exists":"","*":"Vorlage:crh"},{"ns":10,"exists":"","*":"Vorlage:ku"},{"ns":10,"exists":"","*":"Vorlage:la"},{"ns":10,"exists":"","*":"Vorlage:lt"},{"ns":10,"exists":"","*":"Vorlage:mt"},{"ns":10,"exists":"","*":"Vorlage:mi"},{"ns":10,"exists":"","*":"Vorlage:mk"},{"ns":10,"exists":"","*":"Vorlage:nds"},{"ns":10,"exists":"","*":"Vorlage:nl"},{"ns":10,"exists":"","*":"Vorlage:no"},{"ns":10,"exists":"","*":"Vorlage:oc"},{"ns":10,"exists":"","*":"Vorlage:fa"},{"ns":10,"exists":"","*":"Vorlage:pl"},{"ns":10,"exists":"","*":"Vorlage:pt"},{"ns":10,"exists":"","*":"Vorlage:ro"},{"ns":10,"exists":"","*":"Vorlage:ru"},{"ns":10,"exists":"","*":"Vorlage:sv"},{"ns":10,"exists":"","*":"Vorlage:scn"},{"ns":10,"exists":"","*":"Vorlage:sk"},{"ns":10,"exists":"","*":"Vorlage:sl"},{"ns":10,"exists":"","*":"Vorlage:es"},{"ns":10,"exists":"","*":"Vorlage:ta"},{"ns":10,"exists":"","*":"Vorlage:th"},{"ns":10,"exists":"","*":"Vorlage:cs"},{"ns":10,"exists":"","*":"Vorlage:tr"},{"ns":10,"exists":"","*":"Vorlage:uk"},{"ns":10,"exists":"","*":"Vorlage:hu"},{"ns":10,"exists":"","*":"Vorlage:ur"},{"ns":10,"exists":"","*":"Vorlage:vi"},{"ns":10,"exists":"","*":"Vorlage:cy"},{"ns":10,"exists":"","*":"Vorlage:Referenzen"},{"ns":10,"exists":"","*":"Vorlage:Wikipedia"},{"ns":10,"exists":"","*":"Vorlage:Ref-DWDS"},{"ns":10,"exists":"","*":"Vorlage:Ref-Duden"},{"ns":10,"exists":"","*":"Vorlage:Ref-Canoo"},{"ns":10,"exists":"","*":"Vorlage:Ref-UniLeipzig"},{"ns":10,"exists":"","*":"Vorlage:Quellen"},{"ns":10,"exists":"","*":"Vorlage:\u00c4hnlichkeiten
+        1"},{"ns":10,"exists":"","*":"Vorlage:de"},{"ns":828,"exists":"","*":"Modul:sieheAuch"},{"ns":828,"exists":"","*":"Modul:Str"},{"ns":828,"exists":"","*":"Modul:Convert-CH"},{"ns":828,"exists":"","*":"Modul:flexlink"},{"ns":828,"exists":"","*":"Modul:String"},{"ns":828,"exists":"","*":"Modul:ErsetzeZeichen"}],"images":["De-Gehirn.ogg","Gehirn,_medial_-_Lobi_deu.svg","Loudspeaker.svg"],"externallinks":["http://www.duden.de/rechtschreibung/Gehirn","http://www.dwds.de/?q=Gehirn","http://www.canoo.net/Gehirn?lookup=caseSensitive","http://corpora.informatik.uni-leipzig.de/de/res?corpusId=deu_newscrawl_2011&word=Gehirn"],"sections":[{"toclevel":1,"level":"2","line":"Gehirn
+        (Deutsch<span></span><span></span><span></span>)","number":"1","index":"1","fromtitle":"Gehirn","byteoffset":0,"anchor":"Gehirn_.28Deutsch.29"},{"toclevel":2,"level":"3","line":"Substantiv,
+        n","number":"1.1","index":"2","fromtitle":"Gehirn","byteoffset":35,"anchor":"Substantiv.2C_n"},{"toclevel":3,"level":"4","line":"\u00dcbersetzungen","number":"1.1.1","index":"3","fromtitle":"Gehirn","byteoffset":3495,"anchor":".C3.9Cbersetzungen"}],"displaytitle":"Gehirn","iwlinks":[{"prefix":"af","url":"https://af.wiktionary.org/wiki/Special:Search/brein","*":"af:Special:Search/brein"},{"prefix":"ar","url":"https://ar.wiktionary.org/wiki/Special:Search/%D8%AF%D9%85%D8%A7%D8%BA","*":"ar:Special:Search/\u062f\u0645\u0627\u063a"},{"prefix":"bn","url":"https://bn.wiktionary.org/wiki/Special:Search/%E0%A6%AE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%95","*":"bn:Special:Search/\u09ae\u09b8\u09cd\u09a4\u09bf\u09b7\u09cd\u0995"},{"prefix":"bg","url":"https://bg.wiktionary.org/wiki/Special:Search/%D0%BC%D0%BE%D0%B7%D1%8A%D0%BA","*":"bg:Special:Search/\u043c\u043e\u0437\u044a\u043a"},{"prefix":"zh","url":"https://zh.wiktionary.org/wiki/Special:Search/%E8%85%A6","*":"zh:Special:Search/\u8166"},{"prefix":"zh","url":"https://zh.wiktionary.org/wiki/Special:Search/%E8%84%91","*":"zh:Special:Search/\u8111"},{"prefix":"da","url":"https://da.wiktionary.org/wiki/Special:Search/hjerne","*":"da:Special:Search/hjerne"},{"prefix":"en","url":"https://en.wiktionary.org/wiki/Special:Search/brain","*":"en:Special:Search/brain"},{"prefix":"en","url":"https://en.wiktionary.org/wiki/Special:Search/mind","*":"en:Special:Search/mind"},{"prefix":"eo","url":"https://eo.wiktionary.org/wiki/Special:Search/cerbo","*":"eo:Special:Search/cerbo"},{"prefix":"fi","url":"https://fi.wiktionary.org/wiki/Special:Search/aivot","*":"fi:Special:Search/aivot"},{"prefix":"fr","url":"https://fr.wiktionary.org/wiki/Special:Search/cerveau","*":"fr:Special:Search/cerveau"},{"prefix":"he","url":"https://he.wiktionary.org/wiki/Special:Search/%D7%9E%D7%95%D7%97","*":"he:Special:Search/\u05de\u05d5\u05d7"},{"prefix":"io","url":"https://io.wiktionary.org/wiki/Special:Search/cerebro","*":"io:Special:Search/cerebro"},{"prefix":"id","url":"https://id.wiktionary.org/wiki/Special:Search/otak","*":"id:Special:Search/otak"},{"prefix":"ia","url":"https://ia.wiktionary.org/wiki/Special:Search/cerebro","*":"ia:Special:Search/cerebro"},{"prefix":"is","url":"https://is.wiktionary.org/wiki/Special:Search/heili","*":"is:Special:Search/heili"},{"prefix":"it","url":"https://it.wiktionary.org/wiki/Special:Search/cervello","*":"it:Special:Search/cervello"},{"prefix":"ja","url":"https://ja.wiktionary.org/wiki/Special:Search/%E8%84%B3","*":"ja:Special:Search/\u8133"},{"prefix":"ca","url":"https://ca.wiktionary.org/wiki/Special:Search/cervell","*":"ca:Special:Search/cervell"},{"prefix":"ko","url":"https://ko.wiktionary.org/wiki/Special:Search/%EB%87%8C","*":"ko:Special:Search/\ub1cc"},{"prefix":"ku","url":"https://ku.wiktionary.org/wiki/Special:Search/mej%C3%AE","*":"ku:Special:Search/mej\u00ee"},{"prefix":"la","url":"https://la.wiktionary.org/wiki/Special:Search/cerebrum","*":"la:Special:Search/cerebrum"},{"prefix":"la","url":"https://la.wiktionary.org/wiki/Special:Search/cerebellum","*":"la:Special:Search/cerebellum"},{"prefix":"lt","url":"https://lt.wiktionary.org/wiki/Special:Search/galvos_smegenys","*":"lt:Special:Search/galvos
+        smegenys"},{"prefix":"mt","url":"https://mt.wiktionary.org/wiki/Special:Search/mohh","*":"mt:Special:Search/mohh"},{"prefix":"mi","url":"https://mi.wiktionary.org/wiki/Special:Search/roro","*":"mi:Special:Search/roro"},{"prefix":"mk","url":"https://mk.wiktionary.org/wiki/Special:Search/%D0%BC%D0%BE%D0%B7%D0%BE%D0%BA","*":"mk:Special:Search/\u043c\u043e\u0437\u043e\u043a"},{"prefix":"nds","url":"https://nds.wiktionary.org/wiki/Special:Search/Bregen","*":"nds:Special:Search/Bregen"},{"prefix":"nl","url":"https://nl.wiktionary.org/wiki/Special:Search/hersenen","*":"nl:Special:Search/hersenen"},{"prefix":"no","url":"https://no.wiktionary.org/wiki/Special:Search/hjerne","*":"no:Special:Search/hjerne"},{"prefix":"oc","url":"https://oc.wiktionary.org/wiki/Special:Search/cerv%C3%A8l","*":"oc:Special:Search/cerv\u00e8l"},{"prefix":"fa","url":"https://fa.wiktionary.org/wiki/Special:Search/%D9%85%D8%BA%D8%B2","*":"fa:Special:Search/\u0645\u063a\u0632"},{"prefix":"pl","url":"https://pl.wiktionary.org/wiki/Special:Search/m%C3%B3zg","*":"pl:Special:Search/m\u00f3zg"},{"prefix":"pt","url":"https://pt.wiktionary.org/wiki/Special:Search/c%C3%A9rebro","*":"pt:Special:Search/c\u00e9rebro"},{"prefix":"ro","url":"https://ro.wiktionary.org/wiki/Special:Search/creier","*":"ro:Special:Search/creier"},{"prefix":"ru","url":"https://ru.wiktionary.org/wiki/Special:Search/%D0%BC%D0%BE%D0%B7%D0%B3","*":"ru:Special:Search/\u043c\u043e\u0437\u0433"},{"prefix":"ru","url":"https://ru.wiktionary.org/wiki/Special:Search/%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9_%D0%BC%D0%BE%D0%B7%D0%B3","*":"ru:Special:Search/\u0433\u043e\u043b\u043e\u0432\u043d\u043e\u0439
+        \u043c\u043e\u0437\u0433"},{"prefix":"sv","url":"https://sv.wiktionary.org/wiki/Special:Search/hj%C3%A4rna","*":"sv:Special:Search/hj\u00e4rna"},{"prefix":"scn","url":"https://scn.wiktionary.org/wiki/Special:Search/ciriveddu","*":"scn:Special:Search/ciriveddu"},{"prefix":"sk","url":"https://sk.wiktionary.org/wiki/Special:Search/mozog","*":"sk:Special:Search/mozog"},{"prefix":"sl","url":"https://sl.wiktionary.org/wiki/Special:Search/mo%C5%BEgani","*":"sl:Special:Search/mo\u017egani"},{"prefix":"es","url":"https://es.wiktionary.org/wiki/Special:Search/cerebro","*":"es:Special:Search/cerebro"},{"prefix":"ta","url":"https://ta.wiktionary.org/wiki/Special:Search/%E0%AE%AE%E0%AE%A9%E0%AE%BF%E0%AE%A4_%E0%AE%AE%E0%AF%82%E0%AE%B3%E0%AF%88","*":"ta:Special:Search/\u0bae\u0ba9\u0bbf\u0ba4
+        \u0bae\u0bc2\u0bb3\u0bc8"},{"prefix":"th","url":"https://th.wiktionary.org/wiki/Special:Search/%E0%B8%AA%E0%B8%A1%E0%B8%AD%E0%B8%87","*":"th:Special:Search/\u0e2a\u0e21\u0e2d\u0e07"},{"prefix":"cs","url":"https://cs.wiktionary.org/wiki/Special:Search/mozek","*":"cs:Special:Search/mozek"},{"prefix":"tr","url":"https://tr.wiktionary.org/wiki/Special:Search/beyin","*":"tr:Special:Search/beyin"},{"prefix":"uk","url":"https://uk.wiktionary.org/wiki/Special:Search/%D0%BC%D0%BE%D0%B7%D0%BE%D0%BA","*":"uk:Special:Search/\u043c\u043e\u0437\u043e\u043a"},{"prefix":"hu","url":"https://hu.wiktionary.org/wiki/Special:Search/agy","*":"hu:Special:Search/agy"},{"prefix":"hu","url":"https://hu.wiktionary.org/wiki/Special:Search/%C3%A9sz","*":"hu:Special:Search/\u00e9sz"},{"prefix":"ur","url":"https://ur.wiktionary.org/wiki/Special:Search/%D8%AF%D9%85%D8%A7%D8%BA","*":"ur:Special:Search/\u062f\u0645\u0627\u063a"},{"prefix":"vi","url":"https://vi.wiktionary.org/wiki/Special:Search/%C3%B3c","*":"vi:Special:Search/\u00f3c"},{"prefix":"cy","url":"https://cy.wiktionary.org/wiki/Special:Search/ymennydd","*":"cy:Special:Search/ymennydd"},{"prefix":"w","url":"https://de.wikipedia.org/wiki/Spezial:Suche/Gehirn","*":"w:Spezial:Suche/Gehirn"}],"properties":[]}}'
+    http_version: 
+  recorded_at: Sun, 12 Mar 2017 17:46:18 GMT
+recorded_with: VCR 2.9.3
