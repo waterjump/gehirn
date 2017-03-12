@@ -19,4 +19,12 @@ feature 'the home page', type: :feature, js: true do
       expect(page).to have_link('Gehirn')
     end
   end
+
+  scenario 'user enters off-case query' do
+    VCR.use_cassette('home') do
+      fill_in 'q', with: 'gehirn'
+      expect(page).to have_content('/ɡəˈhɪʁn/')
+      expect(page).to have_link('Gehirn')
+    end
+  end
 end

@@ -3,7 +3,7 @@ class WelcomeController < ApplicationController
   end
 
   def query
-    response = Parsers::Wikipedia.new(params['q']).parse
+    response = Parsers::Wiktionary.new(params['q']).parse
     render json: response
   end
 end

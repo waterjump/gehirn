@@ -651,4 +651,79 @@ http_interactions:
         \u0bae\u0bc2\u0bb3\u0bc8"},{"prefix":"th","url":"https://th.wiktionary.org/wiki/Special:Search/%E0%B8%AA%E0%B8%A1%E0%B8%AD%E0%B8%87","*":"th:Special:Search/\u0e2a\u0e21\u0e2d\u0e07"},{"prefix":"cs","url":"https://cs.wiktionary.org/wiki/Special:Search/mozek","*":"cs:Special:Search/mozek"},{"prefix":"tr","url":"https://tr.wiktionary.org/wiki/Special:Search/beyin","*":"tr:Special:Search/beyin"},{"prefix":"uk","url":"https://uk.wiktionary.org/wiki/Special:Search/%D0%BC%D0%BE%D0%B7%D0%BE%D0%BA","*":"uk:Special:Search/\u043c\u043e\u0437\u043e\u043a"},{"prefix":"hu","url":"https://hu.wiktionary.org/wiki/Special:Search/agy","*":"hu:Special:Search/agy"},{"prefix":"hu","url":"https://hu.wiktionary.org/wiki/Special:Search/%C3%A9sz","*":"hu:Special:Search/\u00e9sz"},{"prefix":"ur","url":"https://ur.wiktionary.org/wiki/Special:Search/%D8%AF%D9%85%D8%A7%D8%BA","*":"ur:Special:Search/\u062f\u0645\u0627\u063a"},{"prefix":"vi","url":"https://vi.wiktionary.org/wiki/Special:Search/%C3%B3c","*":"vi:Special:Search/\u00f3c"},{"prefix":"cy","url":"https://cy.wiktionary.org/wiki/Special:Search/ymennydd","*":"cy:Special:Search/ymennydd"},{"prefix":"w","url":"https://de.wikipedia.org/wiki/Spezial:Suche/Gehirn","*":"w:Spezial:Suche/Gehirn"}],"properties":[]}}'
     http_version: 
   recorded_at: Sun, 12 Mar 2017 17:46:18 GMT
+- request:
+    method: post
+    uri: https://de.wiktionary.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=parse&format=json&page=gehirn&token=%2B%5C
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Cookie:
+      - GeoIP=US:PA:Philadelphia:39.94:-75.15:v4; WMF-Last-Access=12-Mar-2017; WMF-Last-Access-Global=12-Mar-2017
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 12 Mar 2017 18:33:56 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '253'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1196.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://de.wiktionary.org/wiki/Spezial:CentralAutoLogin/P3P
+        for more info."
+      Mediawiki-Api-Error:
+      - missingtitle
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding
+      Backend-Timing:
+      - D=38334 t=1489343636723585
+      X-Varnish:
+      - 672973178, 907509732
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1053 pass, cp1052 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Analytics:
+      - WMF-Last-Access=12-Mar-2017;WMF-Last-Access-Global=12-Mar-2017;https=1
+      X-Client-Ip:
+      - 2601:42:901:1f70:48c8:5adf:e79e:81f4
+    body:
+      encoding: ASCII-8BIT
+      string: '{"error":{"code":"missingtitle","info":"The page you specified doesn''t
+        exist.","*":"See https://de.wiktionary.org/w/api.php for API usage. Subscribe
+        to the mediawiki-api-announce mailing list at &lt;https://lists.wikimedia.org/mailman/listinfo/mediawiki-api-announce&gt;
+        for notice of API deprecations and breaking changes."},"servedby":"mw1196"}'
+    http_version: 
+  recorded_at: Sun, 12 Mar 2017 18:33:57 GMT
 recorded_with: VCR 2.9.3

@@ -17,9 +17,9 @@ $(function() {
       $.ajax({
           url: "/query?q=" + q,
       }).done(function(json) {
-        $('#ipa').html('/' + json.ipa + '/');
-        $('#sound').html('<a href="' + json.sound + '">' + q + '</a>');
-      });
+        $('#ipa').html(json.ipa);
+        $('#sound').html('<a href="' + json.sound + '">' + json.q + '</a>');
+      })
     }, 1000);
   });
 });
