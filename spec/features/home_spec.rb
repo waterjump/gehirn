@@ -53,4 +53,14 @@ feature 'the home page', type: :feature, js: true do
     expect(find_link('Gift')[:href])
       .to eq('http://upload.wikimedia.org/wikipedia/commons/0/01/De-Gift.ogg')
   end
+
+  scenario 'new query fades out and in' do
+    fill_in 'q', with: 'Myfakeword'
+    expect(page).to have_content('No results.')
+    fill_in 'q', with: 'Gehirn'
+    expect(page).not_to have_content('No results.')
+    expect(page).to have_selector('#error', visible: false)
+    expect(page).to have_content('/ɡəˈhɪʁn/')
+    expect(page).to have_link('Gehirn')
+  end
 end

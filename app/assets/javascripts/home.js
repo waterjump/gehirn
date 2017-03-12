@@ -18,7 +18,7 @@ $(function() {
 
   var fillError = function(json) {
     $('#error').html('<p>' + json.error + '</p>');
-  }
+  };
 
   $('#q').focus();
 
@@ -27,6 +27,7 @@ $(function() {
   });
 
   $('#q').on('keyup', function(){
+    $('#pronunciation-holder').fadeOut();
     clearTimeout(timer);
     var q = $(this).val();
     timer = setTimeout(function(){
@@ -36,9 +37,11 @@ $(function() {
         if (json.error !== undefined) {
           fillError(json);
         } else {
+          $('#error').html('');
           $('#ipa').html(json.ipa);
           fillAudio(json);
         }
+        $('#pronunciation-holder').fadeIn();
       })
     }, 1000);
   });
