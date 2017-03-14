@@ -1,10 +1,10 @@
 .form-inline
-  .form-group
-    = select_tag(:language, options_for_select(['Deutsch']), class: 'form-control col-lg-1 input-lg')
-    = text_field_tag(:q, nil, class: 'form-control input-lg col-lg-3')
-.images.col-lg-6
-.pronunciation.col-lg-6
+  .form-group.col-sm-offset-4
+    = select_tag(:language, options_for_select(['Deutsch']), class: 'form-control col-xs-1 input-lg')
+    = text_field_tag(:q, nil, class: 'form-control input-lg col-xs-3')
+.images.col-sm-6
+.pronunciation.col-sm-6
   #pronunciation-holder
     #error
-    #ipa
-    #sound
+    #ipa.h2
+    #sound.h2
