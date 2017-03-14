@@ -59,8 +59,15 @@ feature 'the home page', type: :feature, js: true do
     expect(page).to have_content('No results.')
     fill_in 'q', with: 'Gehirn'
     expect(page).not_to have_content('No results.')
-    expect(page).to have_selector('#error', visible: false)
+    expect(page).to have_selector('#contents')
     expect(page).to have_content('/ɡəˈhɪʁn/')
     expect(page).to have_link('Gehirn')
+  end
+
+  scenario 'images are brought in from google' do
+    fill_in 'q', with: 'Kuh'
+    expect(page).to have_selector('img', count: 10)
+    expect(page.first(:css, 'img')[:src])
+      .to eq('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQBtUYxCC9cJZa4RRsjhbd-VSyOxA9F-ARsFxI8a0yWD06e_wML9jvrR1c')
   end
 end

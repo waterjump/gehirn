@@ -31,7 +31,6 @@ module Parsers
           a.attributes['href'].value =~ /upload.*De.*\.ogg/i
         end['href']
     rescue => e
-      Rails.logger.info "No sound found for #{@q}: #{e.inspect}"
       Forvo.new(@q).sound
     end
 
@@ -39,7 +38,7 @@ module Parsers
       @tries += 1
       self.class.client.action(:parse, page: @q)
     rescue MediawikiApi::ApiError => e
-      if e.message =~ /missingtitle/ && @tries < 2
+      if e.message =~ /missingtitle/ && @tries < 2 && @q[0].upcase != @q[0]
         @q = @q.capitalize
         fetch_response
       else

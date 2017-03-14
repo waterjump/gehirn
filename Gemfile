@@ -20,6 +20,7 @@ gem 'bundler'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'mediawiki_api'
 gem 'forvo_api_client', git: 'https://github.com/FoboCasteR/forvo-api-client.git'
+gem "google_custom_search_api"
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

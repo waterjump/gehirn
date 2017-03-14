@@ -106,6 +106,9 @@ GEM
     ffaker (2.2.0)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
+    google_custom_search_api (2.0.0)
+      addressable
+      httparty
     haml (4.0.7)
       tilt
     haml-rails (0.9.0)
@@ -122,6 +125,8 @@ GEM
       ruby_parser (~> 3.5)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
+    httparty (0.14.0)
+      multi_xml (>= 0.5.2)
     i18n (0.8.1)
     jbuilder (2.6.3)
       activesupport (>= 3.0.0, < 5.2)
@@ -158,6 +163,7 @@ GEM
       rake
       rspec (~> 3.3)
     multi_json (1.12.1)
+    multi_xml (0.6.0)
     multipart-post (2.0.0)
     nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
@@ -300,6 +306,7 @@ DEPENDENCIES
   factory_girl_rails (~> 4.0)
   ffaker
   forvo_api_client!
+  google_custom_search_api
   haml-rails
   jbuilder (~> 2.0)
   jquery-rails
