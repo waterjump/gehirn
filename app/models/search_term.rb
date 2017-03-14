@@ -1,7 +1,7 @@
 class SearchTerm
-  def initialize(q)
+  def initialize(language, q)
     @q = q
-    @language = 'de'
+    @language = language
   end
 
   def results
@@ -34,22 +34,22 @@ class SearchTerm
   def wiktionary
     @wiktionary ||=
       begin
-        wiki = Parsers::Wiktionary.new(@q)
+        wiki = Parsers::Wiktionary.new(@language, @q)
         return wiki if wiki.entry_found
         if german_lowercase?
           @q = @q.titleize
-          return Parsers::Wiktionary.new(@q)
+          return Parsers::Wiktionary.new(@language, @q)
         end
         nil
       end
   end
 
   def forvo
-    @forvo ||= Parsers::Forvo.new(@q)
+    @forvo ||= Parsers::Forvo.new(@language, @q)
   end
 
   def google
-    @google ||= Parsers::Google.new(@q)
+    @google ||= Parsers::Google.new(@language, @q)
   end
 
   def german_lowercase?

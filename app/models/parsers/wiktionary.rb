@@ -1,14 +1,13 @@
 module Parsers
-  class Wiktionary
+  class Wiktionary < Parser
     attr_reader :entry_found
 
-    def self.client
-      MediawikiApi::Client.new('https://de.wiktionary.org/w/api.php')
+    def self.endpoints
+      { 'de' => 'https://de.wiktionary.org/w/api.php' }
     end
 
-    def initialize(q)
-      @q = q
-      @response = fetch_response
+    def initialize(language, q)
+      super
       @entry_found = @response.present?
     end
 
@@ -32,7 +31,7 @@ module Parsers
     private
 
     def fetch_response
-      self.class.client.action(:parse, page: @q)
+      client.action(:parse, page: @q)
     rescue MediawikiApi::ApiError => e
       Rails.logger.info "Error fetching response from Wiktionary: #{e.inspect}"
       nil
@@ -40,6 +39,10 @@ module Parsers
 
     def nokogiri
       @nokogiri ||= Nokogiri::HTML(@response.data['text']['*'])
+    end
+
+    def client
+      @client ||= MediawikiApi::Client.new(self.class.endpoints[ @language ])
     end
   end
 end

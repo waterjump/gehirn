@@ -1,6 +1,6 @@
 .form-inline.search-form
   .form-group.col-sm-offset-4
-    = select_tag(:language, options_for_select(['Deutsch']), class: 'form-control col-xs-1 input-lg')
+    = select_tag(:language, options_for_select([['Deutsch', 'de']]), class: 'form-control col-xs-1 input-lg')
     = text_field_tag(:q, nil, class: 'form-control input-lg col-xs-3')
 #contents
   .pronunciation.col-sm-3

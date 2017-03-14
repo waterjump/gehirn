@@ -1,14 +1,9 @@
 module Parsers
-  class Forvo
+  class Forvo < Parser
     def self.client
       ForvoApiClient::Client.new(
         Rails.application.secrets.forvo['api_key']
       )
-    end
-
-    def initialize(q)
-      @q = q
-      @response = fetch_response
     end
 
     def sound
@@ -23,7 +18,7 @@ module Parsers
     def fetch_response
       self.class.client.word_pronunciations(
         @q,
-        language: 'de'
+        language: @language
       )
     rescue => e
       Rails.logger.info "Problem with Forvo response: #{e.inspect}"

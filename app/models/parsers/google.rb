@@ -1,17 +1,7 @@
 module Parsers
-  class Google
-    def initialize(q)
-      @q = q
-      @results =
-        GoogleCustomSearchApi.search(
-          @q,
-          'searchType' => 'image',
-          'hl' => 'de'
-        )
-    end
-
+  class Google < Parser
     def images
-      @results.items.map do |i|
+      @response.items.map do |i|
         next unless i['image'].present?
         next unless i['image']['thumbnailLink'].present?
         {
@@ -19,6 +9,16 @@ module Parsers
           snippet: i['htmlSnippet']
         }
       end
+    end
+
+    private
+
+    def fetch_response
+      GoogleCustomSearchApi.search(
+        @q,
+        'searchType' => 'image',
+        'hl' => @language
+      )
     end
   end
 end

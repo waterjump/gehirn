@@ -1,10 +1,10 @@
 $ ->
-  language = 'Deutsch'
+  language = 'de'
   timer = undefined
   value = ''
 
   setLanguage = ->
-    language = $('#language').val()
+    language = $('#language option:selected').val()
     return
 
   fillAudio = (json) ->
@@ -44,7 +44,7 @@ $ ->
     value = q
     clearTimeout timer
     timer = setTimeout((->
-      $.ajax(url: '/query?q=' + q.trim()).done (json) ->
+      $.ajax(url: '/query?q=' + q.trim() + '&language=' + language).done (json) ->
         if json.error != undefined
           fillError json
         else
