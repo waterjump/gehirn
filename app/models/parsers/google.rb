@@ -15,7 +15,7 @@ module Parsers
         next unless i['image'].present?
         next unless i['image']['thumbnailLink'].present?
         i['image']['thumbnailLink']
-        end.compact.uniq
+      end.compact.uniq
     end
   end
 end
