@@ -20,7 +20,7 @@ $ ->
 
   fillImages = (json) ->
     $(json.images).each ->
-      $('.images').append '<img src="' + this + '" />'
+      $('.images').append '<div class="image"><img src="' + this.file + '" /><span class="snippet">' + this.snippet + '</span></div>'
     return
 
   clearForm = ->

@@ -5,17 +5,20 @@ module Parsers
       @results =
         GoogleCustomSearchApi.search(
           @q,
-          'searchType' => 'image'
+          'searchType' => 'image',
+          'hl' => 'de'
         )
     end
 
     def images
-      Rails.logger.info "69BOT - image results: #{@results}"
       @results.items.map do |i|
         next unless i['image'].present?
         next unless i['image']['thumbnailLink'].present?
-        i['image']['thumbnailLink']
-      end.compact.uniq
+        {
+          file: i['image']['thumbnailLink'],
+          snippet: i['htmlSnippet']
+        }
+      end
     end
   end
 end

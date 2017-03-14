@@ -69,5 +69,6 @@ feature 'the home page', type: :feature, js: true do
     expect(page).to have_selector('img', count: 10)
     expect(page.first(:css, 'img')[:src])
       .to eq('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQBtUYxCC9cJZa4RRsjhbd-VSyOxA9F-ARsFxI8a0yWD06e_wML9jvrR1c')
+    expect(page).to have_content('Braunvieh')
   end
 end

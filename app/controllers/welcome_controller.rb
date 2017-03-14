@@ -3,8 +3,7 @@ class WelcomeController < ApplicationController
   end
 
   def query
-    images = Parsers::Google.new(params['q']).images
-    response = Parsers::Wiktionary.new(params['q']).parse
-    render json: response.merge(images: images)
+    search_term = SearchTerm.new(params['q'])
+    render json: search_term.results
   end
 end

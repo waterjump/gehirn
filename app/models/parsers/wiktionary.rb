@@ -1,27 +1,22 @@
 module Parsers
   class Wiktionary
+    attr_reader :entry_found
+
     def self.client
       MediawikiApi::Client.new('https://de.wiktionary.org/w/api.php')
     end
 
     def initialize(q)
       @q = q
-      @tries = 0
       @response = fetch_response
+      @entry_found = @response.present?
     end
-
-    def parse
-      return { q: @q, ipa: ipa, sound: sound } unless @response.nil?
-      { error: 'No results.' }
-    end
-
-    private
 
     def ipa
       "/#{nokogiri.css('span.ipa').first.children.first.text}/"
     rescue => e
       Rails.logger.info "No ipa found for #{@q}: #{e.inspect}"
-      ''
+      'No pronunciation found'
     end
 
     def sound
@@ -31,20 +26,16 @@ module Parsers
           a.attributes['href'].value =~ /upload.*De.*\.ogg/i
         end['href']
     rescue => e
-      Forvo.new(@q).sound
+      nil
     end
 
+    private
+
     def fetch_response
-      @tries += 1
       self.class.client.action(:parse, page: @q)
     rescue MediawikiApi::ApiError => e
-      if e.message =~ /missingtitle/ && @tries < 2 && @q[0].upcase != @q[0]
-        @q = @q.capitalize
-        fetch_response
-      else
-        Rails.logger.info "Error fetching response from Wiktionary: #{e.inspect}"
-        nil
-      end
+      Rails.logger.info "Error fetching response from Wiktionary: #{e.inspect}"
+      nil
     end
 
     def nokogiri
