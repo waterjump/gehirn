@@ -9,7 +9,7 @@ $ ->
 
   fillAudio = (json) ->
     if json.sound != null && (typeof json.sound == 'string' && json.sound.length > 0)
-      $('#sound').html '<a href="' + json.sound + '" target="_blank">' + json.q + '</a>'
+      $('#sound').html '<span class="speaker">&#128266;</span><a href="' + json.sound + '" target="_blank">' + json.q + '</a>'
     else
       $('#sound').html '<p>No audio found.</p>'
     return
@@ -56,4 +56,11 @@ $ ->
       return
     ), 1000)
     return
+  $(document).on('click tap', '.speaker', (e) ->
+    e.preventDefault()
+    url = $('#sound a').prop('href')
+    audio = new Audio(url)
+    audio.play()
+    return
+  )
   return
