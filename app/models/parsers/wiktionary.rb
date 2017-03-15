@@ -18,6 +18,13 @@ module Parsers
       'No pronunciation found'
     end
 
+    def gender
+      # TODO this is terrible lmao
+      nokogiri.css('h3').first.children.first.children.detect { |el| el.name == 'em' }.children.first.text
+    rescue
+      ''
+    end
+
     def sound
       nokogiri
         .css('a')

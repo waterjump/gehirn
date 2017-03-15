@@ -5,9 +5,10 @@ class SearchTerm
   end
 
   def results
-    if wiktionary.present?
+    if wiktionary.entry_found
       {
         q: @q,
+        gender: gender,
         ipa: ipa,
         sound: sound,
         images: images
@@ -21,6 +22,10 @@ class SearchTerm
 
   def ipa
     wiktionary.ipa
+  end
+
+  def gender
+    wiktionary.gender
   end
 
   def sound
@@ -40,7 +45,7 @@ class SearchTerm
           @q = @q.titleize
           return Parsers::Wiktionary.new(@language, @q)
         end
-        nil
+        wiki
       end
   end
 

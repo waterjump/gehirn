@@ -1,8 +1,25 @@
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
+.centered {
+  display: block;
+  text-align: center;
+}
+
 .search-form {
   margin: 10px 0;
+}
+
+#loading {
+  width: 75px;
+  height: 75px;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background-image: image_url('spinner.gif');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .image {
@@ -15,6 +32,14 @@
     display: block;
     margin: 0 auto;
   }
+}
+
+#contents {
+  margin: 15px;
+}
+
+#term {
+  display: inline-block;
 }
 
 .snippet {

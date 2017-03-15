@@ -8,7 +8,7 @@ module Parsers
 
     def sound
       return '' unless @response.present?
-      @response.first['pathogg']
+      @response.first['pathogg'] + '.ogg'
     rescue
       ''
     end

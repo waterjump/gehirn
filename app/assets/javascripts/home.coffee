@@ -15,7 +15,7 @@ $ ->
     return
 
   fillError = (json) ->
-    $('#error').html '<p>' + json.error + '</p>'
+    $('#error').html '<span class="centered h3">' + json.error + '</span>'
     return
 
   fillImages = (json) ->
@@ -25,15 +25,15 @@ $ ->
 
   clearForm = ->
     $('#contents').fadeOut 400, ->
-      $('.images').html ''
-      $('#ipa').html ''
-      $('#sound').html ''
-      $('#error').html ''
+      els = ['.images','#ipa','#sound','#error','#gender','#term']
+      $.each els, (index, el) ->
+        $(el).html ''
+        return
+      $('#loading').fadeIn()
       return
     return
 
   $('#q').focus()
-  clearForm()
   $('#language').on 'change', ->
     setLanguage()
     return
@@ -45,11 +45,14 @@ $ ->
     clearTimeout timer
     timer = setTimeout((->
       $.ajax(url: '/query?q=' + q.trim() + '&language=' + language).done (json) ->
+        $('#loading').fadeOut()
         if json.error != undefined
           fillError json
         else
           fillImages json
           $('#ipa').html json.ipa
+          $('#gender').html '(' + json.gender + ')' if json.gender.length > 0
+          $('#term').html json.q
           fillAudio json
         $('#contents').fadeIn()
         return
