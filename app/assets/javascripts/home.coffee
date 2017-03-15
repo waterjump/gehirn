@@ -20,12 +20,13 @@ $ ->
 
   fillImages = (json) ->
     $(json.images).each ->
-      $('.images').append '<div class="image"><img src="' + this.file + '" /><span class="snippet">' + this.snippet + '</span></div>'
+      $('#contents').append '<div class="image"><img src="' + this.file + '" /><span class="snippet">' + this.snippet + '</span></div>'
     return
 
   clearForm = ->
     $('#contents').fadeOut 400, ->
-      els = ['.images','#ipa','#sound','#error','#gender','#term']
+      $('.image').remove()
+      els = ['#ipa','#sound','#error','#gender','#term']
       $.each els, (index, el) ->
         $(el).html ''
         return

@@ -11,3 +11,8 @@
 /log/*
 !/log/.keep
 /tmp
+.byebug_history
+*.DS_Store
+*.swp
+*.swo
+config/secrets.yml
