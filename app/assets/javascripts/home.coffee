@@ -58,10 +58,6 @@ $ ->
       return
     return
 
-  currentTerm = (json) ->
-    return false if json.q == undefined
-    return json.q.toUpperCase() == globValue.toUpperCase()
-
   contentWaiter = (json) ->
     if pageIsBlank == false
       setTimeout((->
@@ -69,7 +65,7 @@ $ ->
         return
       ), 100)
     else
-      displayResults(json) if json.error != undefined || currentTerm(json)
+      displayResults(json) if json.q.toUpperCase() == globValue.toUpperCase()
     return
 
   $('#q').focus()

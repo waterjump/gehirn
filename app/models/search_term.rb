@@ -14,7 +14,10 @@ class SearchTerm
         images: images
       }
     else
-      { error: 'No results.' }
+      {
+        q: @q,
+        error: 'No results.'
+      }
     end
   end
 
