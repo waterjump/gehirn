@@ -3,7 +3,7 @@ require 'rails_helper'
 feature 'the home page', type: :feature, js: true do
   before(:each) { visit root_path }
   around(:each) do |example|
-    VCR.use_cassette('home') do
+    VCR.use_cassette('home', erb: { key: GOOGLE_API_KEY }) do
       example.run
     end
   end

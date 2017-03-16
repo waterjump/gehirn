@@ -18,7 +18,7 @@ module Parsers
         @q,
         'searchType' => 'image',
         'hl' => @language,
-        'cx' => Rails.application.secrets.google[@language]['search_cx']
+        cx: Rails.application.secrets.google[@language]['search_cx']
       )
     end
   end

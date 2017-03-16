@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://www.googleapis.com/customsearch/v1?alt=json&cx=006537769074571033462:l9vxanhf_wm&hl=de&key=AIzaSyAMvU5JHo51GMMvQn0xThKG-yP9h3xwX-8&q=Gehirn&searchType=image&start=1
+    uri: https://www.googleapis.com/customsearch/v1?alt=json&cx=006537769074571033462:l9vxanhf_wm&hl=de&key=<%= key %>&q=Gehirn&searchType=image&start=1
     body:
       encoding: US-ASCII
       string: ''
@@ -930,7 +930,7 @@ http_interactions:
   recorded_at: Tue, 14 Mar 2017 19:13:42 GMT
 - request:
     method: get
-    uri: https://www.googleapis.com/customsearch/v1?alt=json&cx=006537769074571033462:l9vxanhf_wm&hl=de&key=AIzaSyAMvU5JHo51GMMvQn0xThKG-yP9h3xwX-8&q=gehirn&searchType=image&start=1
+    uri: https://www.googleapis.com/customsearch/v1?alt=json&cx=006537769074571033462:l9vxanhf_wm&hl=de&key=<%= key %>&q=gehirn&searchType=image&start=1
     body:
       encoding: US-ASCII
       string: ''
@@ -1282,7 +1282,7 @@ http_interactions:
   recorded_at: Tue, 14 Mar 2017 19:13:44 GMT
 - request:
     method: get
-    uri: https://www.googleapis.com/customsearch/v1?alt=json&cx=006537769074571033462:l9vxanhf_wm&hl=de&key=AIzaSyAMvU5JHo51GMMvQn0xThKG-yP9h3xwX-8&q=Nichtraucherinnen&searchType=image&start=1
+    uri: https://www.googleapis.com/customsearch/v1?alt=json&cx=006537769074571033462:l9vxanhf_wm&hl=de&key=<%= key %>&q=Nichtraucherinnen&searchType=image&start=1
     body:
       encoding: US-ASCII
       string: ''
@@ -1741,7 +1741,7 @@ http_interactions:
   recorded_at: Tue, 14 Mar 2017 19:13:47 GMT
 - request:
     method: get
-    uri: https://www.googleapis.com/customsearch/v1?alt=json&cx=006537769074571033462:l9vxanhf_wm&hl=de&key=AIzaSyAMvU5JHo51GMMvQn0xThKG-yP9h3xwX-8&q=nehme&searchType=image&start=1
+    uri: https://www.googleapis.com/customsearch/v1?alt=json&cx=006537769074571033462:l9vxanhf_wm&hl=de&key=<%= key %>&q=nehme&searchType=image&start=1
     body:
       encoding: US-ASCII
       string: ''
@@ -2172,7 +2172,7 @@ http_interactions:
   recorded_at: Tue, 14 Mar 2017 19:13:50 GMT
 - request:
     method: get
-    uri: https://www.googleapis.com/customsearch/v1?alt=json&cx=006537769074571033462:l9vxanhf_wm&hl=de&key=AIzaSyAMvU5JHo51GMMvQn0xThKG-yP9h3xwX-8&q=Myfakeword&searchType=image&start=1
+    uri: https://www.googleapis.com/customsearch/v1?alt=json&cx=006537769074571033462:l9vxanhf_wm&hl=de&key=<%= key %>&q=Myfakeword&searchType=image&start=1
     body:
       encoding: US-ASCII
       string: ''
@@ -2535,7 +2535,7 @@ http_interactions:
   recorded_at: Tue, 14 Mar 2017 19:13:53 GMT
 - request:
     method: get
-    uri: https://www.googleapis.com/customsearch/v1?alt=json&cx=006537769074571033462:l9vxanhf_wm&hl=de&key=AIzaSyAMvU5JHo51GMMvQn0xThKG-yP9h3xwX-8&q=gift&searchType=image&start=1
+    uri: https://www.googleapis.com/customsearch/v1?alt=json&cx=006537769074571033462:l9vxanhf_wm&hl=de&key=<%= key %>&q=gift&searchType=image&start=1
     body:
       encoding: US-ASCII
       string: ''
@@ -3447,7 +3447,7 @@ http_interactions:
   recorded_at: Tue, 14 Mar 2017 19:13:56 GMT
 - request:
     method: get
-    uri: https://www.googleapis.com/customsearch/v1?alt=json&cx=006537769074571033462:l9vxanhf_wm&hl=de&key=AIzaSyAMvU5JHo51GMMvQn0xThKG-yP9h3xwX-8&q=Kuh&searchType=image&start=1
+    uri: https://www.googleapis.com/customsearch/v1?alt=json&cx=006537769074571033462:l9vxanhf_wm&hl=de&key=<%= key %>&q=Kuh&searchType=image&start=1
     body:
       encoding: US-ASCII
       string: ''
@@ -4246,7 +4246,7 @@ http_interactions:
   recorded_at: Tue, 14 Mar 2017 19:14:01 GMT
 - request:
     method: get
-    uri: https://www.googleapis.com/customsearch/v1?alt=json&cx=006537769074571033462:l9vxanhf_wm&hl=de&key=AIzaSyAMvU5JHo51GMMvQn0xThKG-yP9h3xwX-8&q=Gift&searchType=image&start=1
+    uri: https://www.googleapis.com/customsearch/v1?alt=json&cx=006537769074571033462:l9vxanhf_wm&hl=de&key=<%= key %>&q=Gift&searchType=image&start=1
     body:
       encoding: US-ASCII
       string: ''
