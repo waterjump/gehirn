@@ -17,7 +17,8 @@ module Parsers
       GoogleCustomSearchApi.search(
         @q,
         'searchType' => 'image',
-        'hl' => @language
+        'hl' => @language,
+        'cx' => Rails.application.secrets.google[@language]['search_cx']
       )
     end
   end
